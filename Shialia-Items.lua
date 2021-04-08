@@ -38,6 +38,7 @@ gear.telchine_enh_head = {name="Telchine Cap",augments={'"Conserve MP"+4','Enh. 
 gear.telchine_enh_body = {name="Telchine Chas.",augments={'"Conserve MP"+4','Enh. Mag. eff. dur. +10',}}
 gear.telchine_enh_hands = {name="Telchine Gloves",augments={'"Conserve MP"+5','Enh. Mag. eff. dur. +7',}}
 gear.telchine_enh_legs = {name="Telchine Braconi",augments={'"Conserve MP"+5','Enh. Mag. eff. dur. +6',}}
+gear.telchine_pet_legs = {name="Telchine Braconi",augments={'Pet: "Regen"+3','Pet: Damage taken -4%',}}
 
 gear.herculean_fc_head = {name="Herculean Helm",augments={'"Fast Cast"+6','"Mag.Atk.Bns."+13',}}
 gear.herculean_nuke_head = {name="Herculean Helm",augments={'Mag. Acc.+16 "Mag.Atk.Bns."+16','Enmity-3','INT+9','"Mag.Atk.Bns."+13',}}

@@ -25,7 +25,7 @@ function user_job_setup()
 	autoindi = "Fury"
 	autogeo = "Frailty"
 	autoentrust = 'Haste'
-	autoentrustee = '<p1>'
+	autoentrustee = 'Alltrium'
 	
 	-- Additional local binds
 	send_command('bind ^` gs c cycle ElementalMode')
@@ -480,6 +480,7 @@ function init_gear_sets()
 		--ear1="Lugalbanda Earring",
 		left_ear="Moonshade Earring",
 		right_ear="Etiolation Earring",
+		ring1="Gelatinous Ring",
 		--ring1={name="Stikini Ring", bag="wardrobe3"},
 		--ring2={name="Stikini Ring", bag="wardrobe4"},
 		back=gear.idle_jse_back,
@@ -502,14 +503,13 @@ function init_gear_sets()
 		head="Azimuth Hood +1",
 		body="Shamash Robe",
 		hands="Geo. Mitaines +1",
-		legs="Assid. Pants +1",
+		legs=gear.telchine_pet_legs,
 		feet="Bagua Sandals +1",
 		neck="Bathy Choker +1",
-		left_ear="Moonshade Earring",
-		right_ear="Handler's Earring",
+		left_ear="Handler's Earring",
+		right_ear="Handler's Earring +1",
 		ring1="Gelatinous Ring", --7/(-1)/0/0
 		--ring2="Defending Ring", --10/10/0/0
-		--back=gear.GEO_Pet_Cape, --0/0/0/15
 		back=gear.idle_jse_back,
 		waist="Isa Belt" --0/0/3/1
 	}
@@ -522,15 +522,14 @@ function init_gear_sets()
 		head="Azimuth Hood +1",
 		body="Shamash Robe",
 		hands="Geo. Mitaines +1",
-		legs="Assid. Pants +1",
+		legs=gear.telchine_pet_legs,
 		feet="Bagua Sandals +1",
 		neck="Bathy Choker +1",
 		--ear1="Lugalbanda Earring",
-		left_ear="Moonshade Earring",
-		right_ear="Handler's Earring",
+		left_ear="Handler's Earring",
+		right_ear="Handler's Earring +1",
 		ring1="Gelatinous Ring", --7/(-1)/0/0
 		--ring2="Defending Ring", --10/10/0/0
-		--back=gear.GEO_Pet_Cape, --0/0/0/15
 		back=gear.idle_jse_back,
 		waist="Isa Belt" --0/0/3/1
 	}
