@@ -559,7 +559,7 @@ function init_gear_sets()
 		left_ear="Moonshade Earring",
 		right_ear="Etiolation Earring",
 		left_ring="Fortified Ring",
-		right_ring="Gelatinous Ring",
+		right_ring="Gelatinous Ring +1",
 		back=gear.enfeeble_jse_back,
 	}
 		

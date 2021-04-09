@@ -480,7 +480,7 @@ function init_gear_sets()
 		--ear1="Lugalbanda Earring",
 		left_ear="Moonshade Earring",
 		right_ear="Etiolation Earring",
-		ring1="Gelatinous Ring",
+		ring1="Gelatinous Ring +1",
 		--ring1={name="Stikini Ring", bag="wardrobe3"},
 		--ring2={name="Stikini Ring", bag="wardrobe4"},
 		back=gear.idle_jse_back,
@@ -508,7 +508,7 @@ function init_gear_sets()
 		neck="Bathy Choker +1",
 		left_ear="Handler's Earring",
 		right_ear="Handler's Earring +1",
-		ring1="Gelatinous Ring", --7/(-1)/0/0
+		ring1="Gelatinous Ring +1", --7/(-1)/0/0
 		--ring2="Defending Ring", --10/10/0/0
 		back=gear.idle_jse_back,
 		waist="Isa Belt" --0/0/3/1
@@ -528,7 +528,7 @@ function init_gear_sets()
 		--ear1="Lugalbanda Earring",
 		left_ear="Handler's Earring",
 		right_ear="Handler's Earring +1",
-		ring1="Gelatinous Ring", --7/(-1)/0/0
+		ring1="Gelatinous Ring +1", --7/(-1)/0/0
 		--ring2="Defending Ring", --10/10/0/0
 		back=gear.idle_jse_back,
 		waist="Isa Belt" --0/0/3/1

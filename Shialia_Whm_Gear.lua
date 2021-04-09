@@ -589,7 +589,7 @@ function init_gear_sets()
 		ear2="Etiolation Earring",
 		--ring1={name="Stikini Ring", bag="wardrobe3"},
 		--ring2="Sheltered Ring",
-		ring1="Gelatinous Ring",
+		ring1="Gelatinous Ring +1",
 		ring2="Inyanga Ring",
 		back="Alaunus's Cape",
 		--waist="Slipor Sash",

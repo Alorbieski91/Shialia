@@ -345,7 +345,7 @@ function init_gear_sets()
 		waist="Fucho-no-Obi",
 		left_ear="Moonshade Earring",
 		right_ear="Etiolation Earring",
-		left_ring="Gelatinous Ring",
+		left_ring="Gelatinous Ring +1",
 		right_ring="Inyanga Ring",
 		back="Kumbira Cape",
 	}
