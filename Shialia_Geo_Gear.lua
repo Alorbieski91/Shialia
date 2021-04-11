@@ -350,7 +350,7 @@ function init_gear_sets()
 		left_ear="Vor Earring",
 		right_ear="Magnetic Earring",
 		left_ring="Metamor. Ring +1",
-		right_ring="Weather. Ring",
+		right_ring="Stikini Ring",
 		back=gear.nuke_jse_back,
 	}
 
@@ -378,7 +378,7 @@ function init_gear_sets()
 		left_ear="Vor Earring",
 		right_ear="Magnetic Earring",
 		left_ring="Metamor. Ring +1",
-		right_ring="Weather. Ring",
+		right_ring="Stikini Ring",
 		back=gear.mndenfeeb_jse_back,
 	}
 		
