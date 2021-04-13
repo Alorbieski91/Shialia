@@ -9,15 +9,15 @@ function user_job_setup()
 	gear.kali_macc = {name="Kali",augments={'DMG:+15','CHR+15','Mag. Acc.+15',}}
 
 	-- Adjust this if using the Terpander (new +song instrument)
-    info.ExtraSongInstrument = 'Terpander'
+	info.ExtraSongInstrument = 'Terpander'
 	-- How many extra songs we can keep from Daurdabla/Terpander
-    info.ExtraSongs = 1
+	info.ExtraSongs = 1
 	
 	-- Set this to false if you don't want to use custom timers.
-    state.UseCustomTimers = M(false, 'Use Custom Timers')
+	state.UseCustomTimers = M(false, 'Use Custom Timers')
 	
 	-- Additional local binds
-    send_command('bind ^` gs c cycle ExtraSongsMode')
+	send_command('bind ^` gs c cycle ExtraSongsMode')
 	send_command('bind !` input /ma "Chocobo Mazurka" <me>')
 	send_command('bind @` gs c cycle MagicBurstMode')
 	send_command('bind @f10 gs c cycle RecoverMode')
@@ -41,8 +41,8 @@ function init_gear_sets()
 	sets.weapons.DualTauret = {main="Tauret",sub="Blurred Knife +1"}
 	sets.weapons.DualNukeWeapons = {main="Malevolence",sub="Malevolence"}
 
-    sets.buff.Sublimation = {waist="Embla Sash"}
-    sets.buff.DTSublimation = {waist="Embla Sash"}
+	sets.buff.Sublimation = {waist="Embla Sash"}
+	sets.buff.DTSublimation = {waist="Embla Sash"}
 	
 	-- Precast Sets
 
@@ -266,16 +266,16 @@ function init_gear_sets()
 	sets.midcast.SongDebuff.DW = {}
 
 	-- Cast spell with normal gear, except using Daurdabla instead
-    sets.midcast.Daurdabla = {range=info.ExtraSongInstrument}
+	sets.midcast.Daurdabla = {range=info.ExtraSongInstrument}
 
 	-- Dummy song with Daurdabla; minimize duration to make it easy to overwrite.
-    sets.midcast.DaurdablaDummy = set_combine(sets.midcast.SongRecast, {range=info.ExtraSongInstrument})
+	sets.midcast.DaurdablaDummy = set_combine(sets.midcast.SongRecast, {range=info.ExtraSongInstrument})
 
 	-- Other general spells and classes.
 	sets.midcast.Cure = {main="Serenity",sub="Curatio Grip",ammo="Pemphredo Tathlum",
-        head="Gende. Caubeen +1",neck="Incanter's Torque",ear1="Gifted Earring",ear2="Mendi. Earring",
-        body="Kaykaus Bliaut",hands="Kaykaus Cuffs",ring1="Janniston Ring",ring2="Menelaus's Ring",
-        back="Tempered Cape +1",waist="Luminary Sash",legs="Carmine Cuisses +1",feet="Kaykaus Boots"}
+		head="Gende. Caubeen +1",neck="Incanter's Torque",ear1="Gifted Earring",ear2="Mendi. Earring",
+		body="Kaykaus Bliaut",hands="Kaykaus Cuffs",ring1="Janniston Ring",ring2="Menelaus's Ring",
+		back="Tempered Cape +1",waist="Luminary Sash",legs="Carmine Cuisses +1",feet="Kaykaus Boots"}
 		
 	sets.midcast.Curaga = sets.midcast.Cure
 		
