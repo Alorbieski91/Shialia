@@ -310,7 +310,7 @@ function init_gear_sets()
 		neck="Incanter's Torque",
 		waist="Embla Sash",
 		left_ear="Mimir Earring",
-		right_ear="Mendi. Earring",
+		right_ear="Andoaa Earring",
 		left_ring="Lebeche Ring",
 		right_ring="Haoma's Ring",
 		back=gear.enfeeble_jse_back,
@@ -558,8 +558,8 @@ function init_gear_sets()
 		waist="Fucho-no-Obi",
 		left_ear="Moonshade Earring",
 		right_ear="Etiolation Earring",
-		left_ring="Fortified Ring",
-		right_ring="Gelatinous Ring +1",
+		left_ring="Gelatinous Ring +1",
+		right_ring="Fortified Ring",
 		back=gear.enfeeble_jse_back,
 	}
 		

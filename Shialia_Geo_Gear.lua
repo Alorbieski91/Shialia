@@ -152,7 +152,7 @@ function init_gear_sets()
 		right_ear="Mendi. Earring",
 		neck="Incanter's Torque",
 		--ring1={name="Stikini Ring", bag="wardrobe3"},
-		--ring2={name="Stikini Ring", bag="wardrobe4"},
+		ring2={name="Stikini Ring", bag="wardrobe4"},
 		back="Lifestream Cape",
 		waist="Austerity Belt",
 		--waist="Shinjutsu-no-Obi +1",
@@ -348,7 +348,7 @@ function init_gear_sets()
 		neck="Incanter's Torque",
 		waist="Porous Rope",
 		left_ear="Vor Earring",
-		right_ear="Magnetic Earring",
+		right_ear="Gwati Earring",
 		left_ring="Metamor. Ring +1",
 		right_ring="Stikini Ring",
 		back=gear.nuke_jse_back,
@@ -376,7 +376,7 @@ function init_gear_sets()
 		neck="Incanter's Torque",
 		waist="Porous Rope",
 		left_ear="Vor Earring",
-		right_ear="Magnetic Earring",
+		right_ear="Gwati Earring",
 		left_ring="Metamor. Ring +1",
 		right_ring="Stikini Ring",
 		back=gear.mndenfeeb_jse_back,
@@ -420,7 +420,7 @@ function init_gear_sets()
 		neck="Incanter's Torque",
 		waist="Embla Sash",
 		left_ear="Mimir Earring",
-		right_ear="Mendi. Earring",
+		right_ear="Andoaa Earring",
 		left_ring="Lebeche Ring",
 		right_ring="Tamas Ring",
 		back="Solemnity Cape",
@@ -480,6 +480,7 @@ function init_gear_sets()
 		left_ear="Moonshade Earring",
 		right_ear="Etiolation Earring",
 		ring1="Gelatinous Ring +1",
+		ring2="Fortified Ring",
 		--ring1={name="Stikini Ring", bag="wardrobe3"},
 		--ring2={name="Stikini Ring", bag="wardrobe4"},
 		back=gear.idle_jse_back,
@@ -508,6 +509,7 @@ function init_gear_sets()
 		left_ear="Handler's Earring",
 		right_ear="Handler's Earring +1",
 		ring1="Gelatinous Ring +1", --7/(-1)/0/0
+		ring2="Fortified Ring",
 		--ring2="Defending Ring", --10/10/0/0
 		back=gear.idle_jse_back,
 		waist="Isa Belt" --0/0/3/1
@@ -528,6 +530,7 @@ function init_gear_sets()
 		left_ear="Handler's Earring",
 		right_ear="Handler's Earring +1",
 		ring1="Gelatinous Ring +1", --7/(-1)/0/0
+		ring2="Fortified Ring",
 		--ring2="Defending Ring", --10/10/0/0
 		back=gear.idle_jse_back,
 		waist="Isa Belt" --0/0/3/1
