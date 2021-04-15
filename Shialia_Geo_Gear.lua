@@ -382,10 +382,27 @@ function init_gear_sets()
 		back=gear.mndenfeeb_jse_back,
 	}
 
-	sets.midcast['Enfeebling Magic'].Resistant = {main="Daybreak",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
-		head="Befouled Crown",neck="Erra Pendant",ear1="Regal Earring",ear2="Digni. Earring",
-		body=gear.merlinic_nuke_body,hands="Regal Cuffs",ring1="Metamor. Ring +1",ring2="Stikini Ring",
-		back=gear.nuke_jse_back,waist="Luminary Sash",legs="Psycloth Lappas",feet="Skaoi Boots"}
+	sets.midcast['Enfeebling Magic'].Resistant = {
+		--main="Daybreak",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
+		--head="Befouled Crown",neck="Erra Pendant",ear1="Regal Earring",ear2="Digni. Earring",
+		--body=gear.merlinic_nuke_body,hands="Regal Cuffs",ring1="Metamor. Ring +1",ring2="Stikini Ring",
+		--back=gear.nuke_jse_back,waist="Luminary Sash",legs="Psycloth Lappas",feet="Skaoi Boots"
+		main="Daybreak",
+		sub="Genmei Shield",
+		range="Dunna",
+		head="Befouled Crown",
+		body="Shamash Robe",
+		hands="Mallquis Cuffs +1",
+		legs="Ea Slops",
+		feet="Mallquis Clogs +2",
+		neck="Incanter's Torque",
+		waist="Porous Rope",
+		left_ear="Vor Earring",
+		right_ear="Gwati Earring",
+		left_ring="Metamor. Ring +1",
+		right_ring="Stikini Ring",
+		back=gear.mndenfeeb_jse_back,
+	}
 
 	sets.midcast.ElementalEnfeeble = set_combine(sets.midcast['Enfeebling Magic'], {head="Amalric Coif",ear2="Malignance Earring",waist="Acuity Belt +1"})
 	sets.midcast.ElementalEnfeeble.Resistant = set_combine(sets.midcast['Enfeebling Magic'].Resistant, {head="Amalric Coif",ear2="Malignance Earring",waist="Acuity Belt +1"})
