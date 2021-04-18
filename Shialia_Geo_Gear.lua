@@ -110,9 +110,9 @@ function init_gear_sets()
 		--feet="Inspirited Boots"
 	}
 	
-    sets.precast.FC['Enhancing Magic'] = set_combine(sets.precast.FC, {waist="Siegel Sash"})
+	sets.precast.FC['Enhancing Magic'] = set_combine(sets.precast.FC, {waist="Siegel Sash"})
 
-    sets.precast.FC.Stoneskin = set_combine(sets.precast.FC['Enhancing Magic'], {})
+	sets.precast.FC.Stoneskin = set_combine(sets.precast.FC['Enhancing Magic'], {})
 
 	sets.precast.FC.Impact = {ammo="Impatiens",
 		head=empty,neck="Baetyl Pendant",ear1="Enchntr. Earring +1",ear2="Malignance Earring",
@@ -537,6 +537,7 @@ function init_gear_sets()
 		--head="Azimuth Hood +1",neck="Loricate Torque +1",ear1="Handler's Earring",ear2="Handler's Earring +1",
 		--body="Jhakri Robe +2",hands="Geo. Mitaines +3",ring1="Defending Ring",ring2="Dark Ring",
 		--back=gear.idle_jse_back,waist="Isa Belt",legs="Hagondes Pants +1",feet="Bagua Sandals +1"
+		main="Malignance Pole",
 		head="Azimuth Hood +1",
 		body="Shamash Robe",
 		hands="Geo. Mitaines +1",
@@ -575,10 +576,10 @@ function init_gear_sets()
 		body="Mallquis Saio +2",hands="Hagondes Cuffs +1",ring1="Defending Ring",ring2="Dark Ring",
 		back="Umbra Cape",waist="Flax Sash",legs="Hagondes Pants +1",feet="Azimuth Gaiters +1"}
 		
-    sets.defense.MEVA = {main="Malignance Pole",sub="Enki Strap",ammo="Staunch Tathlum +1",
-        head="Azimuth Hood +1",neck="Warder's Charm +1",ear1="Etiolation Earring",ear2="Sanare Earring",
+	sets.defense.MEVA = {main="Malignance Pole",sub="Enki Strap",ammo="Staunch Tathlum +1",
+		head="Azimuth Hood +1",neck="Warder's Charm +1",ear1="Etiolation Earring",ear2="Sanare Earring",
 		body=gear.merlinic_nuke_body,hands="Telchine Gloves",ring1="Vengeful Ring",Ring2="Purity Ring",
-        back=gear.idle_jse_back,waist="Luminary Sash",legs="Telchine Braconi",feet="Azimuth Gaiters +1"}
+		back=gear.idle_jse_back,waist="Luminary Sash",legs="Telchine Braconi",feet="Azimuth Gaiters +1"}
 		
 	sets.defense.PetPDT = sets.idle.PDT.Pet
 		

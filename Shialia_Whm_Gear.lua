@@ -61,7 +61,7 @@ function init_gear_sets()
 		--ammo="Sapience Orb", --2
 		head="Welkin Crown",
 		body="Inyanga Jubbah +2", --14
-		--hands="Gende. Gages +1", --7
+		hands="Fanatic Gloves", --7
 		legs="Aya. Cosciales +2", --6
 		feet="Regal Pumps +1", --7
 		neck="Baetyl Pendant", --4
@@ -184,6 +184,7 @@ function init_gear_sets()
 		ear1="Loquacious Earring",
 		ear2="Etiolation Earring",
 		body="Inyanga Jubbah +2",
+		hands="Fanatic Gloves",
 		ring1="Lebeche Ring",
 		ring2="Weather. Ring",
 		waist="Witful Belt",
@@ -381,8 +382,7 @@ function init_gear_sets()
 		--sub="Chanter's Shield",
 		head="Ebers Cap +1",
 		body="Ebers Bliaud +1",
-		--hands="Fanatic Gloves", --15
-		hands="Theophany Mitts +2",
+		hands="Fanatic Gloves", --15
 		legs="Theo. Pant. +1", --17
 		feet="Vanya Clogs", --5
 		neck="Malison Medallion", --10
@@ -404,8 +404,7 @@ function init_gear_sets()
 		--sub="Chanter's Shield",
 		head="Ebers Cap +1",
 		body="Inyanga Jubbah +2",
-		--hands="Fanatic Gloves",
-		hands="Theophany Mitts +2",
+		hands="Fanatic Gloves",
 		legs="Aya. Cosciales +2",
 		feet="Regal Pumps +1",
 		neck="Baetyl Pendant",

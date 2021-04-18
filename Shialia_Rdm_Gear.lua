@@ -481,11 +481,11 @@ function init_gear_sets()
 		body="Zendik Robe",hands="Gende. Gages +1",ring1="Kishar Ring",ring2="Prolix Ring",
 		back="Swith Cape +1",waist="Witful Belt",legs="Psycloth Lappas",feet="Regal Pumps +1"}
 		
-		sets.midcast['Elemental Magic'].HighTierNuke = set_combine(sets.midcast['Elemental Magic'], {
-			--ammo="Pemphredo Tathlum",
-			--ear1="Regal Earring",
-			ring1="Metamor. Ring +1"
-		})
+	sets.midcast['Elemental Magic'].HighTierNuke = set_combine(sets.midcast['Elemental Magic'], {
+		--ammo="Pemphredo Tathlum",
+		--ear1="Regal Earring",
+		ring1="Metamor. Ring +1"
+	})
 	sets.midcast['Elemental Magic'].HighTierNuke.Resistant = set_combine(sets.midcast['Elemental Magic'].Resistant, {ear1="Regal Earring",ring1="Metamor. Ring +1"})
 	sets.midcast['Elemental Magic'].HighTierNuke.Fodder = set_combine(sets.midcast['Elemental Magic'].Fodder, {ammo="Pemphredo Tathlum",ear1="Regal Earring",ring1="Metamor. Ring +1"})
 		
@@ -844,7 +844,7 @@ function user_job_lockstyle()
 			end
 		end
 	elseif player.sub_job == 'WHM' or state.Buff['Light Arts'] or state.Buff['Addendum: White'] then
-		windower.chat.input('/lockstyleset 030')
+		windower.chat.input('/lockstyleset 2')
 	elseif player.sub_job == 'BLM' or state.Buff['Dark Arts'] or state.Buff['Addendum: Black'] then
 		windower.chat.input('/lockstyleset 2')
 	else
