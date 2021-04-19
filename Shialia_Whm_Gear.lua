@@ -59,7 +59,7 @@ function init_gear_sets()
 		main=gear.grioavolr_fc_staff,
 		sub="Clerisy Strap",
 		--ammo="Sapience Orb", --2
-		head="Welkin Crown",
+		head="Nahtirah Hat",
 		body="Inyanga Jubbah +2", --14
 		hands="Fanatic Gloves", --7
 		legs="Aya. Cosciales +2", --6
@@ -179,7 +179,7 @@ function init_gear_sets()
 		--back="Swith Cape +1",waist="Witful Belt",legs="Lengo Pants",feet="Regal Pumps +1"
 		main=gear.grioavolr_fc_staff,
 		sub="Clerisy Strap",
-		head="Welkin Crown",
+		head="Nahtirah Hat",
 		neck="Baetyl Pendant",
 		ear1="Loquacious Earring",
 		ear2="Etiolation Earring",
