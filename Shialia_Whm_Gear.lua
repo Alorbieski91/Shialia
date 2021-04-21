@@ -604,10 +604,30 @@ function init_gear_sets()
 		body="Vrikodara Jupon",hands="Gende. Gages +1",ring1="Defending Ring",ring2="Dark Ring",
 		back="Moonlight Cape",waist="Flax Sash",legs="Inyanga Shalwar +2",feet=gear.chironic_refresh_feet}
 		
-	sets.idle.Weak = {main="Bolelabunga",sub="Genmei Shield",ammo="Homiliary",
-		head="Befouled Crown",neck="Loricate Torque +1",ear1="Etiolation Earring",ear2="Ethereal Earring",
-		body="Witching Robe",hands=gear.chironic_refresh_hands,ring1="Defending Ring",ring2="Dark Ring",
-		back="Umbra Cape",waist="Witful Belt",legs="Inyanga Shalwar +2",feet=gear.chironic_refresh_feet}
+	sets.idle.Weak = {
+		--main="Bolelabunga",sub="Genmei Shield",ammo="Homiliary",
+		--head="Befouled Crown",neck="Loricate Torque +1",ear1="Etiolation Earring",ear2="Ethereal Earring",
+		--body="Witching Robe",hands=gear.chironic_refresh_hands,ring1="Defending Ring",ring2="Dark Ring",
+		--back="Umbra Cape",waist="Witful Belt",legs="Inyanga Shalwar +2",feet=gear.chironic_refresh_feet
+		main="Bolelabunga",
+		sub="Genmei Shield",
+		ammo="Homiliary",
+		head="Inyanga Tiara +2",
+		body="Shamash Robe",
+		hands="Inyan. Dastanas +2",
+		legs="Inyanga Shalwar +2",
+		feet="Aya. Gambieras +1",
+		neck="Bathy Choker +1",
+		--ear1="Genmei Earring",
+		ear1="Moonshade Earring",
+		ear2="Etiolation Earring",
+		--ring1={name="Stikini Ring", bag="wardrobe3"},
+		--ring2="Sheltered Ring",
+		ring1="Gelatinous Ring +1",
+		ring2="Inyanga Ring",
+		back="Alaunus's Cape",
+		--waist="Slipor Sash",
+	}
 
 	-- Defense sets
 
