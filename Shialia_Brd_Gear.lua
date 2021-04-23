@@ -57,9 +57,9 @@ function init_gear_sets()
 		range="Linos",
 		head="Nahtirah Hat",
 		body="Inyanga Jubbah +2",
-		hands="Inyan. Dastanas +2",
+		hands="Leyline Gloves",
 		legs="Aya. Cosciales +2",
-		feet="Inyan. Crackows +1",
+		feet="Telchine Pigaches",
 		neck="Baetyl Pendant",
 		waist="Witful Belt",
 		left_ear="Loquac. Earring",
@@ -84,9 +84,9 @@ function init_gear_sets()
 		range="Linos",
 		head="Nahtirah Hat",
 		body="Inyanga Jubbah +2",
-		hands="Inyan. Dastanas +2",
+		hands="Leyline Gloves",
 		legs="Aya. Cosciales +2",
-		feet="Coalrake Sabots",
+		feet="Telchine Pigaches",
 		neck="Baetyl Pendant",
 		waist="Witful Belt",
 		left_ear="Loquac. Earring",
@@ -140,10 +140,27 @@ function init_gear_sets()
 	-- Midcast Sets
 
 	-- General set for recast times.
-	sets.midcast.FastRecast = {main=gear.grioavolr_fc_staff,sub="Clerisy Strap",ammo="Hasty Pinion +1",
-		head="Nahtirah Hat",neck="Voltsurge Torque",ear1="Enchntr. Earring +1",ear2="Loquac. Earring",
-		body="Inyanga Jubbah +2",hands="Leyline Gloves",ring1="Kishar Ring",ring2="Lebeche Ring",
-		back="Intarabus's Cape",waist="Witful Belt",legs="Aya. Cosciales +2",feet="Gende. Galosh. +1"}
+	sets.midcast.FastRecast = {
+		--main=gear.grioavolr_fc_staff,sub="Clerisy Strap",ammo="Hasty Pinion +1",
+		--head="Nahtirah Hat",neck="Voltsurge Torque",ear1="Enchntr. Earring +1",ear2="Loquac. Earring",
+		--body="Inyanga Jubbah +2",hands="Leyline Gloves",ring1="Kishar Ring",ring2="Lebeche Ring",
+		--back="Intarabus's Cape",waist="Witful Belt",legs="Aya. Cosciales +2",feet="Gende. Galosh. +1"
+		gear.kali_idle,
+		sub="Genmei Shield",
+		range="Linos",
+		head="Nahtirah Hat",
+		body="Inyanga Jubbah +2",
+		hands="Leyline Gloves",
+		legs="Aya. Cosciales +2",
+		feet="Telchine Pigaches",
+		neck="Baetyl Pendant",
+		waist="Witful Belt",
+		left_ear="Loquac. Earring",
+		right_ear="Etiolation Earring",
+		left_ring="Lebeche Ring",
+		right_ring="Weather. Ring",
+		back="Intarabus's Cape",
+	}
 
 	-- Gear to enhance certain classes of songs
 	sets.midcast.Ballad = {legs="Fili Rhingrave +1"}

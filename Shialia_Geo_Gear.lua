@@ -75,7 +75,7 @@ function init_gear_sets()
 		ear2="Etiolation Earring",
 		--ear2="Malignance Earring",
 		--body="Zendik Robe",
-		--hands="Volte Gloves",
+		hands="Leyline Gloves",
 		ring1="Lebeche Ring",
 		ring2="Weather. Ring",
 		back=gear.mndenfeeb_jse_back,
@@ -130,10 +130,28 @@ function init_gear_sets()
 	-- Midcast sets
 	--------------------------------------
 
-    sets.midcast.FastRecast = {main=gear.grioavolr_fc_staff,sub="Clerisy Strap",
-		head="Amalric Coif",neck="Baetyl Pendant",ear1="Enchntr. Earring +1",ear2="Malignance Earring",
-		body="Zendik Robe",hands="Volte Gloves",ring1="Kishar Ring",ring2="Prolix Ring",
-		back="Lifestream Cape",waist="Witful Belt",legs="Geo. Pants +1",feet="Regal Pumps +1"}
+	sets.midcast.FastRecast = {
+		--main=gear.grioavolr_fc_staff,sub="Clerisy Strap",
+		--head="Amalric Coif",neck="Baetyl Pendant",ear1="Enchntr. Earring +1",ear2="Malignance Earring",
+		--body="Zendik Robe",hands="Volte Gloves",ring1="Kishar Ring",ring2="Prolix Ring",
+		--back="Lifestream Cape",waist="Witful Belt",legs="Geo. Pants +1",feet="Regal Pumps +1"
+		main=gear.grioavolr_fc_staff,
+		sub="Clerisy Strap",
+		--ammo="Impatiens",
+		head="Amalric Coif",
+		neck="Baetyl Pendant",
+		ear1="Loquac. Earring",
+		ear2="Etiolation Earring",
+		--ear2="Malignance Earring",
+		--body="Zendik Robe",
+		hands="Leyline Gloves",
+		ring1="Lebeche Ring",
+		ring2="Weather. Ring",
+		back=gear.mndenfeeb_jse_back,
+		waist="Witful Belt",
+		legs="Geo. Pants +1",
+		feet="Regal Pumps +1"
+	}
 
 	sets.midcast.Geomancy = {
 		--main="Solstice",sub="Genmei Shield",range="Dunna",
@@ -305,15 +323,49 @@ function init_gear_sets()
 		back=gear.nuke_jse_back,
 	}
 
-	sets.midcast['Dark Magic'] = {main="Rubicundity",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
-		head=gear.merlinic_nuke_head,neck="Erra Pendant",ear1="Regal Earring",ear2="Malignance Earring",
-		body=gear.merlinic_nuke_body,hands="Amalric Gages +1",ring1="Metamor. Ring +1",ring2="Stikini Ring",
-		back=gear.nuke_jse_back,waist="Yamabuki-no-Obi",legs="Merlinic Shalwar",feet=gear.merlinic_aspir_feet}
+	sets.midcast['Dark Magic'] = {
+		--main="Rubicundity",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
+		--head=gear.merlinic_nuke_head,neck="Erra Pendant",ear1="Regal Earring",ear2="Malignance Earring",
+		--body=gear.merlinic_nuke_body,hands="Amalric Gages +1",ring1="Metamor. Ring +1",ring2="Stikini Ring",
+		--back=gear.nuke_jse_back,waist="Yamabuki-no-Obi",legs="Merlinic Shalwar",feet=gear.merlinic_aspir_feet
+		main="Daybreak",
+		sub="Culminus",
+		range="Dunna",
+		head="Bagua Galero",
+		body="Mallquis Saio +2",
+		hands="Mallquis Cuffs +1",
+		legs="Mallquis Trews +1",
+		feet=gear.merlinic_conservemp_feet,
+		neck="Erra Pendant",
+		waist="Fucho-no-Obi",
+		left_ear="Moonshade Earring",
+		right_ear="Gwati Earring",
+		left_ring="Archon Ring",
+		right_ring="Evanescence Ring",
+		back=gear.nuke_jse_back,
+	}
 
-	sets.midcast.Drain = {main="Rubicundity",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
-		head="Pixie Hairpin +1",neck="Erra Pendant",ear1="Regal Earring",ear2="Malignance Earring",
-		body=gear.merlinic_nuke_body,hands="Amalric Gages +1",ring1="Archon Ring",ring2="Evanescence Ring",
-		back=gear.nuke_jse_back,waist="Fucho-no-obi",legs="Merlinic Shalwar",feet=gear.merlinic_aspir_feet}
+	sets.midcast.Drain = {
+		--main="Rubicundity",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
+		--head="Pixie Hairpin +1",neck="Erra Pendant",ear1="Regal Earring",ear2="Malignance Earring",
+		--body=gear.merlinic_nuke_body,hands="Amalric Gages +1",ring1="Archon Ring",ring2="Evanescence Ring",
+		--back=gear.nuke_jse_back,waist="Fucho-no-obi",legs="Merlinic Shalwar",feet=gear.merlinic_aspir_feet
+		main="Daybreak",
+		sub="Culminus",
+		range="Dunna",
+		head="Bagua Galero",
+		body="Mallquis Saio +2",
+		hands="Mallquis Cuffs +1",
+		legs="Mallquis Trews +1",
+		feet=gear.merlinic_conservemp_feet,
+		neck="Erra Pendant",
+		waist="Fucho-no-Obi",
+		left_ear="Moonshade Earring",
+		right_ear="Gwati Earring",
+		left_ring="Archon Ring",
+		right_ring="Evanescence Ring",
+		back=gear.nuke_jse_back,
+	}
 
 	sets.midcast.Aspir = sets.midcast.Drain
 
@@ -345,7 +397,7 @@ function init_gear_sets()
 		hands="Mallquis Cuffs +1",
 		legs="Ea Slops",
 		feet="Mallquis Clogs +2",
-		neck="Incanter's Torque",
+		neck="Erra Pendant",
 		waist="Porous Rope",
 		left_ear="Vor Earring",
 		right_ear="Gwati Earring",
@@ -373,7 +425,7 @@ function init_gear_sets()
 		hands="Mallquis Cuffs +1",
 		legs="Ea Slops",
 		feet="Mallquis Clogs +2",
-		neck="Incanter's Torque",
+		neck="Erra Pendant",
 		waist="Porous Rope",
 		left_ear="Vor Earring",
 		right_ear="Gwati Earring",
@@ -395,7 +447,7 @@ function init_gear_sets()
 		hands="Mallquis Cuffs +1",
 		legs="Ea Slops",
 		feet="Mallquis Clogs +2",
-		neck="Incanter's Torque",
+		neck="Erra Pendant",
 		waist="Porous Rope",
 		left_ear="Vor Earring",
 		right_ear="Gwati Earring",

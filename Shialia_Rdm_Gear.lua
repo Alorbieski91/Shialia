@@ -79,7 +79,7 @@ function init_gear_sets()
 		ammo="Homiliary",
 		head="Atro. Chapeau +2",
 		body="Viti. Tabard +1",
-		hands="Atrophy Gloves +2",
+		hands="Leyline Gloves",
 		legs="Aya. Cosciales +2",
 		feet=gear.merlinic_conservemp_feet,
 		neck="Baetyl Pendant",
@@ -184,9 +184,9 @@ function init_gear_sets()
 		ammo="Homiliary",
 		head="Atro. Chapeau +2",
 		body="Viti. Tabard +1",
-		hands="Atrophy Gloves +2",
+		hands="Leyline Gloves",
 		legs="Aya. Cosciales +1",
-		feet="Vanya Clogs",
+		feet=gear.merlinic_conservemp_feet,
 		neck="Baetyl Pendant",
 		waist="Witful Belt",
 		left_ear="Loquac. Earring",
@@ -494,15 +494,49 @@ function init_gear_sets()
 		body="Twilight Cloak",hands="Leth. Gantherots +1",ring1="Metamor. Ring +1",ring2="Stikini Ring +1",
 		back=gear.nuke_jse_back,waist="Luminary Sash",legs="Merlinic Shalwar",feet=gear.merlinic_nuke_feet}
 
-	sets.midcast['Dark Magic'] = {main="Rubicundity",sub="Ammurapi Shield",range="Kaja Bow",ammo=empty,
-		head="Amalric Coif +1",neck="Erra Pendant",ear1="Regal Earring",ear2="Malignance Earring",
-		body="Atrophy Tabard +3",hands="Leth. Gantherots +1",ring1="Metamor. Ring +1",ring2="Stikini Ring +1",
-		back=gear.nuke_jse_back,waist="Luminary Sash",legs="Psycloth Lappas",feet=gear.merlinic_nuke_feet}
+	sets.midcast['Dark Magic'] = {
+		--main="Rubicundity",sub="Ammurapi Shield",range="Kaja Bow",ammo=empty,
+		--head="Amalric Coif +1",neck="Erra Pendant",ear1="Regal Earring",ear2="Malignance Earring",
+		--body="Atrophy Tabard +3",hands="Leth. Gantherots +1",ring1="Metamor. Ring +1",ring2="Stikini Ring +1",
+		--back=gear.nuke_jse_back,waist="Luminary Sash",legs="Psycloth Lappas",feet=gear.merlinic_nuke_feet
+		main="Daybreak",
+		sub="Thuellaic Ecu +1",
+		ammo="Regal Gem",
+		head="Atro. Chapeau +2",
+		body="Atrophy Tabard +2",
+		hands="Kaykaus Cuffs",
+		legs=gear.chironic_enfeeble_legs,
+		feet=gear.merlinic_nuke_feet,
+		neck="Erra Pendant",
+		waist="Fucho-no-Obi",
+		left_ear="Moonshade Earring",
+		right_ear="Gwati Earring",
+		left_ring="Evanescence Ring",
+		right_ring="Archon Ring",
+		back=gear.enfeeble_jse_back,
+	}
 
-	sets.midcast.Drain = {main="Rubicundity",sub="Ammurapi Shield",range="Kaja Bow",ammo=empty,
-		head="Pixie Hairpin +1",neck="Erra Pendant",ear1="Regal Earring",ear2="Malignance Earring",
-		body=gear.merlinic_nuke_body,hands=gear.chironic_enfeeble_hands,ring1="Evanescence Ring",ring2="Archon Ring",
-		back=gear.nuke_jse_back,waist="Fucho-no-obi",legs="Chironic Hose",feet=gear.merlinic_aspir_feet}
+	sets.midcast.Drain = {
+		--main="Rubicundity",sub="Ammurapi Shield",range="Kaja Bow",ammo=empty,
+		--head="Pixie Hairpin +1",neck="Erra Pendant",ear1="Regal Earring",ear2="Malignance Earring",
+		--body=gear.merlinic_nuke_body,hands=gear.chironic_enfeeble_hands,ring1="Evanescence Ring",ring2="Archon Ring",
+		--back=gear.nuke_jse_back,waist="Fucho-no-obi",legs="Chironic Hose",feet=gear.merlinic_aspir_feet
+		main="Daybreak",
+		sub="Thuellaic Ecu +1",
+		ammo="Regal Gem",
+		head="Atro. Chapeau +2",
+		body="Atrophy Tabard +2",
+		hands="Kaykaus Cuffs",
+		legs=gear.chironic_enfeeble_legs,
+		feet=gear.merlinic_nuke_feet,
+		neck="Erra Pendant",
+		waist="Fucho-no-Obi",
+		left_ear="Moonshade Earring",
+		right_ear="Gwati Earring",
+		left_ring="Evanescence Ring",
+		right_ring="Archon Ring",
+		back=gear.enfeeble_jse_back,
+	}
 
 	sets.midcast.Aspir = sets.midcast.Drain
 		
