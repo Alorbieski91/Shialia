@@ -11,6 +11,8 @@ function user_job_setup()
 	gear.obi_cure_waist = "Austerity Belt +1"
 	gear.obi_cure_back = "Alaunus's Cape"
 
+	gear.fc_jse_cape = {name="Alaunus's Cape",augments={'MND+20','"Fast Cast"+10',}}
+
 	gear.obi_nuke_waist = "Sekhmet Corset"
 	gear.obi_high_nuke_waist = "Yamabuki-no-Obi"
 	gear.obi_nuke_back = "Toro Cape"
@@ -69,7 +71,7 @@ function init_gear_sets()
 		ear2="Etiolation Earring", --1
 		ring1="Lebeche Ring",
 		ring2="Weather. Ring", --6(4)
-		back="Alaunus's Cape", --10
+		back=gear.fc_jse_cape, --10
 		waist="Embla Sash", --5
 	}
 
@@ -217,7 +219,7 @@ function init_gear_sets()
 		--ear2="Meili Earring",
 		ring1="Lebeche Ring", --3/(-5)
 		ring2={name="Haoma's Ring", bag="wardrobe2"},
-		back="Alaunus's Cape",
+		back=gear.fc_jse_cape,
 		--waist="Bishop's Sash",
 		waist="Cleric's Belt",
 	}
@@ -243,7 +245,7 @@ function init_gear_sets()
 		--ear2="Meili Earring",
 		ring1="Lebeche Ring", --3/(-5)
 		ring2={name="Haoma's Ring", bag="wardrobe2"},
-		back="Alaunus's Cape",
+		back=gear.fc_jse_cape,
 		--waist="Bishop's Sash",
 		waist="Cleric's Belt",
 	}
@@ -319,7 +321,7 @@ function init_gear_sets()
 	sets.midcast.Cure.DT = {main="Queller Rod",sub="Genmei Shield",ammo="Staunch Tathlum +1",
 		head="Gende. Caubeen +1",neck="Loricate Torque +1",ear1="Nourish. Earring +1",ear2="Glorious Earring",
 		body="Ayanmo Corazza +2",hands="Gende. Gages +1",ring1="Defending Ring",ring2="Dark Ring",
-		back="Alaunus's Cape",waist="Luminary Sash",legs="Ebers Pant. +1",feet="Gende. Galosh. +1"}
+		back=gear.fc_jse_cape,waist="Luminary Sash",legs="Ebers Pant. +1",feet="Gende. Galosh. +1"}
 		
 	--Melee Curesets are used whenever your Weapons state is set to anything but None.
 	sets.midcast.MeleeCure = {
@@ -340,7 +342,7 @@ function init_gear_sets()
 		--ear2="Meili Earring",
 		ring1="Lebeche Ring", --3/(-5)
 		ring2={name="Haoma's Ring", bag="wardrobe2"},
-		back="Alaunus's Cape",
+		back=gear.fc_jse_cape,
 		--waist="Bishop's Sash",
 		waist="Cleric's Belt",
 	}
@@ -390,7 +392,7 @@ function init_gear_sets()
 		ear2="Meili Earring",
 		ring1="Ephedra Ring",
 		ring2={name="Haoma's Ring", bag="wardrobe2"},
-		back="Alaunus's Cape",
+		back=gear.fc_jse_cape,
 		--waist="Bishop's Sash",
 		waist="Cleric's Belt",
 	}
@@ -412,7 +414,7 @@ function init_gear_sets()
 		ear2="Etiolation Earring",
 		ring1="Ephedra Ring",
 		ring2={name="Haoma's Ring", bag="wardrobe2"},
-		back="Alaunus's Cape",
+		back=gear.fc_jse_cape,
 		waist="Witful Belt",
 	}
 		
@@ -505,7 +507,7 @@ function init_gear_sets()
 		right_ear="Gwati Earring",
 		left_ring="Metamor. Ring +1",
 		right_ring="Stikini Ring",
-		back="Alaunus's Cape",
+		back=gear.fc_jse_cape,
 	}
 		
 	sets.midcast.Holy = {main="Daybreak",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
@@ -532,7 +534,7 @@ function init_gear_sets()
 		right_ear="Gwati Earring",
 		left_ring="Metamor. Ring +1",
 		right_ring="Stikini Ring",
-		back="Alaunus's Cape",
+		back=gear.fc_jse_cape,
 	}
 
 	sets.midcast.Drain = {
@@ -554,7 +556,7 @@ function init_gear_sets()
 		right_ear="Gwati Earring",
 		left_ring="Evanescence Ring",
 		right_ring="Archon Ring",
-		back="Alaunus's Cape",
+		back=gear.fc_jse_cape,
 	}
 
 	sets.midcast.Drain.Resistant = {
@@ -576,7 +578,7 @@ function init_gear_sets()
 		right_ear="Gwati Earring",
 		left_ring="Evanescence Ring",
 		right_ring="Archon Ring",
-		back="Alaunus's Cape",
+		back=gear.fc_jse_cape,
 	}
 
 	sets.midcast.Aspir = sets.midcast.Drain
@@ -611,7 +613,7 @@ function init_gear_sets()
 		right_ear="Gwati Earring",
 		left_ring="Metamor. Ring +1",
 		right_ring="Stikini Ring",
-		back="Alaunus's Cape",
+		back=gear.fc_jse_cape,
 	}
 		
 	sets.midcast.Dispelga = set_combine(sets.midcast.Dispel, {main="Daybreak",sub="Ammurapi Shield"})
@@ -635,7 +637,7 @@ function init_gear_sets()
 		right_ear="Gwati Earring",
 		left_ring="Metamor. Ring +1",
 		right_ring="Stikini Ring",
-		back="Alaunus's Cape",
+		back=gear.fc_jse_cape,
 	}
 
 	sets.midcast['Enfeebling Magic'].Resistant = {
@@ -657,7 +659,7 @@ function init_gear_sets()
 		right_ear="Gwati Earring",
 		left_ring="Metamor. Ring +1",
 		right_ring="Stikini Ring",
-		back="Alaunus's Cape",
+		back=gear.fc_jse_cape,
 	}
 		
 	sets.midcast.Dia = set_combine(sets.midcast['Enfeebling Magic'], sets.TreasureHunter)
@@ -669,11 +671,11 @@ function init_gear_sets()
 	sets.midcast.ElementalEnfeeble = set_combine(sets.midcast['Enfeebling Magic'], {})
 	sets.midcast.ElementalEnfeeble.Resistant = set_combine(sets.midcast['Enfeebling Magic'].Resistant, {})
 
-	sets.midcast.IntEnfeebles = set_combine(sets.midcast['Enfeebling Magic'], {waist="Acuity Belt +1"})
-	sets.midcast.IntEnfeebles.Resistant = set_combine(sets.midcast['Enfeebling Magic'].Resistant, {waist="Acuity Belt +1"})
+	sets.midcast.IntEnfeebles = set_combine(sets.midcast['Enfeebling Magic'], {waist="Porous Rope"})
+	sets.midcast.IntEnfeebles.Resistant = set_combine(sets.midcast['Enfeebling Magic'].Resistant, {waist="Porous Rope"})
 
-	sets.midcast.MndEnfeebles = set_combine(sets.midcast['Enfeebling Magic'], {back="Alaunus's Cape"})
-	sets.midcast.MndEnfeebles.Resistant = set_combine(sets.midcast['Enfeebling Magic'].Resistant, {back="Alaunus's Cape"})
+	sets.midcast.MndEnfeebles = set_combine(sets.midcast['Enfeebling Magic'], {back=gear.fc_jse_cape})
+	sets.midcast.MndEnfeebles.Resistant = set_combine(sets.midcast['Enfeebling Magic'].Resistant, {back=gear.fc_jse_cape})
 
 	-- Sets to return to when not performing an action.
 
@@ -709,7 +711,7 @@ function init_gear_sets()
 		--ring2="Sheltered Ring",
 		ring1="Gelatinous Ring +1",
 		ring2="Inyanga Ring",
-		back="Alaunus's Cape",
+		back="Solemnity Cape",
 		--waist="Slipor Sash",
 	}
 
@@ -744,7 +746,7 @@ function init_gear_sets()
 		--ring2="Sheltered Ring",
 		ring1="Gelatinous Ring +1",
 		ring2="Inyanga Ring",
-		back="Alaunus's Cape",
+		back="Solemnity Cape",
 		--waist="Slipor Sash",
 	}
 

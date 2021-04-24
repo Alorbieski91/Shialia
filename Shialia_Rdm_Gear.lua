@@ -388,7 +388,7 @@ function init_gear_sets()
 		--back=gear.nuke_jse_back,waist="Luminary Sash",legs="Chironic Hose",feet="Vitiation Boots +3"
 		main="Daybreak",
 		sub="Thuellaic Ecu +1",
-		ammo="Regal Gem",
+		range="Kaja Bow",
 		head="Atro. Chapeau +2",
 		body="Atrophy Tabard +2",
 		hands="Kaykaus Cuffs",
@@ -405,7 +405,7 @@ function init_gear_sets()
 		
 	sets.midcast.DurationOnlyEnfeebling = set_combine(sets.midcast['Enfeebling Magic'], {
 		body="Atrophy Tabard +2",
-		--range="Kaja Bow"
+		range="Kaja Bow"
 	})
 		
 	sets.midcast.Silence = sets.midcast.DurationOnlyEnfeebling
@@ -586,7 +586,7 @@ function init_gear_sets()
 		head="Viti. Chapeau +1",
 		body="Shamash Robe",
 		hands="Aya. Manopolas +1",
-		legs="Aya. Cosciales +2",
+		legs="Malignance Tights",
 		feet="Aya. Gambieras +1",
 		neck="Bathy Choker +1",
 		waist="Fucho-no-Obi",
