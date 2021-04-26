@@ -686,7 +686,7 @@ function init_gear_sets()
 		hands="Aya. Manopolas +1",
 		legs="Carmine Cuisses +1",
 		feet="Aya. Gambieras +1",
-		neck="Sanctity Necklace",
+		neck="Anu Torque",
 		waist="Kentarch Belt +1",
 		left_ear="Suppanomimi",
 		right_ear="Brutal Earring",
@@ -711,7 +711,7 @@ function init_gear_sets()
 		right_ear="Brutal Earring",
 		left_ring="Fortified Ring",
 		right_ring="Petrov Ring",
-		back=gear.stp_jse_back,
+		back="Ghostfyre Cape",
 	}
 
 	sets.engaged.Acc = {
@@ -750,7 +750,7 @@ function init_gear_sets()
 		hands="Aya. Manopolas +1",
 		legs="Carmine Cuisses +1",
 		feet="Aya. Gambieras +1",
-		neck="Sanctity Necklace",
+		neck="Anu Torque",
 		waist="Kentarch Belt +1",
 		left_ear="Suppanomimi",
 		right_ear="Brutal Earring",
