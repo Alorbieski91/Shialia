@@ -690,7 +690,7 @@ function init_gear_sets()
 		waist="Kentarch Belt +1",
 		left_ear="Suppanomimi",
 		right_ear="Brutal Earring",
-		left_ring="Fortified Ring",
+		left_ring="Ayanmo Ring",
 		right_ring="Petrov Ring",
 		back=gear.stp_jse_back,	
 	}
@@ -709,7 +709,7 @@ function init_gear_sets()
 		waist="Kentarch Belt +1",
 		left_ear="Suppanomimi",
 		right_ear="Brutal Earring",
-		left_ring="Fortified Ring",
+		left_ring="Ayanmo Ring",
 		right_ring="Petrov Ring",
 		back="Ghostfyre Cape",
 	}
@@ -754,7 +754,7 @@ function init_gear_sets()
 		waist="Kentarch Belt +1",
 		left_ear="Suppanomimi",
 		right_ear="Brutal Earring",
-		left_ring="Fortified Ring",
+		left_ring="Ayanmo Ring",
 		right_ring="Petrov Ring",
 		back=gear.stp_jse_back,	
 	}
