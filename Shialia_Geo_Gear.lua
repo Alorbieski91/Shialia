@@ -503,7 +503,7 @@ function init_gear_sets()
 	sets.midcast.Refresh = set_combine(sets.midcast['Enhancing Magic'], {head="Amalric Coif"})
 
 	sets.midcast.Aquaveil = set_combine(sets.midcast['Enhancing Magic'], {
-		--main="Vadose Rod",
+		main="Vadose Rod",
 		sub="Genmei Shield",
 		head="Amalric Coif",
 		--hands="Regal Cuffs",

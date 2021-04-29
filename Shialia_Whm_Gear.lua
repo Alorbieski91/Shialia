@@ -454,7 +454,7 @@ function init_gear_sets()
 	sets.midcast.Auspice = set_combine(sets.midcast['Enhancing Magic'], {feet="Ebers Duckbills"})
 	
 	sets.midcast.Aquaveil = set_combine(sets.midcast['Enhancing Magic'], {
-		--main="Vadose Rod",
+		main="Vadose Rod",
 		--sub="Ammurapi Shield",
 		--hands="Regal Cuffs",
 		--waist="Emphatikos Rope",
