@@ -113,10 +113,28 @@ function init_gear_sets()
 
 	sets.precast.FC.Stoneskin = set_combine(sets.precast.FC['Enhancing Magic'], {})
 
-	sets.precast.FC.Impact = {ammo="Impatiens",
-		head=empty,neck="Baetyl Pendant",ear1="Enchntr. Earring +1",ear2="Malignance Earring",
-		body="Twilight Cloak",hands="Volte Gloves",ring1="Kishar Ring",ring2="Lebeche Ring",
-		back="Lifestream Cape",waist="Witful Belt",legs="Geo. Pants +1",feet="Regal Pumps +1"}
+	sets.precast.FC.Impact = {
+		--ammo="Impatiens",
+		--head=empty,neck="Baetyl Pendant",ear1="Enchntr. Earring +1",ear2="Malignance Earring",
+		--body="Twilight Cloak",hands="Volte Gloves",ring1="Kishar Ring",ring2="Lebeche Ring",
+		--back="Lifestream Cape",waist="Witful Belt",legs="Geo. Pants +1",feet="Regal Pumps +1"
+		main=gear.grioavolr_fc_staff,
+		sub="Clerisy Strap",
+		--ammo="Impatiens",
+		head=empty,
+		body="Twilight Cloak"
+		neck="Baetyl Pendant",
+		ear1="Loquac. Earring",
+		ear2="Etiolation Earring",
+		--ear2="Malignance Earring",
+		--body="Zendik Robe",
+		ring1="Lebeche Ring",
+		ring2="Weather. Ring",
+		back=gear.mndenfeeb_jse_back,
+		waist="Witful Belt",
+		legs="Geo. Pants +1",
+		feet="Regal Pumps +1"
+	}
 		
 	sets.precast.FC.Dispelga = set_combine(sets.precast.FC, {main="Daybreak",sub="Genmei Shield"})
 	
@@ -377,10 +395,27 @@ function init_gear_sets()
 		body="Zendik Robe",hands="Amalric Gages +1",ring1="Metamor. Ring +1",ring2="Stikini Ring",
 		back=gear.nuke_jse_back,waist="Acuity Belt +1",legs="Merlinic Shalwar",feet=gear.merlinic_aspir_feet}
 
-	sets.midcast.Impact = {main="Daybreak",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
-		head=empty,neck="Erra Pendant",ear1="Regal Earring",ear2="Malignance Earring",
-		body="Twilight Cloak",hands="Regal Cuffs",ring1="Metamor. Ring +1",ring2="Stikini Ring",
-		back=gear.nuke_jse_back,waist="Acuity Belt +1",legs="Merlinic Shalwar",feet=gear.merlinic_nuke_feet}
+	sets.midcast.Impact = {
+		--main="Daybreak",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
+		--head=empty,neck="Erra Pendant",ear1="Regal Earring",ear2="Malignance Earring",
+		--body="Twilight Cloak",hands="Regal Cuffs",ring1="Metamor. Ring +1",ring2="Stikini Ring",
+		--back=gear.nuke_jse_back,waist="Acuity Belt +1",legs="Merlinic Shalwar",feet=gear.merlinic_nuke_feet
+		main="Daybreak",
+		sub="Genmei Shield",
+		range="Dunna",
+		head=empty,
+		body="Twilight Cloak",
+		hands="Mallquis Cuffs +1",
+		legs="Ea Slops",
+		feet="Mallquis Clogs +2",
+		neck="Erra Pendant",
+		waist="Porous Rope",
+		left_ear="Vor Earring",
+		right_ear="Gwati Earring",
+		left_ring="Metamor. Ring +1",
+		right_ring="Stikini Ring",
+		back=gear.mndenfeeb_jse_back,
+	}
 
 	sets.midcast.Dispel = {
 		--main="Daybreak",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",

@@ -92,7 +92,7 @@ function init_gear_sets()
 	}
 		
 	sets.precast.FC.Impact = set_combine(sets.precast.FC, {head=empty,body="Twilight Cloak"})
-	sets.precast.FC.Dispelga = set_combine(sets.precast.FC, {main="Daybreak",sub="Sacro Bulwark"})
+	sets.precast.FC.Dispelga = set_combine(sets.precast.FC, {main="Daybreak",sub="Thuellaic Ecu +1"})
 
 	-- Weaponskill sets
 	-- Default set for any weaponskill that isn't any more specifically defined
@@ -489,10 +489,27 @@ function init_gear_sets()
 	sets.midcast['Elemental Magic'].HighTierNuke.Resistant = set_combine(sets.midcast['Elemental Magic'].Resistant, {ear1="Regal Earring",ring1="Metamor. Ring +1"})
 	sets.midcast['Elemental Magic'].HighTierNuke.Fodder = set_combine(sets.midcast['Elemental Magic'].Fodder, {ammo="Pemphredo Tathlum",ear1="Regal Earring",ring1="Metamor. Ring +1"})
 		
-	sets.midcast.Impact = {main="Daybreak",sub="Ammurapi Shield",range="Kaja Bow",ammo=empty,
-		head=empty,neck="Erra Pendant",ear1="Regal Earring",ear2="Malignance Earring",
-		body="Twilight Cloak",hands="Leth. Gantherots +1",ring1="Metamor. Ring +1",ring2="Stikini Ring +1",
-		back=gear.nuke_jse_back,waist="Luminary Sash",legs="Merlinic Shalwar",feet=gear.merlinic_nuke_feet}
+	sets.midcast.Impact = {
+		--main="Daybreak",sub="Ammurapi Shield",range="Kaja Bow",ammo=empty,
+		--head=empty,neck="Erra Pendant",ear1="Regal Earring",ear2="Malignance Earring",
+		--body="Twilight Cloak",hands="Leth. Gantherots +1",ring1="Metamor. Ring +1",ring2="Stikini Ring +1",
+		--back=gear.nuke_jse_back,waist="Luminary Sash",legs="Merlinic Shalwar",feet=gear.merlinic_nuke_feet
+		main="Daybreak",
+		sub="Thuellaic Ecu +1",
+		range="Kaja Bow",
+		head=empty,
+		body="Twilight Cloak",
+		hands="Leth. Gantherots +1",
+		legs=gear.chironic_enfeeble_legs,
+		feet="Jhakri Pigaches +1",
+		neck="Duelist's Torque",
+		waist="Porous Rope",
+		left_ear="Snotra Earring",
+		right_ear="Vor Earring",
+		left_ring="Metamor. Ring +1",
+		right_ring="Stikini Ring",
+		back=gear.enfeeble_jse_back,
+	}
 
 	sets.midcast['Dark Magic'] = {
 		--main="Rubicundity",sub="Ammurapi Shield",range="Kaja Bow",ammo=empty,

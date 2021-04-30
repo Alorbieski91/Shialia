@@ -93,7 +93,7 @@ function init_gear_sets()
 
 	sets.precast.FC.Impact =  set_combine(sets.precast.FC, {head=empty,body="Twilight Cloak"})
 	
-	sets.precast.FC.Dispelga = set_combine(sets.precast.FC, {main="Daybreak",sub="Genmei Shield"})
+	sets.precast.FC.Dispelga = set_combine(sets.precast.FC, {main="Daybreak",sub="Thuellaic Ecu +1"})
 
 	-- Precast sets to enhance JAs
 	sets.precast.JA.Benediction = {body="Piety Briault +1"}
@@ -473,10 +473,27 @@ function init_gear_sets()
 		body="Ebers Bliaud +1",hands="Ebers Mitts",ring1="Stikini Ring +1",ring2="Stikini Ring",
 		back="Alaunus's Cape",waist="Olympus Sash",legs="Piety Pantaln. +1",feet="Ebers Duckbills"}
 
-	sets.midcast.Impact = {main="Daybreak",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
-		head=empty,neck="Erra Pendant",ear1="Regal Earring",ear2="Digni. Earring",
-		body="Twilight Cloak",hands=gear.chironic_enfeeble_hands,ring1="Metamor. Ring +1",ring2="Stikini Ring",
-		back="Toro Cape",waist="Acuity Belt +1",legs="Chironic Hose",feet=gear.chironic_nuke_feet}
+	sets.midcast.Impact = {
+		--main="Daybreak",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
+		--head=empty,neck="Erra Pendant",ear1="Regal Earring",ear2="Digni. Earring",
+		--body="Twilight Cloak",hands=gear.chironic_enfeeble_hands,ring1="Metamor. Ring +1",ring2="Stikini Ring",
+		--back="Toro Cape",waist="Acuity Belt +1",legs="Chironic Hose",feet=gear.chironic_nuke_feet
+		main="Daybreak",
+		sub="Thuellaic Ecu +1",
+		ammo="Hydrocera",
+		head=empty,
+		body="Twilight Cloak",
+		hands="Inyan. Dastanas +2",
+		legs=gear.chironic_enfeeble_legs,
+		feet="Theo. Duckbills +2",
+		neck="Erra Pendant",
+		waist="Porous Rope",
+		left_ear="Vor Earring",
+		right_ear="Gwati Earring",
+		left_ring="Metamor. Ring +1",
+		right_ring="Stikini Ring",
+		back=gear.fc_jse_cape,
+	}
 		
 	sets.midcast['Elemental Magic'] = {main="Daybreak",sub="Ammurapi Shield",ammo="Dosis Tathlum",
 		head="C. Palug Crown",neck="Baetyl Pendant",ear1="Regal Earring",ear2="Friomisi Earring",
