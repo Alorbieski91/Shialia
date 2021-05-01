@@ -112,7 +112,7 @@ function init_gear_sets()
 		body="Kaykaus Bliaut",hands="Telchine Gloves",ring1="Stikini Ring",ring2="Stikini Ring",
 		back="Buquwik Cape",waist="Fotia Belt",legs="Inyanga Shalwar +2",feet="Gende. Galosh. +1"}
 		
-    sets.precast.WS.Dagan = {ammo="Hasty Pinion +1",
+	sets.precast.WS.Dagan = {ammo="Hasty Pinion +1",
 		head="Befouled Crown",neck="Asperity Necklace",ear1="Etiolation Earring",ear2="Moonshade Earring",
 		body="Kaykaus Bliaut",hands="Telchine Gloves",ring1="Stikini Ring",ring2="Stikini Ring",
 		back="Buquwik Cape",waist="Fotia Belt",legs="Inyanga Shalwar +2",feet="Gende. Galosh. +1"}
@@ -420,7 +420,7 @@ function init_gear_sets()
 		
 	sets.midcast.Erase = set_combine(sets.midcast.StatusRemoval, {neck="Cleric's Torque"})
 
-    -- 110 total Enhancing Magic Skill; caps even without Light Arts
+	-- 110 total Enhancing Magic Skill; caps even without Light Arts
 	sets.midcast['Enhancing Magic'] = {
 		--main=gear.gada_enhancing_club,sub="Ammurapi Shield",ammo="Hasty Pinion +1",
 		--head="Telchine Cap",neck="Incanter's Torque",ear1="Andoaa Earring",ear2="Gifted Earring",

@@ -1,8 +1,8 @@
 function user_job_setup()
 	-- Options: Override default values
-    state.OffenseMode:options('Normal','Acc')
-    state.CastingMode:options('Normal','Resistant','AoE')
-    state.IdleMode:options('Normal','NoRefresh','DT')
+	state.OffenseMode:options('Normal','Acc')
+	state.CastingMode:options('Normal','Resistant','AoE')
+	state.IdleMode:options('Normal','NoRefresh','DT')
 	state.Weapons:options('None','Aeneas','DualWeapons','DualNaegling','DualTauret','DualNukeWeapons')
 
 	gear.kali_idle = {name="Kali",augments={'MP+60','Mag. Acc.+20','"Refresh"+1',}}
