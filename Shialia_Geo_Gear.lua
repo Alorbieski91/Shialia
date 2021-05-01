@@ -122,7 +122,7 @@ function init_gear_sets()
 		sub="Clerisy Strap",
 		--ammo="Impatiens",
 		head=empty,
-		body="Twilight Cloak"
+		body="Twilight Cloak",
 		neck="Baetyl Pendant",
 		ear1="Loquac. Earring",
 		ear2="Etiolation Earring",
