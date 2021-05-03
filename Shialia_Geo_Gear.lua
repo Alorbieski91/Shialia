@@ -589,10 +589,12 @@ function init_gear_sets()
 		--waist="Slipor Sash",
 	}
 
-	sets.idle.PDT = {main="Malignance Pole",sub="Umbra Strap",ammo="Staunch Tathlum +1",
-		head="Hagondes Hat +1",neck="Loricate Torque +1",ear1="Genmei Earring",ear2="Ethereal Earring",
-		body="Jhakri Robe +2",hands="Hagondes Cuffs +1",ring1="Defending Ring",ring2="Shadow Ring",
-		back="Shadow Mantle",waist="Flax Sash",legs="Hagondes Pants +1",feet="Mallquis Clogs +2"}
+	sets.idle.PDT = {
+		--main="Malignance Pole",sub="Umbra Strap",ammo="Staunch Tathlum +1",
+		--head="Hagondes Hat +1",neck="Loricate Torque +1",ear1="Genmei Earring",ear2="Ethereal Earring",
+		--body="Jhakri Robe +2",hands="Hagondes Cuffs +1",ring1="Defending Ring",ring2="Shadow Ring",
+		--back="Shadow Mantle",waist="Flax Sash",legs="Hagondes Pants +1",feet="Mallquis Clogs +2"
+	}
 
 	-- .Pet sets are for when Luopan is present.
 	sets.idle.Pet = {
@@ -607,7 +609,7 @@ function init_gear_sets()
 		hands="Geo. Mitaines +1",
 		legs=gear.telchine_pet_legs,
 		feet="Bagua Sandals +1",
-		neck="Bathy Choker +1",
+		neck="Twilight Torque",
 		left_ear="Handler's Earring",
 		right_ear="Handler's Earring +1",
 		ring1="Gelatinous Ring +1", --7/(-1)/0/0
@@ -628,7 +630,7 @@ function init_gear_sets()
 		hands="Geo. Mitaines +1",
 		legs=gear.telchine_pet_legs,
 		feet="Bagua Sandals +1",
-		neck="Bathy Choker +1",
+		neck="Twilight Torque",
 		--ear1="Lugalbanda Earring",
 		left_ear="Handler's Earring",
 		right_ear="Handler's Earring +1",
