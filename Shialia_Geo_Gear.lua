@@ -571,20 +571,17 @@ function init_gear_sets()
 		--back="Umbra Cape",waist="Flax Sash",legs="Assid. Pants +1",feet=gear.merlinic_refresh_feet
 		main="Bolelabunga",
 		sub="Genmei Shield",
+		range="Dunna",
 		head="Befouled Crown",
 		body="Shamash Robe",
 		hands="Bagua Mitaines +1",
 		legs="Assid. Pants +1",
-		--feet=gear.Merl_Idle_feet,
 		feet="Mallquis Clogs +2",
 		neck="Bathy Choker +1",
-		--ear1="Lugalbanda Earring",
 		left_ear="Moonshade Earring",
 		right_ear="Etiolation Earring",
 		ring1="Gelatinous Ring +1",
 		ring2="Fortified Ring",
-		--ring1={name="Stikini Ring", bag="wardrobe3"},
-		--ring2={name="Stikini Ring", bag="wardrobe4"},
 		back=gear.idle_jse_back,
 		--waist="Slipor Sash",
 	}
@@ -594,6 +591,20 @@ function init_gear_sets()
 		--head="Hagondes Hat +1",neck="Loricate Torque +1",ear1="Genmei Earring",ear2="Ethereal Earring",
 		--body="Jhakri Robe +2",hands="Hagondes Cuffs +1",ring1="Defending Ring",ring2="Shadow Ring",
 		--back="Shadow Mantle",waist="Flax Sash",legs="Hagondes Pants +1",feet="Mallquis Clogs +2"
+		main="Malignance Pole",
+		head="Befouled Crown",
+		range="Dunna",
+		body="Shamash Robe",
+		hands="Geo. Mitaines +1",
+		legs="Assid. Pants +1",
+		feet="Mallquis Clogs +2",
+		neck="Bathy Choker +1",
+		left_ear="Moonshade Earring",
+		right_ear="Etiolation Earring",
+		ring1="Gelatinous Ring +1",
+		ring2="Fortified Ring",
+		back=gear.idle_jse_back,
+		--waist="Slipor Sash",
 	}
 
 	-- .Pet sets are for when Luopan is present.
@@ -604,6 +615,7 @@ function init_gear_sets()
 		--back=gear.idle_jse_back,waist="Isa Belt",legs="Psycloth Lappas",feet="Bagua Sandals +1"
 		main="Bolelabunga",
 		sub="Genmei Shield",
+		range="Dunna",
 		head="Azimuth Hood +1",
 		body="Shamash Robe",
 		hands="Geo. Mitaines +1",
@@ -625,6 +637,7 @@ function init_gear_sets()
 		--body="Jhakri Robe +2",hands="Geo. Mitaines +3",ring1="Defending Ring",ring2="Dark Ring",
 		--back=gear.idle_jse_back,waist="Isa Belt",legs="Hagondes Pants +1",feet="Bagua Sandals +1"
 		main="Malignance Pole",
+		range="Dunna",
 		head="Azimuth Hood +1",
 		body="Shamash Robe",
 		hands="Geo. Mitaines +1",
