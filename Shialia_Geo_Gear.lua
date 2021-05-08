@@ -27,6 +27,8 @@ function user_job_setup()
 	autoentrust = 'Haste'
 	autoentrustee = 'Alltrium'
 
+	include('User/Global-GEO-Binds.lua')
+
 	-- Additional local binds
 	send_command('bind ^` gs c cycle ElementalMode')
 	send_command('bind !` input /ja "Full Circle" <me>')
@@ -760,7 +762,7 @@ end
 
 -- Select default macro book on initial load or subjob change.
 function select_default_macro_book()
-	set_macro_page(1, 3)
+	set_macro_page(1, 4)
 end
 
 function user_job_lockstyle()
@@ -806,3 +808,21 @@ function user_job_lockstyle()
 		windower.chat.input('/lockstyleset 3')
 	end
 end
+
+buff_spell_lists = {
+	Auto = {
+		{Name='Haste',		Buff='Haste',		SpellID=57,		When='Always'},
+		{Name='Refresh',	Buff='Refresh',		SpellID=109,	When='Always'},
+		{Name='Stoneskin',	Buff='Stoneskin',	SpellID=54,		When='Always'},
+	},
+
+	Default = {
+		{Name='Haste',		Buff='Haste',		SpellID=57,		Reapply=false},
+		{Name='Refresh',	Buff='Refresh',		SpellID=109,	Reapply=false},
+		{Name='Aquaveil',	Buff='Aquaveil',	SpellID=55,		Reapply=false},
+		{Name='Stoneskin',	Buff='Stoneskin',	SpellID=54,		Reapply=false},
+		{Name='Blink',		Buff='Blink',		SpellID=53,		Reapply=false},
+		{Name='Regen',		Buff='Regen',		SpellID=108,	Reapply=false},
+		{Name='Phalanx',	Buff='Phalanx',		SpellID=106,	Reapply=false},
+	},
+}
