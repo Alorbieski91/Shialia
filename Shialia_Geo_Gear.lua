@@ -346,7 +346,7 @@ function init_gear_sets()
 		--head=gear.merlinic_nuke_head,neck="Erra Pendant",ear1="Regal Earring",ear2="Malignance Earring",
 		--body=gear.merlinic_nuke_body,hands="Amalric Gages +1",ring1="Metamor. Ring +1",ring2="Stikini Ring",
 		--back=gear.nuke_jse_back,waist="Yamabuki-no-Obi",legs="Merlinic Shalwar",feet=gear.merlinic_aspir_feet
-		main="Daybreak",
+		main="Rubicundity",
 		sub="Culminus",
 		range="Dunna",
 		head="Bagua Galero",
@@ -368,7 +368,7 @@ function init_gear_sets()
 		--head="Pixie Hairpin +1",neck="Erra Pendant",ear1="Regal Earring",ear2="Malignance Earring",
 		--body=gear.merlinic_nuke_body,hands="Amalric Gages +1",ring1="Archon Ring",ring2="Evanescence Ring",
 		--back=gear.nuke_jse_back,waist="Fucho-no-obi",legs="Merlinic Shalwar",feet=gear.merlinic_aspir_feet
-		main="Daybreak",
+		main="Rubicundity",
 		sub="Culminus",
 		range="Dunna",
 		head="Bagua Galero",

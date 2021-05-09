@@ -168,7 +168,7 @@ function init_gear_sets()
 		back="Solemnity Cape",
 		waist="Austerity Belt",
 		legs="Vanya Slops",
-		--feet="Medium's Sabots"
+		feet="Medium's Sabots"
 	}
 		
 	sets.midcast.Teleport = sets.ConserveMP
@@ -453,7 +453,7 @@ function init_gear_sets()
 		--legs="Shedir Seraweels"
 	})
 	
-	sets.midcast.Auspice = set_combine(sets.midcast['Enhancing Magic'], {feet="Ebers Duckbills"})
+	sets.midcast.Auspice = set_combine(sets.midcast['Enhancing Magic'], {feet="Ebers Duckbills +1"})
 	
 	sets.midcast.Aquaveil = set_combine(sets.midcast['Enhancing Magic'], {
 		main="Vadose Rod",
@@ -463,7 +463,7 @@ function init_gear_sets()
 		--legs="Shedir Seraweels"
 	})
 	
-	sets.midcast.Regen = set_combine(sets.midcast['Enhancing Magic'], {main="Bolelabunga",head="Inyanga Tiara +2",body="Piety Briault +1",hands="Ebers Mitts",legs="Theo. Pant. +1",})
+	sets.midcast.Regen = set_combine(sets.midcast['Enhancing Magic'], {main="Bolelabunga",head="Inyanga Tiara +2",body="Piety Briault +1",hands="Ebers Mitts +1",legs="Theo. Pant. +1",})
 	
 	sets.midcast.Protect = set_combine(sets.midcast['Enhancing Magic'], {ring2="Sheltered Ring",feet="Theo. Duckbills +2",ear1="Gifted Earring",waist="Embla Sash"})
 	sets.midcast.Protectra = set_combine(sets.midcast['Enhancing Magic'], {ring2="Sheltered Ring",feet="Theo. Duckbills +2",ear1="Gifted Earring",waist="Embla Sash"})
@@ -471,9 +471,9 @@ function init_gear_sets()
 	sets.midcast.Shellra = set_combine(sets.midcast['Enhancing Magic'], {ring2="Sheltered Ring",legs="Piety Pantaln. +1",ear1="Gifted Earring",waist="Embla Sash"})
 	
 	sets.midcast.BarElement = {main="Beneficus",sub="Ammurapi Shield",ammo="Hasty Pinion +1",
-		head="Ebers Cap +1",neck="Incanter's Torque",ear1="Andoaa Earring",ear2="Gifted Earring",
-		body="Ebers Bliaud +1",hands="Ebers Mitts",ring1="Stikini Ring +1",ring2="Stikini Ring",
-		back="Alaunus's Cape",waist="Olympus Sash",legs="Piety Pantaln. +1",feet="Ebers Duckbills"}
+		head="Ebers Cap +1",neck="Incanter's Torque",ear1="Mimir Earring",ear2="Andoaa Earring",
+		body="Ebers Bliaud +1",hands="Ebers Mitts +1",ring1="Stikini Ring +1",ring2="Stikini Ring",
+		back="Alaunus's Cape",waist="Olympus Sash",legs="Piety Pantaln. +1",feet="Ebers Duckbills +1"}
 
 	sets.midcast.Impact = {
 		--main="Daybreak",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
@@ -539,7 +539,7 @@ function init_gear_sets()
 		--head="Befouled Crown",neck="Erra Pendant",ear1="Regal Earring",ear2="Digni. Earring",
 		--body="Inyanga Jubbah +2",hands=gear.chironic_enfeeble_hands,ring1="Stikini Ring",ring2="Stikini Ring",
 		--back="Aurist's Cape +1",waist="Acuity Belt +1",legs="Chironic Hose",feet=gear.chironic_nuke_feet
-		main="Daybreak",
+		main="Rubicundity",
 		sub="Thuellaic Ecu +1",
 		ammo="Hydrocera",
 		head="Befouled Crown",
@@ -561,7 +561,7 @@ function init_gear_sets()
 		--head="Pixie Hairpin +1",neck="Erra Pendant",ear1="Regal Earring",ear2="Digni. Earring",
 		--body="Inyanga Jubbah +2",hands=gear.chironic_enfeeble_hands,ring1="Evanescence Ring",ring2="Archon Ring",
 		--back="Aurist's Cape +1",waist="Fucho-no-obi",legs="Chironic Hose",feet=gear.chironic_nuke_feet
-		main="Daybreak",
+		main="Rubicundity",
 		sub="Thuellaic Ecu +1",
 		ammo="Hydrocera",
 		head="Inyanga Tiara +2",
@@ -583,7 +583,7 @@ function init_gear_sets()
 		--head="Befouled Crown",neck="Erra Pendant",ear1="Regal Earring",ear2="Digni. Earring",
 		--body="Chironic Doublet",hands=gear.chironic_enfeeble_hands,ring1="Stikini Ring",ring2="Stikini Ring",
 		--back="Aurist's Cape +1",waist="Fucho-no-obi",legs="Chironic Hose",feet=gear.chironic_nuke_feet
-		main="Daybreak",
+		main="Rubicundity",
 		sub="Thuellaic Ecu +1",
 		ammo="Hydrocera",
 		head="Inyanga Tiara +2",
@@ -815,7 +815,7 @@ function init_gear_sets()
 		back="Kayapa Cape",waist="Shetal Stone",legs="Aya. Cosciales +2",feet="Aya. Gambieras +2"}
 
 		-- Buff sets: Gear that needs to be worn to actively enhance a current player buff.
-	sets.buff['Divine Caress'] = {hands="Ebers Mitts",back="Mending Cape"}
+	sets.buff['Divine Caress'] = {hands="Ebers Mitts +1",back="Mending Cape"}
 
 	sets.HPDown = {head="Pixie Hairpin +1",ear1="Mendicant's Earring",ear2="Evans Earring",
 		body="Zendik Robe",hands="Hieros Mittens",ring1="Mephitas's Ring +1",ring2="Mephitas's Ring",
@@ -895,11 +895,12 @@ buff_spell_lists = {
 		{Name='Blink',			Buff='Blink',		SpellID=53,		Reapply=false},
 		{Name='Regen IV',		Buff='Regen',		SpellID=477,	Reapply=false},
 		{Name='Phalanx',		Buff='Phalanx',		SpellID=106,	Reapply=false},
-		{Name='Boost-MND',		Buff='MND Boost',	SpellID=484,	Reapply=false},
+		{Name='Boost-STR',		Buff='STR Boost',	SpellID=479,	Reapply=false},
 		{Name='Shellra V',		Buff='Shell',		SpellID=134,	Reapply=false},
 		{Name='Protectra V',	Buff='Protect',		SpellID=129,	Reapply=false},
 		{Name='Barthundra',		Buff='Barthunder',	SpellID=70,		Reapply=false},
-		{Name='Barparalyzra',	Buff='Barparalyze',	SpellID=88,		Reapply=false},
+		{Name='Baramnesra',		Buff='Baramnesia',	SpellID=85,		Reapply=false},
+		{Name='Auspice',		Buff='Auspice',		SpellID=96,		Reapply=false},
 	},
 	Melee = {
 		{Name='Reraise IV',		Buff='Reraise',		SpellID=848,	Reapply=false},

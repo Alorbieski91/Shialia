@@ -518,7 +518,7 @@ function init_gear_sets()
 		--head="Amalric Coif +1",neck="Erra Pendant",ear1="Regal Earring",ear2="Malignance Earring",
 		--body="Atrophy Tabard +3",hands="Leth. Gantherots +1",ring1="Metamor. Ring +1",ring2="Stikini Ring +1",
 		--back=gear.nuke_jse_back,waist="Luminary Sash",legs="Psycloth Lappas",feet=gear.merlinic_nuke_feet
-		main="Daybreak",
+		main="Rubicundity",
 		sub="Thuellaic Ecu +1",
 		ammo="Regal Gem",
 		head="Atro. Chapeau +2",
@@ -540,7 +540,7 @@ function init_gear_sets()
 		--head="Pixie Hairpin +1",neck="Erra Pendant",ear1="Regal Earring",ear2="Malignance Earring",
 		--body=gear.merlinic_nuke_body,hands=gear.chironic_enfeeble_hands,ring1="Evanescence Ring",ring2="Archon Ring",
 		--back=gear.nuke_jse_back,waist="Fucho-no-obi",legs="Chironic Hose",feet=gear.merlinic_aspir_feet
-		main="Daybreak",
+		main="Rubicundity",
 		sub="Thuellaic Ecu +1",
 		ammo="Regal Gem",
 		head="Atro. Chapeau +2",
