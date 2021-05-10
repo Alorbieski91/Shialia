@@ -210,7 +210,7 @@ function init_gear_sets()
 		--ammo="Esper Stone +1", --0/(-5)
 		ammo="Hydrocera",
 		head="Gende. Caubeen +1", --18/(-8)
-		body="Theo. Briault +1",
+		body="Theo. Briault +2",
 		hands="Theophany Mitts +2", --(+4)/(-7)
 		legs="Ebers Pant. +1",
 		-- feet="Piety Duckbills +1", --10/(-5)
@@ -333,7 +333,7 @@ function init_gear_sets()
 		--back="Alaunus's Cape",waist="Luminary Sash",legs="Ebers Pant. +1",feet="Kaykaus Boots"
 		ammo="Hydrocera",
 		head="Gende. Caubeen +1", --18/(-8)
-		body="Theo. Briault +1",
+		body="Theo. Briault +2",
 		hands="Theophany Mitts +2", --(+4)/(-7)
 		legs="Ebers Pant. +1",
 		-- feet="Piety Duckbills +1", --10/(-5)
@@ -646,7 +646,7 @@ function init_gear_sets()
 		sub="Thuellaic Ecu +1",
 		ammo="Hydrocera",
 		head="Befouled Crown",
-		body="Inyanga Jubbah +2",
+		body="Theo. Briault +2",
 		hands="Inyan. Dastanas +2",
 		legs=gear.chironic_enfeeble_legs,
 		feet="Theo. Duckbills +2",
@@ -668,7 +668,7 @@ function init_gear_sets()
 		sub="Thuellaic Ecu +1",
 		ammo="Hydrocera",
 		head="Befouled Crown",
-		body="Inyanga Jubbah +2",
+		body="Theo. Briault +2",
 		hands="Inyan. Dastanas +2",
 		legs=gear.chironic_enfeeble_legs,
 		feet="Theo. Duckbills +2",
