@@ -70,9 +70,9 @@ function init_gear_sets()
 		feet="Regal Pumps +1", --7
 		neck="Baetyl Pendant", --4
 		ear1="Loquacious Earring", --2
-		ear2="Etiolation Earring", --1
+		ear2="Malignance Earring", --1
 		ring1="Lebeche Ring",
-		ring2="Weather. Ring", --6(4)
+		--ring2="Weather. Ring", --6(4)
 		back=gear.fc_jse_cape, --10
 		waist="Embla Sash", --5
 	}
@@ -186,11 +186,11 @@ function init_gear_sets()
 		head="Nahtirah Hat",
 		neck="Baetyl Pendant",
 		ear1="Loquacious Earring",
-		ear2="Etiolation Earring",
+		ear2="Malignance Earring",
 		body="Inyanga Jubbah +2",
 		hands="Fanatic Gloves",
 		ring1="Lebeche Ring",
-		ring2="Weather. Ring",
+		--ring2="Weather. Ring",
 		waist="Witful Belt",
 		legs="Aya. Cosciales +2",
 		feet="Regal Pumps +1"
@@ -220,10 +220,10 @@ function init_gear_sets()
 		ear2="Nourish. Earring +1",
 		--ear2="Meili Earring",
 		ring1="Lebeche Ring", --3/(-5)
-		ring2={name="Haoma's Ring", bag="wardrobe2"},
+		ring2="Janniston Ring",
 		back=gear.fc_jse_cape,
 		--waist="Bishop's Sash",
-		waist="Cleric's Belt",
+		waist="Porous Rope",
 	}
 		
 	sets.midcast.CureSolace = {
@@ -246,10 +246,10 @@ function init_gear_sets()
 		ear2="Nourish. Earring +1",
 		--ear2="Meili Earring",
 		ring1="Lebeche Ring", --3/(-5)
-		ring2={name="Haoma's Ring", bag="wardrobe2"},
+		ring2="Janniston Ring",
 		back=gear.fc_jse_cape,
 		--waist="Bishop's Sash",
-		waist="Cleric's Belt",
+		waist="Porous Rope",
 	}
 
 	sets.midcast.LightWeatherCure = set_combine(sets.midcast.Cure, {
@@ -343,10 +343,10 @@ function init_gear_sets()
 		ear2="Nourish. Earring +1",
 		--ear2="Meili Earring",
 		ring1="Lebeche Ring", --3/(-5)
-		ring2={name="Haoma's Ring", bag="wardrobe2"},
+		ring2="Janniston Ring",
 		back=gear.fc_jse_cape,
 		--waist="Bishop's Sash",
-		waist="Cleric's Belt",
+		waist="Porous Rope",
 	}
 		
 	sets.midcast.MeleeCureSolace = set_combine(sets.midcast.MeleeCure, {body="Ebers Bliaud +1"})
@@ -396,7 +396,7 @@ function init_gear_sets()
 		ring2={name="Haoma's Ring", bag="wardrobe2"},
 		back=gear.fc_jse_cape,
 		--waist="Bishop's Sash",
-		waist="Cleric's Belt",
+		waist="Porous Rope",
 	}
 
 	sets.midcast.StatusRemoval = {
@@ -413,7 +413,7 @@ function init_gear_sets()
 		feet="Regal Pumps +1",
 		neck="Baetyl Pendant",
 		ear1="Loquacious Earring",
-		ear2="Etiolation Earring",
+		ear2="Malignance Earring",
 		ring1="Ephedra Ring",
 		ring2={name="Haoma's Ring", bag="wardrobe2"},
 		back=gear.fc_jse_cape,
@@ -491,7 +491,7 @@ function init_gear_sets()
 		neck="Erra Pendant",
 		waist="Porous Rope",
 		left_ear="Vor Earring",
-		right_ear="Gwati Earring",
+		right_ear="Malignance Earring",
 		left_ring="Metamor. Ring +1",
 		right_ring="Stikini Ring",
 		back=gear.fc_jse_cape,
@@ -523,7 +523,7 @@ function init_gear_sets()
 		neck="Erra Pendant",
 		waist="Porous Rope",
 		left_ear="Vor Earring",
-		right_ear="Gwati Earring",
+		right_ear="Malignance Earring",
 		left_ring="Metamor. Ring +1",
 		right_ring="Stikini Ring",
 		back=gear.fc_jse_cape,
@@ -550,7 +550,7 @@ function init_gear_sets()
 		neck="Erra Pendant",
 		waist="Porous Rope",
 		left_ear="Vor Earring",
-		right_ear="Gwati Earring",
+		right_ear="Malignance Earring",
 		left_ring="Metamor. Ring +1",
 		right_ring="Stikini Ring",
 		back=gear.fc_jse_cape,
@@ -572,7 +572,7 @@ function init_gear_sets()
 		neck="Erra Pendant",
 		waist="Fucho-no-Obi",
 		left_ear="Vor Earring",
-		right_ear="Gwati Earring",
+		right_ear="Malignance Earring",
 		left_ring="Evanescence Ring",
 		right_ring="Archon Ring",
 		back=gear.fc_jse_cape,
@@ -594,7 +594,7 @@ function init_gear_sets()
 		neck="Erra Pendant",
 		waist="Fucho-no-Obi",
 		left_ear="Vor Earring",
-		right_ear="Gwati Earring",
+		right_ear="Malignance Earring",
 		left_ring="Evanescence Ring",
 		right_ring="Archon Ring",
 		back=gear.fc_jse_cape,
@@ -629,7 +629,7 @@ function init_gear_sets()
 		neck="Erra Pendant",
 		waist="Porous Rope",
 		left_ear="Vor Earring",
-		right_ear="Gwati Earring",
+		right_ear="Malignance Earring",
 		left_ring="Metamor. Ring +1",
 		right_ring="Stikini Ring",
 		back=gear.fc_jse_cape,
@@ -653,7 +653,7 @@ function init_gear_sets()
 		neck="Erra Pendant",
 		waist="Porous Rope",
 		left_ear="Vor Earring",
-		right_ear="Gwati Earring",
+		right_ear="Malignance Earring",
 		left_ring="Metamor. Ring +1",
 		right_ring="Stikini Ring",
 		back=gear.fc_jse_cape,
@@ -675,7 +675,7 @@ function init_gear_sets()
 		neck="Erra Pendant",
 		waist="Porous Rope",
 		left_ear="Vor Earring",
-		right_ear="Gwati Earring",
+		right_ear="Malignance Earring",
 		left_ring="Metamor. Ring +1",
 		right_ring="Stikini Ring",
 		back=gear.fc_jse_cape,

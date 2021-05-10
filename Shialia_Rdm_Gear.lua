@@ -87,9 +87,9 @@ function init_gear_sets()
 		neck="Baetyl Pendant",
 		waist="Witful Belt",
 		left_ear="Loquac. Earring",
-		right_ear="Etiolation Earring",
+		right_ear="Malignance Earring",
 		left_ring="Lebeche Ring",
-		right_ring="Weather. Ring",
+		--right_ring="Weather. Ring",
 		back=gear.enfeeble_jse_back,
 	}
 		
@@ -192,9 +192,9 @@ function init_gear_sets()
 		neck="Baetyl Pendant",
 		waist="Witful Belt",
 		left_ear="Loquac. Earring",
-		right_ear="Etiolation Earring",
+		right_ear="Malignance Earring",
 		left_ring="Lebeche Ring",
-		right_ring="Weather. Ring",
+		--right_ring="Weather. Ring",
 		back=gear.enfeeble_jse_back,
 	}
 
@@ -216,7 +216,7 @@ function init_gear_sets()
 		left_ear="Loquac. Earring",
 		right_ear="Mendi. Earring",
 		left_ring="Lebeche Ring",
-		right_ring="Haoma's Ring",
+		right_ring="Janniston Ring",
 		back=gear.enfeeble_jse_back,
 	}
 		
@@ -238,8 +238,8 @@ function init_gear_sets()
 		left_ear="Loquac. Earring",
 		right_ear="Mendi. Earring",
 		left_ring="Lebeche Ring",
-		right_ring="Haoma's Ring",
-		back=gear.enfeeble_jse_back,
+		right_ring="Janniston Ring",
+		back="Twilight Cape",
 	}
 		
 		--Cureset for if it's not light weather but is light day.
@@ -261,7 +261,7 @@ function init_gear_sets()
 		left_ear="Loquac. Earring",
 		right_ear="Mendi. Earring",
 		left_ring="Lebeche Ring",
-		right_ring="Haoma's Ring",
+		right_ring="Janniston Ring",
 		back="Twilight Cloak",
 	}
 		
@@ -269,8 +269,8 @@ function init_gear_sets()
 		neck="Malison Medallion",
 		--hands="Hieros Mittens",
 		--back="Oretan. Cape +1",
-		ring1="Haoma's Ring",
-		--ring2="Menelaus's Ring",
+		ring1="Ephedra Ring",
+		ring2="Haoma's Ring",
 		waist="Witful Belt",
 		feet="Vanya Clogs"
 	})
@@ -314,7 +314,7 @@ function init_gear_sets()
 		left_ear="Mimir Earring",
 		right_ear="Andoaa Earring",
 		left_ring="Lebeche Ring",
-		right_ring="Haoma's Ring",
+		right_ring="Stikini Ring",
 		back=gear.enfeeble_jse_back,
 	}
 
@@ -377,7 +377,7 @@ function init_gear_sets()
 		neck="Duelist's Torque",
 		waist="Porous Rope",
 		left_ear="Snotra Earring",
-		right_ear="Vor Earring",
+		right_ear="Malignance Earring",
 		left_ring="Metamor. Ring +1",
 		right_ring="Stikini Ring",
 		back=gear.enfeeble_jse_back,
@@ -399,7 +399,7 @@ function init_gear_sets()
 		neck="Duelist's Torque",
 		waist="Porous Rope",
 		left_ear="Snotra Earring",
-		right_ear="Vor Earring",
+		right_ear="Malignance Earring",
 		left_ring="Metamor. Ring +1",
 		right_ring="Stikini Ring",
 		back=gear.enfeeble_jse_back,
@@ -462,7 +462,7 @@ function init_gear_sets()
 		neck="Baetyl Pendant",
 		waist="Refoccilation Stone",
 		left_ear="Friomisi Earring",
-		right_ear="Hecate's Earring",
+		right_ear="Malignance Earring",
 		left_ring="Metamor. Ring +1",
 		right_ring="Tamas Ring",
 		back=gear.enfeeble_jse_back,
@@ -507,7 +507,7 @@ function init_gear_sets()
 		neck="Duelist's Torque",
 		waist="Porous Rope",
 		left_ear="Snotra Earring",
-		right_ear="Vor Earring",
+		right_ear="Malignance Earring",
 		left_ring="Metamor. Ring +1",
 		right_ring="Stikini Ring",
 		back=gear.enfeeble_jse_back,
@@ -528,8 +528,8 @@ function init_gear_sets()
 		feet=gear.merlinic_nuke_feet,
 		neck="Erra Pendant",
 		waist="Fucho-no-Obi",
-		left_ear="Moonshade Earring",
-		right_ear="Gwati Earring",
+		left_ear="Gwati Earring",
+		right_ear="Malignance Earring",
 		left_ring="Evanescence Ring",
 		right_ring="Archon Ring",
 		back=gear.enfeeble_jse_back,
@@ -550,8 +550,8 @@ function init_gear_sets()
 		feet=gear.merlinic_nuke_feet,
 		neck="Erra Pendant",
 		waist="Fucho-no-Obi",
-		left_ear="Moonshade Earring",
-		right_ear="Gwati Earring",
+		left_ear="Gwati Earring",
+		right_ear="Malignance Earring",
 		left_ring="Evanescence Ring",
 		right_ring="Archon Ring",
 		back=gear.enfeeble_jse_back,
@@ -700,7 +700,7 @@ function init_gear_sets()
 		--body="Ayanmo Corazza +2",hands="Malignance Gloves",ring1="Petrov Ring",ring2="Ilabrat Ring",
 		--back=gear.stp_jse_back,waist="Windbuffet Belt +1",legs="Malignance Tights",feet="Carmine Greaves +1"
 		ammo="Homiliary",
-		head="Aya. Zucchetto +1",
+		head="Malignance Chapeau",
 		body="Ayanmo Corazza +2",
 		hands="Aya. Manopolas +1",
 		legs="Carmine Cuisses +1",
@@ -719,7 +719,7 @@ function init_gear_sets()
 		--body="Ayanmo Corazza +2",hands="Aya. Manopolas +2",ring1="Metamor. Ring +1",ring2="Ramuh Ring +1",
 		--back="Ghostfyre Cape",waist="Windbuffet Belt +1",legs="Carmine Cuisses +1",feet="Malignance Boots"
 		ammo="Homiliary",
-		head="Aya. Zucchetto +1",
+		head="Malignance Chapeau",
 		body="Ayanmo Corazza +2",
 		hands="Aya. Manopolas +1",
 		legs="Carmine Cuisses +1",
@@ -764,7 +764,7 @@ function init_gear_sets()
 		--body="Malignance Tabard",hands="Malignance Gloves",ring1="Petrov Ring",ring2="Ilabrat Ring",
 		--back=gear.stp_jse_back,waist="Windbuffet Belt +1",legs="Carmine Cuisses +1",feet="Malignance Boots"
 		ammo="Homiliary",
-		head="Aya. Zucchetto +1",
+		head="Malignance Chapeau",
 		body="Ayanmo Corazza +2",
 		hands="Aya. Manopolas +1",
 		legs="Carmine Cuisses +1",

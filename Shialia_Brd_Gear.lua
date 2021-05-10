@@ -65,7 +65,7 @@ function init_gear_sets()
 		left_ear="Loquac. Earring",
 		right_ear="Etiolation Earring",
 		left_ring="Lebeche Ring",
-		right_ring="Weather. Ring",
+		--right_ring="Weather. Ring",
 		back="Intarabus's Cape",
 	}
 
@@ -92,7 +92,7 @@ function init_gear_sets()
 		left_ear="Loquac. Earring",
 		right_ear="Etiolation Earring",
 		left_ring="Lebeche Ring",
-		right_ring="Weather. Ring",
+		--right_ring="Weather. Ring",
 		back="Intarabus's Cape",
 	}
 
@@ -158,7 +158,7 @@ function init_gear_sets()
 		left_ear="Loquac. Earring",
 		right_ear="Etiolation Earring",
 		left_ring="Lebeche Ring",
-		right_ring="Weather. Ring",
+		--right_ring="Weather. Ring",
 		back="Intarabus's Cape",
 	}
 
