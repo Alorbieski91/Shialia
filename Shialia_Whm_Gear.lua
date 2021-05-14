@@ -384,6 +384,8 @@ function init_gear_sets()
 		--back="Alaunus's Cape",waist="Witful Belt",legs="Th. Pant. +3",feet="Vanya Clogs"
 		--main="Yagrush",
 		--sub="Chanter's Shield",
+		main=gear.gada_enhancing_club,
+		sub="Thuellaic Ecu +1",
 		head="Ebers Cap +1",
 		body="Ebers Bliaud +1",
 		hands="Fanatic Gloves", --15
@@ -908,6 +910,19 @@ buff_spell_lists = {
 		{Name='Boost-STR',		Buff='STR Boost',	SpellID=479,	Reapply=false},
 		{Name='Shellra V',		Buff='Shell',		SpellID=134,	Reapply=false},
 		{Name='Protectra V',	Buff='Protect',		SpellID=129,	Reapply=false},
+		{Name='Auspice',		Buff='Auspice',		SpellID=96,		Reapply=false},
+	},
+	Lilith = {
+		{Name='Reraise IV',		Buff='Reraise',		SpellID=848,	Reapply=false},
+		{Name='Haste',			Buff='Haste',		SpellID=57,		Reapply=false},
+		{Name='Aquaveil',		Buff='Aquaveil',	SpellID=55,		Reapply=false},
+		{Name='Stoneskin',		Buff='Stoneskin',	SpellID=54,		Reapply=false},
+		{Name='Regen IV',		Buff='Regen',		SpellID=477,	Reapply=false},
+		{Name='Boost-STR',		Buff='STR Boost',	SpellID=479,	Reapply=false},
+		{Name='Shellra V',		Buff='Shell',		SpellID=134,	Reapply=true},
+		{Name='Protectra V',	Buff='Protect',		SpellID=129,	Reapply=true},
+		{Name='Barfira',		Buff='Barfire',		SpellID=66,		Reapply=true},
+		{Name='Baramnesra',		Buff='Baramnesia',	SpellID=85,		Reapply=true},
 		{Name='Auspice',		Buff='Auspice',		SpellID=96,		Reapply=false},
 	},
 }
