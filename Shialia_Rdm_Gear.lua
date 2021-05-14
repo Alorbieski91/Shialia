@@ -908,7 +908,6 @@ end
 buff_spell_lists = {
 	Auto = {--Options for When are: Always, Engaged, Idle, OutOfCombat, Combat
 		{Name='Refresh III',	Buff='Refresh',		SpellID=894,	When='Always'},
-		{Name='Refresh II',		Buff='Refresh',		SpellID=473,	When='Always'},
 		{Name='Haste II',		Buff='Haste',		SpellID=511,	When='Always'},
 		{Name='Aurorastorm',	Buff='Aurorastorm',	SpellID=119,	When='Always'},
 		{Name='Reraise',		Buff='Reraise',		SpellID=135,	When='Always'},
@@ -921,7 +920,6 @@ buff_spell_lists = {
 	
 	Default = {
 		{Name='Refresh III',	Buff='Refresh',		SpellID=894,	Reapply=false},
-		{Name='Refresh II',		Buff='Refresh',		SpellID=473,	Reapply=false},
 		{Name='Haste II',		Buff='Haste',		SpellID=511,	Reapply=false},
 		{Name='Stoneskin',		Buff='Stoneskin',	SpellID=54,		Reapply=false},
 		{Name='Shell V',		Buff='Shell',		SpellID=52,		Reapply=false},
@@ -930,7 +928,6 @@ buff_spell_lists = {
 
 	MageBuff = {
 		{Name='Refresh III',	Buff='Refresh',			SpellID=894,	Reapply=false},
-		{Name='Refresh II',		Buff='Refresh',			SpellID=473,	Reapply=false},
 		{Name='Haste II',		Buff='Haste',			SpellID=511,	Reapply=false},
 		{Name='Aquaveil',		Buff='Aquaveil',		SpellID=55,		Reapply=false},
 		{Name='Phalanx II',		Buff='Phalanx',			SpellID=107,	Reapply=false},
@@ -943,7 +940,6 @@ buff_spell_lists = {
 	
 	FullMeleeBuff = {
 		{Name='Refresh III',	Buff='Refresh',			SpellID=894,	Reapply=false},
-		{Name='Refresh II',		Buff='Refresh',			SpellID=473,	Reapply=false},
 		{Name='Haste II',		Buff='Haste',			SpellID=511,	Reapply=false},
 		{Name='Regen II',		Buff='Regen',			SpellID=110,	Reapply=false},
 		{Name='Aquaveil',		Buff='Aquaveil',		SpellID=55,		Reapply=false},
@@ -962,7 +958,6 @@ buff_spell_lists = {
 	
 	MeleeBuff = {
 		{Name='Refresh III',	Buff='Refresh',			SpellID=894,	Reapply=false},
-		{Name='Refresh II',		Buff='Refresh',			SpellID=473,	Reapply=false},
 		{Name='Haste II',		Buff='Haste',			SpellID=511,	Reapply=false},
 		{Name='Temper II',		Buff='Multi Strikes',	SpellID=895,	Reapply=false},
 		{Name='Gain-STR',		Buff='STR Boost',		SpellID=486,	Reapply=false},
@@ -977,7 +972,6 @@ buff_spell_lists = {
 
 	Odin = {
 		{Name='Refresh III',	Buff='Refresh',			SpellID=894,	Reapply=false},
-		{Name='Refresh II',		Buff='Refresh',			SpellID=473,	Reapply=false},
 		{Name='Haste II',		Buff='Haste',			SpellID=511,	Reapply=false},
 		{Name='Phalanx II',		Buff='Phalanx',			SpellID=107,	Reapply=false},
 		{Name='Gain-INT',		Buff='INT Boost',		SpellID=490,	Reapply=false},
@@ -992,7 +986,6 @@ buff_spell_lists = {
 	
 	HybridCleave = {
 		{Name='Refresh III',	Buff='Refresh',			SpellID=894,	Reapply=false},
-		{Name='Refresh II',		Buff='Refresh',			SpellID=473,	Reapply=false},
 		{Name='Haste II',		Buff='Haste',			SpellID=511,	Reapply=false},
 		{Name='Phalanx II',		Buff='Phalanx',			SpellID=107,	Reapply=false},
 		{Name='Gain-INT',		Buff='INT Boost',		SpellID=490,	Reapply=false},
