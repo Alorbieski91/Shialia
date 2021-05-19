@@ -333,6 +333,7 @@ function init_gear_sets()
 		main="Pukulatmuj +1",
 		head="Befouled Crown",
 		neck="Incanter's Torque",
+		body="Viti. Tabard +1",
 		ear1="Mimir Earring",
 		hands="Viti. Gloves +1",
 		back="Ghostfyre Cape",
@@ -405,10 +406,7 @@ function init_gear_sets()
 		back=gear.enfeeble_jse_back,
 	}
 		
-	sets.midcast.DurationOnlyEnfeebling = set_combine(sets.midcast['Enfeebling Magic'], {
-		body="Atrophy Tabard +2",
-		range="Kaja Bow"
-	})
+	sets.midcast.DurationOnlyEnfeebling = set_combine(sets.midcast['Enfeebling Magic'], {body="Atrophy Tabard +2",range="Kaja Bow"})
 		
 	sets.midcast.Silence = sets.midcast.DurationOnlyEnfeebling
 	sets.midcast.Silence.Resistant = sets.midcast['Enfeebling Magic'].Resistant
@@ -606,7 +604,7 @@ function init_gear_sets()
 		body="Shamash Robe",
 		hands="Aya. Manopolas +1",
 		legs="Malignance Tights",
-		feet="Aya. Gambieras +1",
+		feet="Malignance Boots",
 		neck="Bathy Choker +1",
 		waist="Fucho-no-Obi",
 		left_ear="Moonshade Earring",
@@ -703,8 +701,8 @@ function init_gear_sets()
 		head="Malignance Chapeau",
 		body="Ayanmo Corazza +2",
 		hands="Aya. Manopolas +1",
-		legs="Carmine Cuisses +1",
-		feet="Aya. Gambieras +1",
+		legs="Malignance Tights",
+		feet="Malignance Boots",
 		neck="Anu Torque",
 		waist="Kentarch Belt +1",
 		left_ear="Suppanomimi",
@@ -723,7 +721,7 @@ function init_gear_sets()
 		body="Ayanmo Corazza +2",
 		hands="Aya. Manopolas +1",
 		legs="Carmine Cuisses +1",
-		feet="Aya. Gambieras +1",
+		feet="Malignance Boots",
 		neck="Sanctity Necklace",
 		waist="Kentarch Belt +1",
 		left_ear="Suppanomimi",
@@ -768,7 +766,7 @@ function init_gear_sets()
 		body="Ayanmo Corazza +2",
 		hands="Aya. Manopolas +1",
 		legs="Carmine Cuisses +1",
-		feet="Aya. Gambieras +1",
+		feet="Malignance Boots",
 		neck="Anu Torque",
 		waist="Kentarch Belt +1",
 		left_ear="Suppanomimi",
