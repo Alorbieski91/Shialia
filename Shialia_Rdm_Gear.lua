@@ -298,7 +298,7 @@ function init_gear_sets()
 
 	sets.midcast['Enhancing Magic'] = {
 		--main="Colada",sub="Ammurapi Shield",range=empty,ammo="Hasty Pinion +1",
-		--head="Telchine Cap",neck="Dls. Torque +2",ear1="Andoaa Earring",ear2="Gifted Earring",
+		--head="Telchine Cap",neck="Dls. Torque +1",ear1="Andoaa Earring",ear2="Gifted Earring",
 		--body="Viti. Tabard +3",hands="Atrophy Gloves +3",ring1="Stikini Ring +1",ring2="Stikini Ring +1",
 		--back=gear.nuke_jse_back,waist="Embla Sash",legs="Telchine Braconi",feet="Leth. Houseaux +1"
 		main="Daybreak",
@@ -364,7 +364,7 @@ function init_gear_sets()
 	
 	sets.midcast['Enfeebling Magic'] = {
 		--main="Daybreak",sub="Ammurapi Shield",range=empty,ammo="Regal Gem",
-		--head="Viti. Chapeau +3",neck="Dls. Torque +2",ear1="Regal Earring",ear2="Snotra Earring",
+		--head="Viti. Chapeau +3",neck="Dls. Torque +1",ear1="Regal Earring",ear2="Snotra Earring",
 		--body="Lethargy Sayon +1",hands="Regal Cuffs",ring1="Kishar Ring",ring2="Stikini Ring +1",
 		--back=gear.nuke_jse_back,waist="Luminary Sash",legs="Chironic Hose",feet="Vitiation Boots +3"
 		main="Daybreak",
@@ -375,7 +375,7 @@ function init_gear_sets()
 		hands="Kaykaus Cuffs",
 		legs=gear.chironic_enfeeble_legs,
 		feet="Jhakri Pigaches +1",
-		neck="Duelist's Torque",
+		neck="Dls. Torque +1",
 		waist="Porous Rope",
 		left_ear="Snotra Earring",
 		right_ear="Malignance Earring",
@@ -386,7 +386,7 @@ function init_gear_sets()
 		
 	sets.midcast['Enfeebling Magic'].Resistant = {
 		--main="Daybreak",sub="Ammurapi Shield",range="Kaja Bow",ammo=empty,
-		--head="Viti. Chapeau +3",neck="Dls. Torque +2",ear1="Regal Earring",ear2="Snotra Earring",
+		--head="Viti. Chapeau +3",neck="Dls. Torque +1",ear1="Regal Earring",ear2="Snotra Earring",
 		--body="Atrophy Tabard +3",hands=gear.chironic_enfeeble_hands,ring1="Metamor. Ring +1",ring2="Stikini Ring +1",
 		--back=gear.nuke_jse_back,waist="Luminary Sash",legs="Chironic Hose",feet="Vitiation Boots +3"
 		main="Daybreak",
@@ -397,7 +397,7 @@ function init_gear_sets()
 		hands="Kaykaus Cuffs",
 		legs=gear.chironic_enfeeble_legs,
 		feet="Jhakri Pigaches +1",
-		neck="Duelist's Torque",
+		neck="Dls. Torque +1",
 		waist="Porous Rope",
 		left_ear="Snotra Earring",
 		right_ear="Malignance Earring",
@@ -467,7 +467,7 @@ function init_gear_sets()
 	}
 		
 	sets.midcast['Elemental Magic'].Resistant = {main="Daybreak",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
-		head=gear.merlinic_nuke_head,neck="Dls. Torque +2",ear1="Regal Earring",ear2="Friomisi Earring",
+		head=gear.merlinic_nuke_head,neck="Dls. Torque +1",ear1="Regal Earring",ear2="Friomisi Earring",
 		body=gear.merlinic_nuke_body,hands="Amalric Gages +1",ring1="Metamor. Ring +1",ring2="Freke Ring",
 		back=gear.nuke_jse_back,waist="Yamabuki-no-Obi",legs="Merlinic Shalwar",feet=gear.merlinic_nuke_feet}
 		
@@ -502,7 +502,7 @@ function init_gear_sets()
 		hands="Leth. Gantherots +1",
 		legs=gear.chironic_enfeeble_legs,
 		feet="Jhakri Pigaches +1",
-		neck="Duelist's Torque",
+		neck="Dls. Torque +1",
 		waist="Porous Rope",
 		left_ear="Snotra Earring",
 		right_ear="Malignance Earring",
@@ -558,12 +558,12 @@ function init_gear_sets()
 	sets.midcast.Aspir = sets.midcast.Drain
 		
 	sets.midcast.Stun = {main="Daybreak",sub="Ammurapi Shield",range="Kaja Bow",ammo=empty,
-		head="Atrophy Chapeau +3",neck="Dls. Torque +2",ear1="Regal Earring",ear2="Malignance Earring",
+		head="Atrophy Chapeau +3",neck="Dls. Torque +1",ear1="Regal Earring",ear2="Malignance Earring",
 		body="Zendik Robe",hands="Volte Gloves",ring1="Metamor. Ring +1",ring2="Stikini Ring +1",
 		back=gear.nuke_jse_back,waist="Sailfi Belt +1",legs="Chironic Hose",feet=gear.merlinic_aspir_feet}
 		
 	sets.midcast.Stun.Resistant = {main="Daybreak",sub="Ammurapi Shield",range="Kaja Bow",ammo=empty,
-		head="Atrophy Chapeau +3",neck="Dls. Torque +2",ear1="Regal Earring",ear2="Malignance Earring",
+		head="Atrophy Chapeau +3",neck="Dls. Torque +1",ear1="Regal Earring",ear2="Malignance Earring",
 		body="Atrophy Tabard +3",hands="Volte Gloves",ring1="Metamor. Ring +1",ring2="Stikini Ring +1",
 		back=gear.nuke_jse_back,waist="Acuity Belt +1",legs="Chironic Hose",feet=gear.merlinic_aspir_feet}
 
@@ -713,7 +713,7 @@ function init_gear_sets()
 	}
 		
 	sets.engaged.EnspellOnly = {
-		--head="Malignance Chapeau",neck="Dls. Torque +2",ear1="Suppanomimi",ear2="Digni. Earring",
+		--head="Malignance Chapeau",neck="Dls. Torque +1",ear1="Suppanomimi",ear2="Digni. Earring",
 		--body="Ayanmo Corazza +2",hands="Aya. Manopolas +2",ring1="Metamor. Ring +1",ring2="Ramuh Ring +1",
 		--back="Ghostfyre Cape",waist="Windbuffet Belt +1",legs="Carmine Cuisses +1",feet="Malignance Boots"
 		ammo="Homiliary",
