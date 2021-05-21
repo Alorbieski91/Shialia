@@ -133,7 +133,7 @@ function init_gear_sets()
 	sets.latent_refresh_grip = {sub="Oneiros Grip"}
 	sets.TPEat = {neck="Chrys. Torque"}
 	sets.DayIdle = {}
-	sets.NightIdle = {back="Umbra Cape"}
+	sets.NightIdle = {}
 	sets.TreasureHunter = set_combine(sets.TreasureHunter, {hands=gear.chironic_treasure_hands,feet=gear.chironic_treasure_feet})
 	
 	--Situational sets: Gear that is equipped on certain targets
