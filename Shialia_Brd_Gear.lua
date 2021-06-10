@@ -47,54 +47,20 @@ function init_gear_sets()
 	-- Precast Sets
 
 	-- Fast cast sets for spells
-	sets.precast.FC = {
-		--main=gear.grioavolr_fc_staff,sub="Clerisy Strap",ammo="Impatiens",
-		--head="Nahtirah Hat",neck="Voltsurge Torque",ear1="Enchntr. Earring +1",ear2="Loquac. Earring",
-		--body="Inyanga Jubbah +2",hands="Leyline Gloves",ring1="Kishar Ring",ring2="Lebeche Ring",
-		--back="Intarabus's Cape",waist="Witful Belt",legs="Aya. Cosciales +2",feet="Gende. Galosh. +1"
-		gear.kali_idle,
-		sub="Genmei Shield",
-		range="Linos",
-		head="Nahtirah Hat",
-		body="Inyanga Jubbah +2",
-		hands="Leyline Gloves",
-		legs="Aya. Cosciales +2",
-		feet="Telchine Pigaches",
-		neck="Baetyl Pendant",
-		waist="Witful Belt",
-		left_ear="Loquac. Earring",
-		right_ear="Etiolation Earring",
-		left_ring="Lebeche Ring",
-		--right_ring="Weather. Ring",
-		back="Intarabus's Cape",
-	}
+	sets.precast.FC = {main=gear.kali_idle,sub="Genmei Shield",range="Linos",
+		head="Nahtirah Hat",neck="Baetyl Pendant",ear1="Loquac. Earring",ear2="Etiolation Earring",
+		body="Inyanga Jubbah +2",hands="Leyline Gloves",ring1="Lebeche Ring",
+		back="Intarabus's Cape",waist="Witful Belt",legs="Aya. Cosciales +2",feet="Telchine Pigaches"}
 
 	sets.precast.FC.Cure = set_combine(sets.precast.FC, {feet="Vanya Clogs"})
 
 	sets.precast.FC['Enhancing Magic'] = set_combine(sets.precast.FC, {waist="Siegel Sash"})
 	sets.precast.FC.Dispelga = set_combine(sets.precast.FC, {main="Daybreak",sub="Genmei Shield"})
 	
-	sets.precast.FC.BardSong = {
-		--main=gear.grioavolr_fc_staff,sub="Clerisy Strap",range="Linos",ammo=empty,
-		--head="Nahtirah Hat",neck="Voltsurge Torque",ear1="Enchntr. Earring +1",ear2="Loquac. Earring",
-		--body="Inyanga Jubbah +2",hands="Leyline Gloves",ring1="Kishar Ring",ring2="Lebeche Ring",
-		--back="Intarabus's Cape",waist="Witful Belt",legs="Aya. Cosciales +2",feet="Telchine Pigaches"
-		gear.kali_idle,
-		sub="Genmei Shield",
-		range="Linos",
-		head="Nahtirah Hat",
-		body="Inyanga Jubbah +2",
-		hands="Leyline Gloves",
-		legs="Aya. Cosciales +2",
-		feet="Telchine Pigaches",
-		neck="Baetyl Pendant",
-		waist="Witful Belt",
-		left_ear="Loquac. Earring",
-		right_ear="Etiolation Earring",
-		left_ring="Lebeche Ring",
-		--right_ring="Weather. Ring",
-		back="Intarabus's Cape",
-	}
+	sets.precast.FC.BardSong = {main=gear.kali_idle,sub="Genmei Shield",range="Linos",
+		head="Nahtirah Hat",neck="Baetyl Pendant",ear1="Loquac. Earring",ear2="Etiolation Earring",
+		body="Inyanga Jubbah +2",hands="Leyline Gloves",ring1="Lebeche Ring",
+		back="Intarabus's Cape",waist="Witful Belt",legs="Aya. Cosciales +2",feet="Telchine Pigaches"}
 
 	sets.precast.FC.SongDebuff = set_combine(sets.precast.FC.BardSong,{range="Marsyas"})
 	sets.precast.FC.SongDebuff.Resistant = set_combine(sets.precast.FC.BardSong,{range="Linos"})
@@ -116,9 +82,9 @@ function init_gear_sets()
 	
 	-- Precast sets to enhance JAs
 	
-	sets.precast.JA.Nightingale = {feet="Bihu Slippers +1"}
-	sets.precast.JA.Troubadour = {body="Bihu Jstcorps +1"}
-	sets.precast.JA['Soul Voice'] = {legs="Bihu Cannions +1"}
+	sets.precast.JA.Nightingale = {feet="Bihu Slippers"}
+	sets.precast.JA.Troubadour = {body="Bihu Jstcorps"}
+	sets.precast.JA['Soul Voice'] = {legs="Bihu Cannions"}
 
 	-- Waltz set (chr and vit)
 	sets.precast.Waltz = {}
@@ -141,26 +107,10 @@ function init_gear_sets()
 
 	-- General set for recast times.
 	sets.midcast.FastRecast = {
-		--main=gear.grioavolr_fc_staff,sub="Clerisy Strap",ammo="Hasty Pinion +1",
-		--head="Nahtirah Hat",neck="Voltsurge Torque",ear1="Enchntr. Earring +1",ear2="Loquac. Earring",
-		--body="Inyanga Jubbah +2",hands="Leyline Gloves",ring1="Kishar Ring",ring2="Lebeche Ring",
-		--back="Intarabus's Cape",waist="Witful Belt",legs="Aya. Cosciales +2",feet="Gende. Galosh. +1"
-		gear.kali_idle,
-		sub="Genmei Shield",
-		range="Linos",
-		head="Nahtirah Hat",
-		body="Inyanga Jubbah +2",
-		hands="Leyline Gloves",
-		legs="Aya. Cosciales +2",
-		feet="Telchine Pigaches",
-		neck="Baetyl Pendant",
-		waist="Witful Belt",
-		left_ear="Loquac. Earring",
-		right_ear="Etiolation Earring",
-		left_ring="Lebeche Ring",
-		--right_ring="Weather. Ring",
-		back="Intarabus's Cape",
-	}
+		main=gear.kali_idle,sub="Genmei Shield",range="Linos",
+		head="Nahtirah Hat",neck="Baetyl Pendant",ear1="Loquac. Earring",ear2="Etiolation Earring",
+		body="Inyanga Jubbah +2",hands="Leyline Gloves",ring1="Lebeche Ring",
+		back="Intarabus's Cape",waist="Witful Belt",legs="Aya. Cosciales +2",feet="Telchine Pigaches"}
 
 	-- Gear to enhance certain classes of songs
 	sets.midcast.Ballad = {legs="Fili Rhingrave +1"}
@@ -186,99 +136,35 @@ function init_gear_sets()
 
 	-- For song buffs (duration and AF3 set bonus)
 	sets.midcast.SongEffect = {
-		--main="Kali",sub="Genmei Shield",range="Linos",ammo=empty,
-		--head="Fili Calot +1",neck="Mnbw. Whistle +1",ear1="Enchntr. Earring +1",ear2="Loquac. Earring",
-		--body="Fili Hongreline +1",hands="Inyan. Dastanas +2",ring1="Stikini Ring +1",ring2="Stikini Ring +1",
-		--back="Intarabus's Cape",waist="Kobo Obi",legs="Inyanga Shalwar +2",feet="Brioso Slippers +1"
-		main=gear.kali_macc,
-		sub="Genmei Shield",
-		range="Linos",
-		head="Fili Calot +1",
-		body="Fili Hongreline +1",
-		hands="Inyan. Dastanas +2",
-		legs="Inyanga Shalwar +2",
-		feet="Brioso Slippers +1",
-		neck="Moonbow Whistle",
-		waist="Porous Rope",
-		left_ear="Gwati Earring",
-		right_ear="Bragi Earring",
-		left_ring="Metamor. Ring +1",
-		right_ring="Stikini Ring",
-		back="Intarabus's Cape",
-	}
+		main=gear.kali_macc,sub="Genmei Shield",range="Linos",
+		head="Fili Calot +1",neck="Moonbow Whistle",ear1="Gwati Earring",ear2="Bragi Earring",
+		body="Fili Hongreline +1",hands="Inyan. Dastanas +2",ring1="Metamor. Ring +1",ring2="Stikini Ring",
+		back="Intarabus's Cape",waist="Porous Rope",legs="Inyanga Shalwar +2",feet="Brioso Slippers +1"}
 		
 	sets.midcast.SongEffect.DW = {main="Kali",sub="Kali"}
 
 	-- For song defbuffs (duration primary, accuracy secondary)
 	sets.midcast.SongDebuff = {
-		--main="Kali",sub="Ammurapi Shield",range="Marsyas",ammo=empty,
-		--head="Inyanga Tiara +2",neck="Mnbw. Whistle +1",ear1="Regal Earring",ear2="Digni. Earring",
-		--body="Fili Hongreline +1",hands="Inyan. Dastanas +2",ring1="Stikini Ring +1",ring2="Stikini Ring +1",
-		--back="Intarabus's Cape",waist="Acuity Belt +1",legs="Inyanga Shalwar +2",feet="Brioso Slippers +1"
-		main=gear.kali_macc,
-		sub="Genmei Shield",
-		range="Linos",
-		head="Inyanga Tiara +2",
-		body="Fili Hongreline +1",
-		hands="Inyan. Dastanas +2",
-		legs="Inyanga Shalwar +2",
-		feet="Brioso Slippers +1",
-		neck="Moonbow Whistle",
-		waist="Porous Rope",
-		left_ear="Gwati Earring",
-		right_ear="Bragi Earring",
-		left_ring="Metamor. Ring +1",
-		right_ring="Stikini Ring",
-		back="Intarabus's Cape",
-	}
+		main=gear.kali_macc,sub="Genmei Shield",range="Linos",
+		head="Inyanga Tiara +2",neck="Moonbow Whistle",ear1="Gwati Earring",ear2="Bragi Earring",
+		body="Fili Hongreline +1",hands="Inyan. Dastanas +2",ring1="Metamor. Ring +1",ring2="Stikini Ring",
+		back="Intarabus's Cape",waist="Porous Rope",legs="Inyanga Shalwar +2",feet="Brioso Slippers +1"}
 		
 	sets.midcast.SongDebuff.DW = {main="Kali",sub="Kali"}
 
 	-- For song defbuffs (accuracy primary, duration secondary)
 	sets.midcast.SongDebuff.Resistant = {
-		--main="Daybreak",sub="Ammurapi Shield",range="Linos",ammo=empty,
-		--head="Inyanga Tiara +2",neck="Mnbw. Whistle +1",ear1="Regal Earring",ear2="Digni. Earring",
-		--body="Inyanga Jubbah +2",hands="Inyan. Dastanas +2",ring1="Stikini Ring +1",ring2="Stikini Ring +1",
-		--back="Intarabus's Cape",waist="Acuity Belt +1",legs="Inyanga Shalwar +2",feet="Aya. Gambieras +2"
-		main=gear.kali_macc,
-		sub="Genmei Shield",
-		range="Linos",
-		head="Inyanga Tiara +2",
-		body="Inyanga Jubbah +2",
-		hands="Inyan. Dastanas +2",
-		legs="Inyanga Shalwar +2",
-		feet="Aya. Gambieras +1",
-		neck="Moonbow Whistle",
-		waist="Porous Rope",
-		left_ear="Gwati Earring",
-		right_ear="Bragi Earring",
-		left_ring="Metamor. Ring +1",
-		right_ring="Stikini Ring",
-		back="Intarabus's Cape",
-	}
+		main=gear.kali_macc,sub="Genmei Shield",range="Linos",
+		head="Inyanga Tiara +2",neck="Moonbow Whistle",ear1="Gwati Earring",ear2="Bragi Earring",
+		body="Inyanga Jubbah +2",hands="Inyan. Dastanas +2",ring1="Metamor. Ring +1",ring2="Stikini Ring",
+		back="Intarabus's Cape",waist="Porous Rope",legs="Inyanga Shalwar +2",feet="Aya. Gambieras +1"}
 
 	-- Song-specific recast reduction
 	sets.midcast.SongRecast = {
-		--main=gear.grioavolr_fc_staff,sub="Clerisy Strap",range="Linos",ammo=empty,
-		--head="Nahtirah Hat",neck="Voltsurge Torque",ear1="Enchntr. Earring +1",ear2="Loquac. Earring",
-		--body="Inyanga Jubbah +2",hands="Gendewitha Gages +1",ring1="Kishar Ring",ring2="Prolix Ring",
-		--back="Intarabus's Cape",waist="Witful Belt",legs="Fili Rhingrave +1",feet="Aya. Gambieras +2"
-		main=gear.kali_macc,
-		sub="Genmei Shield",
-		range="Linos",
-		head="Nahtirah Hat",
-		body="Inyanga Jubbah +2",
-		hands="Inyan. Dastanas +2",
-		legs="Inyanga Shalwar +2",
-		feet="Aya. Gambieras +1",
-		neck="Moonbow Whistle",
-		waist="Porous Rope",
-		left_ear="Loquac. Earring",
-		right_ear="Etiolation Earring",
-		left_ring="Metamor. Ring +1",
-		right_ring="Stikini Ring",
-		back="Intarabus's Cape",
-	}
+		main=gear.kali_macc,sub="Genmei Shield",range="Linos",
+		head="Nahtirah Hat",neck="Moonbow Whistle",ear1="Loquac. Earring",ear2="Etiolation Earring",
+		body="Inyanga Jubbah +2",hands="Inyan. Dastanas +2",ring1="Metamor. Ring +1",ring2="Stikini Ring",
+		back="Intarabus's Cape",waist="Porous Rope",legs="Inyanga Shalwar +2",feet="Aya. Gambieras +1"}
 		
 	sets.midcast.SongDebuff.DW = {}
 
@@ -298,14 +184,12 @@ function init_gear_sets()
 		
 	sets.Self_Healing = {
 		--neck="Phalaina Locket",
-		--hands="Buremte Gloves",
-		ring2="Kunaji Ring",
+		--hands="Buremte Gloves",ring2="Kunaji Ring",
 		waist="Gishdubar Sash"
 	}
 	sets.Cure_Received = {
 		--neck="Phalaina Locket",
-		--hands="Buremte Gloves",
-		ring2="Kunaji Ring",
+		--hands="Buremte Gloves",ring2="Kunaji Ring",
 		waist="Gishdubar Sash"
 	}
 	sets.Self_Refresh = {
@@ -342,30 +226,14 @@ function init_gear_sets()
 
 	-- Resting sets
 	sets.resting = {main="Chatoyant Staff",sub="Oneiros Grip",ammo="Staunch Tathlum +1",
-		head=empty,neck="Loricate Torque +1",ear1="Etiolation Earring",ear2="Ethereal Earring",
-		body="Respite Cloak",hands=gear.chironic_refresh_hands,ring1="Defending Ring",ring2="Dark Ring",
+		head="Aya. Zucchetto +1",neck="Loricate Torque +1",ear1="Etiolation Earring",ear2="Ethereal Earring",
+		body="Inyanga Jubbah +2",hands=gear.chironic_refresh_hands,ring1="Defending Ring",ring2="Dark Ring",
 		back="Umbra Cape",waist="Flume Belt +1",legs="Assid. Pants +1",feet=gear.chironic_refresh_feet}
 	
-	sets.idle = {
-		--main="Daybreak",sub="Genmei Shield",ammo="Staunch Tathlum +1",
-		--head=empty,neck="Loricate Torque +1",ear1="Etiolation Earring",ear2="Ethereal Earring",
-		--body="Respite Cloak",hands=gear.chironic_refresh_hands,ring1="Stikini Ring +1",ring2="Stikini Ring +1",
-		--back="Umbra Cape",waist="Flume Belt +1",legs="Assid. Pants +1",feet=gear.chironic_refresh_feet
-		main=gear.kali_idle,
-		sub="Genmei Shield",
-		head="Aya. Zucchetto +1",
-		body="Inyanga Jubbah +2",
-		hands="Inyan. Dastanas +2",
-		legs="Inyanga Shalwar +2",
-		feet="Aya. Gambieras +1",
-		neck="Bathy Choker +1",
-		waist="Fucho-no-Obi",
-		left_ear="Moonshade Earring",
-		right_ear="Etiolation Earring",
-		left_ring="Gelatinous Ring +1",
-		right_ring="Inyanga Ring",
-		back="Kumbira Cape",
-	}
+	sets.idle = {main=gear.kali_idle,sub="Genmei Shield",
+		head="Aya. Zucchetto +1",neck="Bathy Choker +1",ear1="Moonshade Earring",ear2="Etiolation Earring",
+		body="Inyanga Jubbah +2",hands="Inyan. Dastanas +2",ring1="Gelatinous Ring +1",ring2="Inyanga Ring",
+		back="Kumbira Cape",waist="Fucho-no-Obi",legs="Inyanga Shalwar +2",feet="Aya. Gambieras +1"}
 		
 	sets.idle.NoRefresh = {main="Daybreak",sub="Genmei Shield",ammo="Staunch Tathlum +1",
 		head="Aya. Zucchetto +2",neck="Loricate Torque +1",ear1="Etiolation Earring",ear2="Sanare Earring",
@@ -380,13 +248,13 @@ function init_gear_sets()
 	-- Defense sets
 
 	sets.defense.PDT = {main="Terra's Staff", sub="Umbra Strap",ammo="Staunch Tathlum +1",
-		head=empty,neck="Loricate Torque +1",ear1="Etiolation Earring",ear2="Ethereal Earring",
-		body="Respite Cloak",hands=gear.chironic_refresh_hands,ring1="Defending Ring",ring2="Dark Ring",
+		head="Aya. Zucchetto +2",neck="Loricate Torque +1",ear1="Etiolation Earring",ear2="Ethereal Earring",
+		body="Ayanmo Corazza +2",hands=gear.chironic_refresh_hands,ring1="Defending Ring",ring2="Dark Ring",
 		back="Umbra Cape",waist="Flume Belt +1",legs="Assid. Pants +1",feet=gear.chironic_refresh_feet}
 
 	sets.defense.MDT = {main="Terra's Staff", sub="Umbra Strap",ammo="Staunch Tathlum +1",
-		head=empty,neck="Loricate Torque +1",ear1="Etiolation Earring",ear2="Ethereal Earring",
-		body="Respite Cloak",hands=gear.chironic_refresh_hands,ring1="Defending Ring",ring2="Dark Ring",
+		head="Aya. Zucchetto +2",neck="Loricate Torque +1",ear1="Etiolation Earring",ear2="Ethereal Earring",
+		body="Ayanmo Corazza +2",hands=gear.chironic_refresh_hands,ring1="Defending Ring",ring2="Dark Ring",
 		back="Umbra Cape",waist="Flume Belt +1",legs="Assid. Pants +1",feet=gear.chironic_refresh_feet}
 
 	sets.Kiting = {feet="Fili Cothurnes +1"}
@@ -421,49 +289,49 @@ end
 
 -- Select default macro book on initial load or subjob change.
 function select_default_macro_book()
-	set_macro_page(1, 3)
+	set_macro_page(1, 1)
 end
 
 function user_job_lockstyle()
 	if player.sub_job == 'RDM' or player.sub_job == 'WHM' then
 		if player.equipment.main == nil or player.equipment.main == 'empty' then
-			windower.chat.input('/lockstyleset 5')
+			windower.chat.input('/lockstyleset 1')
 		elseif res.items[item_name_to_id(player.equipment.main)].skill == 3 then --Sword in main hand.
 			if res.items[item_name_to_id(player.equipment.sub)].skill == 3 then --Sword/Sword.
-				windower.chat.input('/lockstyleset 5')
+				windower.chat.input('/lockstyleset 1')
 			elseif res.items[item_name_to_id(player.equipment.sub)].skill == 2 then --Sword/Dagger.
-				windower.chat.input('/lockstyleset 5')
+				windower.chat.input('/lockstyleset 1')
 			elseif res.items[item_name_to_id(player.equipment.sub)].skill == 11 then --Sword/Club.
-				windower.chat.input('/lockstyleset 5')
+				windower.chat.input('/lockstyleset 1')
 			else
-				windower.chat.input('/lockstyleset 5') --Catchall
+				windower.chat.input('/lockstyleset 1') --Catchall
 			end
 		elseif res.items[item_name_to_id(player.equipment.main)].skill == 2 then --Dagger in main hand.
 			if res.items[item_name_to_id(player.equipment.sub)].skill == 3 then --Dagger/Sword.
-				windower.chat.input('/lockstyleset 5')
+				windower.chat.input('/lockstyleset 1')
 			elseif res.items[item_name_to_id(player.equipment.sub)].skill == 2 then --Dagger/Dagger.
-				windower.chat.input('/lockstyleset 5')
+				windower.chat.input('/lockstyleset 1')
 			elseif res.items[item_name_to_id(player.equipment.sub)].skill == 11 then --Dagger/Club.
-				windower.chat.input('/lockstyleset 5')
+				windower.chat.input('/lockstyleset 1')
 			else
-				windower.chat.input('/lockstyleset 5') --Catchall
+				windower.chat.input('/lockstyleset 1') --Catchall
 			end
 		elseif res.items[item_name_to_id(player.equipment.main)].skill == 11 then --Club in main hand.
 			if res.items[item_name_to_id(player.equipment.sub)].skill == 3 then --Club/Sword.
-				windower.chat.input('/lockstyleset 5')
+				windower.chat.input('/lockstyleset 1')
 			elseif res.items[item_name_to_id(player.equipment.sub)].skill == 2 then --Club/Dagger.
-				windower.chat.input('/lockstyleset 5')
+				windower.chat.input('/lockstyleset 1')
 			elseif res.items[item_name_to_id(player.equipment.sub)].skill == 11 then --Club/Club.
-				windower.chat.input('/lockstyleset 5')
+				windower.chat.input('/lockstyleset 1')
 			else
-				windower.chat.input('/lockstyleset 5') --Catchall
+				windower.chat.input('/lockstyleset 1') --Catchall
 			end
 		end
 	elseif player.sub_job == 'WHM' or state.Buff['Light Arts'] or state.Buff['Addendum: White'] then
-		windower.chat.input('/lockstyleset 5')
+		windower.chat.input('/lockstyleset 1')
 	elseif player.sub_job == 'BLM' or state.Buff['Dark Arts'] or state.Buff['Addendum: Black'] then
-		windower.chat.input('/lockstyleset 5')
+		windower.chat.input('/lockstyleset 1')
 	else
-		windower.chat.input('/lockstyleset 5')
+		windower.chat.input('/lockstyleset 1')
 	end
 end
