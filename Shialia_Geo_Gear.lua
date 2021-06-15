@@ -103,9 +103,8 @@ function init_gear_sets()
 	sets.precast.FC.Stoneskin = set_combine(sets.precast.FC['Enhancing Magic'], {})
 
 	sets.precast.FC.Impact = {main=gear.grioavolr_fc_staff,sub="Clerisy Strap",
-		head=empty,
-		body="Twilight Cloak",neck="Baetyl Pendant",ear1="Loquac. Earring",ear2="Malignance Earring",
-		ring1="Lebeche Ring",
+		head=empty,neck="Baetyl Pendant",ear1="Loquac. Earring",ear2="Malignance Earring",
+		body="Twilight Cloak",ring1="Lebeche Ring",
 		back=gear.mndenfeeb_jse_back,waist="Witful Belt",legs="Geo. Pants +1",feet="Regal Pumps +1"}
 		
 	sets.precast.FC.Dispelga = set_combine(sets.precast.FC, {main="Daybreak",sub="Genmei Shield"})

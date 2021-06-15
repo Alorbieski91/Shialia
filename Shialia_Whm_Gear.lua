@@ -385,17 +385,17 @@ function init_gear_sets()
 	sets.idle = {main="Bolelabunga",sub="Genmei Shield",ammo="Homiliary",
 		head="Inyanga Tiara +2",neck="Bathy Choker +1",ear1="Moonshade Earring",ear2="Etiolation Earring",
 		body="Shamash Robe",hands="Inyan. Dastanas +2",ring1="Gelatinous Ring +1",ring2="Inyanga Ring",
-		back="Solemnity Cape",legs="Inyanga Shalwar +2",feet="Aya. Gambieras +1"}
+		back="Solemnity Cape",legs="Inyanga Shalwar +2",feet="Inyan. Crackows +2"}
 
 	sets.idle.PDT = {main="Bolelabunga",sub="Genmei Shield",ammo="Staunch Tathlum +1",
 		head="Gende. Caubeen +1",neck="Loricate Torque +1",ear1="Etiolation Earring",ear2="Ethereal Earring",
 		body="Shamash Robe",hands="Gende. Gages +1",ring1="Defending Ring",ring2="Dark Ring",
-		back="Moonlight Cape",waist="Flax Sash",legs="Inyanga Shalwar +2",feet=gear.chironic_refresh_feet}
+		back="Moonlight Cape",waist="Flax Sash",legs="Inyanga Shalwar +2",feet="Aya. Gambieras +1"}
 		
 	sets.idle.MDT = {main="Daybreak",sub="Genmei Shield",ammo="Staunch Tathlum +1",
 		head="Gende. Caubeen +1",neck="Loricate Torque +1",ear1="Etiolation Earring",ear2="Ethereal Earring",
 		body="Vrikodara Jupon",hands="Gende. Gages +1",ring1="Defending Ring",ring2="Dark Ring",
-		back="Moonlight Cape",waist="Flax Sash",legs="Inyanga Shalwar +2",feet=gear.chironic_refresh_feet}
+		back="Moonlight Cape",waist="Flax Sash",legs="Inyanga Shalwar +2",feet="Inyan. Crackows +2"}
 		
 	sets.idle.Weak = {main="Bolelabunga",sub="Genmei Shield",ammo="Homiliary",
 		head="Inyanga Tiara +2",neck="Bathy Choker +1",ear1="Moonshade Earring",ear2="Etiolation Earring",
@@ -407,12 +407,12 @@ function init_gear_sets()
 	sets.defense.PDT = {main="Bolelabunga",sub="Genmei Shield",ammo="Staunch Tathlum +1",
 		head="Gende. Caubeen +1",neck="Loricate Torque +1",ear1="Etiolation Earring",ear2="Ethereal Earring",
 		body="Vrikodara Jupon",hands="Gende. Gages +1",ring1="Defending Ring",ring2="Dark Ring",
-		back="Moonlight Cape",waist="Flax Sash",legs="Inyanga Shalwar +2",feet=gear.chironic_refresh_feet}
+		back="Moonlight Cape",waist="Flax Sash",legs="Inyanga Shalwar +2",feet="Aya. Gambieras +1"}
 
 	sets.defense.MDT = {main="Mafic Cudgel",sub="Genmei Shield",ammo="Staunch Tathlum +1",
 		head="Gende. Caubeen +1",neck="Loricate Torque +1",ear1="Etiolation Earring",ear2="Sanare Earring",
 		body="Inyanga Jubbah +2",hands=gear.chironic_refresh_hands,ring1="Defending Ring",ring2="Shadow Ring",
-		back="Moonlight Cape",waist="Flax Sash",legs="Th. Pant. +3",feet="Gende. Galosh. +1"}
+		back="Moonlight Cape",waist="Flax Sash",legs="Th. Pant. +3",feet="Inyan. Crackows +2"}
 
 	sets.defense.MEVA = {ammo="Staunch Tathlum +1",
 		head="Telchine Cap",neck="Warder's Charm +1",ear1="Etiolation Earring",ear2="Sanare Earring",
@@ -452,7 +452,7 @@ function init_gear_sets()
 
 	sets.HPDown = {head="Pixie Hairpin +1",ear1="Mendicant's Earring",ear2="Evans Earring",
 		body="Zendik Robe",hands="Hieros Mittens",ring1="Mephitas's Ring +1",ring2="Mephitas's Ring",
-		back="Swith Cape +1",waist="Flax Sash",legs="Shedir Seraweels",feet=""}
+		back="Swith Cape +1",waist="Flax Sash",legs="Shedir Seraweels",feet="Inyan. Crackows +2"}
 
 	sets.HPCure = {main="Queller Rod",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
 		head="Blistering Sallet +1",neck="Nodens Gorget",ear1="Etiolation Earring",ear2="Ethereal Earring",

@@ -364,7 +364,7 @@ function init_gear_sets()
 	-- Idle sets
 	sets.idle = {main="Bolelabunga",sub="Genmei Shield",ammo="Homiliary",
 		head="Viti. Chapeau +1",neck="Bathy Choker +1",ear1="Moonshade Earring",ear2="Etiolation Earring",
-		body="Shamash Robe",hands="Aya. Manopolas +1",ring1="Gelatinous Ring +1",ring2="Fortified Ring",
+		body="Shamash Robe",hands="Aya. Manopolas +2",ring1="Gelatinous Ring +1",ring2="Fortified Ring",
 		back=gear.enfeeble_jse_back,waist="Fucho-no-Obi",legs="Malignance Tights",feet="Malignance Boots"}
 		
 	sets.idle.PDT = {main="Terra's Staff",sub="Oneiros Grip",range=empty,ammo="Staunch Tathlum +1",
@@ -451,7 +451,7 @@ function init_gear_sets()
 		--body="Ayanmo Corazza +2",hands="Malignance Gloves",ring1="Petrov Ring",ring2="Ilabrat Ring",
 		--back=gear.stp_jse_back,waist="Windbuffet Belt +1",legs="Malignance Tights",feet="Carmine Greaves +1"ammo="Homiliary",
 		head="Malignance Chapeau",neck="Anu Torque",ear1="Suppanomimi",ear2="Brutal Earring",
-		body="Ayanmo Corazza +2",hands="Aya. Manopolas +1",ring1="Ayanmo Ring",ring2="Petrov Ring",
+		body="Ayanmo Corazza +2",hands="Aya. Manopolas +2",ring1="Ayanmo Ring",ring2="Petrov Ring",
 		back=gear.stp_jse_back,waist="Kentarch Belt +1",legs="Malignance Tights",feet="Malignance Boots"}
 		
 	sets.engaged.EnspellOnly = {
@@ -459,7 +459,7 @@ function init_gear_sets()
 		--body="Ayanmo Corazza +2",hands="Aya. Manopolas +2",ring1="Metamor. Ring +1",ring2="Ramuh Ring +1",
 		--back="Ghostfyre Cape",waist="Windbuffet Belt +1",legs="Carmine Cuisses +1",feet="Malignance Boots"ammo="Homiliary",
 		head="Malignance Chapeau",neck="Sanctity Necklace",ear1="Suppanomimi",ear2="Brutal Earring",
-		body="Ayanmo Corazza +2",hands="Aya. Manopolas +1",ring1="Ayanmo Ring",ring2="Petrov Ring",
+		body="Ayanmo Corazza +2",hands="Aya. Manopolas +2",ring1="Ayanmo Ring",ring2="Petrov Ring",
 		back="Ghostfyre Cape",waist="Kentarch Belt +1",legs="Carmine Cuisses +1",feet="Malignance Boots"}
 
 	sets.engaged.Acc = {
@@ -493,7 +493,7 @@ function init_gear_sets()
 		--body="Malignance Tabard",hands="Malignance Gloves",ring1="Petrov Ring",ring2="Ilabrat Ring",
 		--back=gear.stp_jse_back,waist="Windbuffet Belt +1",legs="Carmine Cuisses +1",feet="Malignance Boots"ammo="Homiliary",
 		head="Malignance Chapeau",neck="Anu Torque",ear1="Suppanomimi",ear2="Brutal Earring",
-		body="Ayanmo Corazza +2",hands="Aya. Manopolas +1",ring1="Ayanmo Ring",ring2="Petrov Ring",
+		body="Ayanmo Corazza +2",hands="Aya. Manopolas +2",ring1="Ayanmo Ring",ring2="Petrov Ring",
 		back=gear.stp_jse_back,waist="Kentarch Belt +1",legs="Carmine Cuisses +1",feet="Malignance Boots"}
 		
 	sets.engaged.DW.Acc = {ammo="Aurgelmir Orb +1",
