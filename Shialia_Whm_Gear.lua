@@ -12,6 +12,7 @@ function user_job_setup()
 	gear.obi_cure_back = "Alaunus's Cape"
 
 	gear.fc_jse_cape = {name="Alaunus's Cape",augments={'MND+20','"Fast Cast"+10',}}
+	gear.enf_jse_cape = {name="Alaunus's Cape",augments={'MND+20','Mag. Acc+20 /Mag. Dmg.+20','MND+10','Enmity-10',}}
 
 	gear.obi_nuke_waist = "Sekhmet Corset"
 	gear.obi_high_nuke_waist = "Yamabuki-no-Obi"
@@ -79,12 +80,12 @@ function init_gear_sets()
 	sets.precast.FC.Dispelga = set_combine(sets.precast.FC, {main="Daybreak",sub="Thuellaic Ecu +1"})
 
 	-- Precast sets to enhance JAs
-	sets.precast.JA.Benediction = {body="Piety Briault +1"}
+	sets.precast.JA.Benediction = {body="Piety Bliaut +1"}
 
 	-- Waltz set (chr and vit)
 	sets.precast.Waltz = {
 		head="Nahtirah Hat",ear1="Roundel Earring",
-		body="Piety Briault +1",hands="Telchine Gloves",
+		body="Piety Bliaut +1",hands="Telchine Gloves",
 		waist="Chaac Belt",back="Aurist's Cape +1"}
 
 	-- Weaponskill sets
@@ -155,13 +156,13 @@ function init_gear_sets()
 	
 	sets.midcast.Cure = {main="Queller Rod",sub="Sors Shield",ammo="Hydrocera",
 		head="Gende. Caubeen +1",neck="Incanter's Torque",ear1="Glorious Earring",ear2="Nourish. Earring +1",
-		body="Theo. Briault +2",hands="Theophany Mitts +2",ring1="Lebeche Ring",ring2="Janniston Ring",
-		back=gear.fc_jse_cape,waist="Porous Rope",legs="Ebers Pant. +1",feet="Vanya Clogs"}
+		body="Theo. Bliaut +2",hands="Theophany Mitts +2",ring1="Lebeche Ring",ring2="Janniston Ring",
+		back=gear.enf_jse_cape,waist="Porous Rope",legs="Ebers Pant. +1",feet="Vanya Clogs"}
 		
 	sets.midcast.CureSolace = {main="Queller Rod",sub="Sors Shield",ammo="Hydrocera",
 		head="Gende. Caubeen +1",neck="Incanter's Torque",ear1="Glorious Earring",ear2="Nourish. Earring +1",
-		body="Ebers Bliaud +1",hands="Theophany Mitts +2",ring1="Lebeche Ring",ring2="Janniston Ring",
-		back=gear.fc_jse_cape,waist="Porous Rope",legs="Ebers Pant. +1",feet="Vanya Clogs"}
+		body="Ebers Bliaut +1",hands="Theophany Mitts +2",ring1="Lebeche Ring",ring2="Janniston Ring",
+		back=gear.enf_jse_cape,waist="Porous Rope",legs="Ebers Pant. +1",feet="Vanya Clogs"}
 
 	sets.midcast.LightWeatherCure = set_combine(sets.midcast.Cure, {
 		main="Iridal Staff",
@@ -205,37 +206,37 @@ function init_gear_sets()
 	sets.midcast.Cure.DT = {main="Queller Rod",sub="Genmei Shield",ammo="Staunch Tathlum +1",
 		head="Gende. Caubeen +1",neck="Loricate Torque +1",ear1="Nourish. Earring +1",ear2="Glorious Earring",
 		body="Ayanmo Corazza +2",hands="Gende. Gages +1",ring1="Defending Ring",ring2="Dark Ring",
-		back=gear.fc_jse_cape,waist="Luminary Sash",legs="Ebers Pant. +1",feet="Gende. Galosh. +1"}
+		back=gear.enf_jse_cape,waist="Luminary Sash",legs="Ebers Pant. +1",feet="Gende. Galosh. +1"}
 		
 	--Melee Curesets are used whenever your Weapons state is set to anything but None.
 	sets.midcast.MeleeCure = {ammo="Hydrocera",
 		head="Gende. Caubeen +1",neck="Incanter's Torque",ear1="Glorious Earring",ear2="Nourish. Earring +1",
-		body="Theo. Briault +2",hands="Theophany Mitts +2",ring1="Lebeche Ring",ring2="Janniston Ring",
-		back=gear.fc_jse_cape,waist="Porous Rope",legs="Ebers Pant. +1",feet="Vanya Clogs"}
+		body="Theo. Bliaut +2",hands="Theophany Mitts +2",ring1="Lebeche Ring",ring2="Janniston Ring",
+		back=gear.enf_jse_cape,waist="Porous Rope",legs="Ebers Pant. +1",feet="Vanya Clogs"}
 		
-	sets.midcast.MeleeCureSolace = set_combine(sets.midcast.MeleeCure, {body="Ebers Bliaud +1"})
+	sets.midcast.MeleeCureSolace = set_combine(sets.midcast.MeleeCure, {body="Ebers Bliaut +1"})
 	sets.midcast.MeleeLightWeatherCure = set_combine(sets.midcast.MeleeCure, {waist="Hachirin-no-Obi"})
-	sets.midcast.MeleeLightWeatherCureSolace = set_combine(sets.midcast.MeleeCure, {body="Ebers Bliaud +1",waist="Hachirin-no-Obi"})
-	sets.midcast.MeleeLightDayCureSolace = set_combine(sets.midcast.MeleeCure, {body="Ebers Bliaud +1",waist="Hachirin-no-Obi"})
+	sets.midcast.MeleeLightWeatherCureSolace = set_combine(sets.midcast.MeleeCure, {body="Ebers Bliaut +1",waist="Hachirin-no-Obi"})
+	sets.midcast.MeleeLightDayCureSolace = set_combine(sets.midcast.MeleeCure, {body="Ebers Bliaut +1",waist="Hachirin-no-Obi"})
 	sets.midcast.MeleeLightDayCure = set_combine(sets.midcast.MeleeCure, {waist="Hachirin-no-Obi"})
 	sets.midcast.MeleeCuraga = set_combine(sets.midcast.MeleeCure, {})
 	sets.midcast.MeleeLightWeatherCuraga = set_combine(sets.midcast.MeleeCure, {waist="Hachirin-no-Obi"})
 	sets.midcast.MeleeLightDayCuraga = set_combine(sets.midcast.MeleeCure, {waist="Hachirin-no-Obi"})
 
-	sets.midcast.CureSolace.DT = set_combine(sets.midcast.Cure.DT, {body="Ebers Bliaud +1"})
+	sets.midcast.CureSolace.DT = set_combine(sets.midcast.Cure.DT, {body="Ebers Bliaut +1"})
 	sets.midcast.LightWeatherCure.DT = set_combine(sets.midcast.Cure.DT, {waist="Hachirin-no-Obi"})
-	sets.midcast.LightWeatherCureSolace.DT = set_combine(sets.midcast.Cure.DT, {body="Ebers Bliaud +1",waist="Hachirin-no-Obi"})
-	sets.midcast.LightDayCureSolace.DT = set_combine(sets.midcast.Cure.DT, {body="Ebers Bliaud +1",waist="Hachirin-no-Obi"})
+	sets.midcast.LightWeatherCureSolace.DT = set_combine(sets.midcast.Cure.DT, {body="Ebers Bliaut +1",waist="Hachirin-no-Obi"})
+	sets.midcast.LightDayCureSolace.DT = set_combine(sets.midcast.Cure.DT, {body="Ebers Bliaut +1",waist="Hachirin-no-Obi"})
 	sets.midcast.LightDayCure.DT = set_combine(sets.midcast.Cure.DT, {waist="Hachirin-no-Obi"})
 	sets.midcast.Curaga.DT = set_combine(sets.midcast.Cure.DT, {})
 	sets.midcast.LightWeatherCuraga.DT = set_combine(sets.midcast.Cure.DT, {waist="Hachirin-no-Obi"})
 	sets.midcast.LightDayCuraga.DT = set_combine(sets.midcast.Cure.DT, {waist="Hachirin-no-Obi"})
 	sets.midcast.MeleeCure.DT = set_combine(sets.midcast.Cure.DT, {})
 	
-	sets.midcast.MeleeCureSolace.DT = set_combine(sets.midcast.Cure.DT, {body="Ebers Bliaud +1"})
+	sets.midcast.MeleeCureSolace.DT = set_combine(sets.midcast.Cure.DT, {body="Ebers Bliaut +1"})
 	sets.midcast.MeleeLightWeatherCure.DT = set_combine(sets.midcast.Cure.DT, {waist="Hachirin-no-Obi"})
-	sets.midcast.MeleeLightWeatherCureSolace.DT = set_combine(sets.midcast.Cure.DT, {body="Ebers Bliaud +1",waist="Hachirin-no-Obi"})
-	sets.midcast.MeleeLightDayCureSolace.DT = set_combine(sets.midcast.Cure.DT, {body="Ebers Bliaud +1",waist="Hachirin-no-Obi"})
+	sets.midcast.MeleeLightWeatherCureSolace.DT = set_combine(sets.midcast.Cure.DT, {body="Ebers Bliaut +1",waist="Hachirin-no-Obi"})
+	sets.midcast.MeleeLightDayCureSolace.DT = set_combine(sets.midcast.Cure.DT, {body="Ebers Bliaut +1",waist="Hachirin-no-Obi"})
 	sets.midcast.MeleeLightDayCure.DT = set_combine(sets.midcast.Cure.DT, {waist="Hachirin-no-Obi"})
 	sets.midcast.MeleeCuraga.DT = set_combine(sets.midcast.Cure.DT, {})
 	sets.midcast.MeleeLightWeatherCuraga.DT = set_combine(sets.midcast.Cure.DT, {waist="Hachirin-no-Obi"})
@@ -243,7 +244,7 @@ function init_gear_sets()
 
 	sets.midcast.Cursna = {main=gear.gada_enhancing_club,sub="Thuellaic Ecu +1",
 		head="Ebers Cap +1",neck="Malison Medallion",ear1="Beatific Earring",ear2="Meili Earring",
-		body="Ebers Bliaud +1",hands="Fanatic Gloves",ring1="Ephedra Ring",ring2="Haoma's Ring",
+		body="Ebers Bliaut +1",hands="Fanatic Gloves",ring1="Ephedra Ring",ring2="Haoma's Ring",
 		back=gear.fc_jse_cape,waist="Porous Rope",legs="Theo. Pant. +1",feet="Vanya Clogs"}
 
 	sets.midcast.StatusRemoval = {
@@ -276,7 +277,7 @@ function init_gear_sets()
 		--legs="Shedir Seraweels"
 	})
 	
-	sets.midcast.Regen = set_combine(sets.midcast['Enhancing Magic'], {main="Bolelabunga",head="Inyanga Tiara +2",body="Piety Briault +1",hands="Ebers Mitts +1",legs="Theo. Pant. +1",})
+	sets.midcast.Regen = set_combine(sets.midcast['Enhancing Magic'], {main="Bolelabunga",head="Inyanga Tiara +2",body="Piety Bliaut +1",hands="Ebers Mitts +1",legs="Theo. Pant. +1",})
 	
 	sets.midcast.Protect = set_combine(sets.midcast['Enhancing Magic'], {ring2="Sheltered Ring",feet="Theo. Duckbills +2",ear1="Gifted Earring",waist="Embla Sash"})
 	sets.midcast.Protectra = set_combine(sets.midcast['Enhancing Magic'], {ring2="Sheltered Ring",feet="Theo. Duckbills +2",ear1="Gifted Earring",waist="Embla Sash"})
@@ -285,13 +286,13 @@ function init_gear_sets()
 	
 	sets.midcast.BarElement = {main="Beneficus",sub="Ammurapi Shield",ammo="Hasty Pinion +1",
 		head="Ebers Cap +1",neck="Incanter's Torque",ear1="Mimir Earring",ear2="Andoaa Earring",
-		body="Ebers Bliaud +1",hands="Ebers Mitts +1",ring1="Stikini Ring +1",ring2="Stikini Ring",
-		back="Alaunus's Cape",waist="Olympus Sash",legs="Piety Pantaln. +1",feet="Ebers Duckbills +1"}
+		body="Ebers Bliaut +1",hands="Ebers Mitts +1",ring1="Stikini Ring +1",ring2="Stikini Ring",
+		back=gear.enf_jse_cape,waist="Olympus Sash",legs="Piety Pantaln. +1",feet="Ebers Duckbills +1"}
 
 	sets.midcast.Impact = {main="Daybreak",sub="Thuellaic Ecu +1",ammo="Hydrocera",
 		head=empty,neck="Erra Pendant",ear1="Vor Earring",ear2="Malignance Earring",
 		body="Twilight Cloak",hands="Inyan. Dastanas +2",ring1="Metamor. Ring +1",ring2="Stikini Ring",
-		back=gear.fc_jse_cape,waist="Porous Rope",legs=gear.chironic_enfeeble_legs,feet="Theo. Duckbills +2"}
+		back=gear.enf_jse_cape,waist="Porous Rope",legs=gear.chironic_enfeeble_legs,feet="Theo. Duckbills +2"}
 		
 	sets.midcast['Elemental Magic'] = {main="Daybreak",sub="Ammurapi Shield",ammo="Dosis Tathlum",
 		head="C. Palug Crown",neck="Baetyl Pendant",ear1="Regal Earring",ear2="Friomisi Earring",
@@ -306,7 +307,7 @@ function init_gear_sets()
 	sets.midcast['Divine Magic'] = {main="Daybreak",sub="Thuellaic Ecu +1",ammo="Hydrocera",
 		head="Befouled Crown",neck="Erra Pendant",ear1="Vor Earring",ear2="Malignance Earring",
 		body="Inyanga Jubbah +2",hands="Inyan. Dastanas +2",ring1="Metamor. Ring +1",ring2="Stikini Ring",
-		back=gear.fc_jse_cape,waist="Porous Rope",legs=gear.chironic_enfeeble_legs,feet="Theo. Duckbills +2"}
+		back=gear.enf_jse_cape,waist="Porous Rope",legs=gear.chironic_enfeeble_legs,feet="Theo. Duckbills +2"}
 		
 	sets.midcast.Holy = {main="Daybreak",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
 		head="C. Palug Crown",neck="Baetyl Pendant",ear1="Regal Earring",ear2="Friomisi Earring",
@@ -316,17 +317,17 @@ function init_gear_sets()
 	sets.midcast['Dark Magic'] = {main="Rubicundity",sub="Thuellaic Ecu +1",ammo="Hydrocera",
 		head="Befouled Crown",neck="Erra Pendant",ear1="Vor Earring",ear2="Malignance Earring",
 		body="Inyanga Jubbah +2",hands="Inyan. Dastanas +2",ring1="Metamor. Ring +1",ring2="Stikini Ring",
-		back=gear.fc_jse_cape,waist="Porous Rope",legs=gear.chironic_enfeeble_legs,feet="Theo. Duckbills +2"}
+		back=gear.enf_jse_cape,waist="Porous Rope",legs=gear.chironic_enfeeble_legs,feet="Theo. Duckbills +2"}
 
 	sets.midcast.Drain = {main="Rubicundity",sub="Thuellaic Ecu +1",ammo="Hydrocera",
 		head="Inyanga Tiara +2",neck="Erra Pendant",ear1="Vor Earring",ear2="Malignance Earring",
 		body="Inyanga Jubbah +2",hands="Inyan. Dastanas +2",ring1="Evanescence Ring",ring2="Archon Ring",
-		back=gear.fc_jse_cape,waist="Fucho-no-Obi",legs=gear.chironic_enfeeble_legs,feet="Theo. Duckbills +2"}
+		back=gear.enf_jse_cape,waist="Fucho-no-Obi",legs=gear.chironic_enfeeble_legs,feet="Theo. Duckbills +2"}
 
 	sets.midcast.Drain.Resistant = {main="Rubicundity",sub="Thuellaic Ecu +1",ammo="Hydrocera",
 		head="Inyanga Tiara +2",neck="Erra Pendant",ear1="Vor Earring",ear2="Malignance Earring",
 		body="Inyanga Jubbah +2",hands="Inyan. Dastanas +2",ring1="Evanescence Ring",ring2="Archon Ring",
-		back=gear.fc_jse_cape,waist="Fucho-no-Obi",legs=gear.chironic_enfeeble_legs,feet="Theo. Duckbills +2"}
+		back=gear.enf_jse_cape,waist="Fucho-no-Obi",legs=gear.chironic_enfeeble_legs,feet="Theo. Duckbills +2"}
 
 	sets.midcast.Aspir = sets.midcast.Drain
 	sets.midcast.Aspir.Resistant = sets.midcast.Drain.Resistant
@@ -344,19 +345,19 @@ function init_gear_sets()
 	sets.midcast.Dispel = {main="Daybreak",sub="Thuellaic Ecu +1",ammo="Hydrocera",
 		head="Befouled Crown",neck="Erra Pendant",ear1="Vor Earring",ear2="Malignance Earring",
 		body="Inyanga Jubbah +2",hands="Inyan. Dastanas +2",ring1="Metamor. Ring +1",ring2="Stikini Ring",
-		back=gear.fc_jse_cape,waist="Porous Rope",legs=gear.chironic_enfeeble_legs,feet="Theo. Duckbills +2"}
+		back=gear.enf_jse_cape,waist="Porous Rope",legs=gear.chironic_enfeeble_legs,feet="Theo. Duckbills +2"}
 		
 	sets.midcast.Dispelga = set_combine(sets.midcast.Dispel, {main="Daybreak",sub="Ammurapi Shield"})
 
 	sets.midcast['Enfeebling Magic'] = {main="Daybreak",sub="Thuellaic Ecu +1",ammo="Hydrocera",
 		head="Befouled Crown",neck="Erra Pendant",ear1="Vor Earring",ear2="Malignance Earring",
-		body="Theo. Briault +2",hands="Inyan. Dastanas +2",ring1="Metamor. Ring +1",ring2="Stikini Ring",
-		back=gear.fc_jse_cape,waist="Porous Rope",legs=gear.chironic_enfeeble_legs,feet="Theo. Duckbills +2"}
+		body="Theo. Bliaut +2",hands="Inyan. Dastanas +2",ring1="Metamor. Ring +1",ring2="Stikini Ring",
+		back=gear.enf_jse_cape,waist="Porous Rope",legs=gear.chironic_enfeeble_legs,feet="Theo. Duckbills +2"}
 
 	sets.midcast['Enfeebling Magic'].Resistant = {main="Daybreak",sub="Thuellaic Ecu +1",ammo="Hydrocera",
 		head="Befouled Crown",neck="Erra Pendant",ear1="Vor Earring",ear2="Malignance Earring",
-		body="Theo. Briault +2",hands="Inyan. Dastanas +2",ring1="Metamor. Ring +1",ring2="Stikini Ring",
-		back=gear.fc_jse_cape,waist="Porous Rope",legs=gear.chironic_enfeeble_legs,feet="Theo. Duckbills +2"}
+		body="Theo. Bliaut +2",hands="Inyan. Dastanas +2",ring1="Metamor. Ring +1",ring2="Stikini Ring",
+		back=gear.enf_jse_cape,waist="Porous Rope",legs=gear.chironic_enfeeble_legs,feet="Theo. Duckbills +2"}
 		
 	sets.midcast.Dia = set_combine(sets.midcast['Enfeebling Magic'], sets.TreasureHunter)
 	sets.midcast.Diaga = set_combine(sets.midcast['Enfeebling Magic'], sets.TreasureHunter)
@@ -390,12 +391,12 @@ function init_gear_sets()
 	sets.idle.PDT = {main="Bolelabunga",sub="Genmei Shield",ammo="Staunch Tathlum +1",
 		head="Gende. Caubeen +1",neck="Loricate Torque +1",ear1="Etiolation Earring",ear2="Ethereal Earring",
 		body="Shamash Robe",hands="Gende. Gages +1",ring1="Defending Ring",ring2="Dark Ring",
-		back="Moonlight Cape",waist="Flax Sash",legs="Inyanga Shalwar +2",feet="Aya. Gambieras +1"}
+		back="Solemnity Cape",waist="Flax Sash",legs="Inyanga Shalwar +2",feet="Aya. Gambieras +1"}
 		
 	sets.idle.MDT = {main="Daybreak",sub="Genmei Shield",ammo="Staunch Tathlum +1",
 		head="Gende. Caubeen +1",neck="Loricate Torque +1",ear1="Etiolation Earring",ear2="Ethereal Earring",
 		body="Vrikodara Jupon",hands="Gende. Gages +1",ring1="Defending Ring",ring2="Dark Ring",
-		back="Moonlight Cape",waist="Flax Sash",legs="Inyanga Shalwar +2",feet="Inyan. Crackows +2"}
+		back="Solemnity Cape",waist="Flax Sash",legs="Inyanga Shalwar +2",feet="Inyan. Crackows +2"}
 		
 	sets.idle.Weak = {main="Bolelabunga",sub="Genmei Shield",ammo="Homiliary",
 		head="Inyanga Tiara +2",neck="Bathy Choker +1",ear1="Moonshade Earring",ear2="Etiolation Earring",
@@ -407,12 +408,12 @@ function init_gear_sets()
 	sets.defense.PDT = {main="Bolelabunga",sub="Genmei Shield",ammo="Staunch Tathlum +1",
 		head="Gende. Caubeen +1",neck="Loricate Torque +1",ear1="Etiolation Earring",ear2="Ethereal Earring",
 		body="Vrikodara Jupon",hands="Gende. Gages +1",ring1="Defending Ring",ring2="Dark Ring",
-		back="Moonlight Cape",waist="Flax Sash",legs="Inyanga Shalwar +2",feet="Aya. Gambieras +1"}
+		back="Solemnity Cape",waist="Flax Sash",legs="Inyanga Shalwar +2",feet="Aya. Gambieras +1"}
 
 	sets.defense.MDT = {main="Mafic Cudgel",sub="Genmei Shield",ammo="Staunch Tathlum +1",
 		head="Gende. Caubeen +1",neck="Loricate Torque +1",ear1="Etiolation Earring",ear2="Sanare Earring",
 		body="Inyanga Jubbah +2",hands=gear.chironic_refresh_hands,ring1="Defending Ring",ring2="Shadow Ring",
-		back="Moonlight Cape",waist="Flax Sash",legs="Th. Pant. +3",feet="Inyan. Crackows +2"}
+		back="Solemnity Cape",waist="Flax Sash",legs="Th. Pant. +3",feet="Inyan. Crackows +2"}
 
 	sets.defense.MEVA = {ammo="Staunch Tathlum +1",
 		head="Telchine Cap",neck="Warder's Charm +1",ear1="Etiolation Earring",ear2="Sanare Earring",

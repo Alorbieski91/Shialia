@@ -107,7 +107,7 @@ function init_gear_sets()
 
 	sets.precast.WS['Savage Blade'] = {ammo="Regal Gem",
 		head="Jhakri Coronal +1",neck="Caro Necklace",ear1="Suppanomimi",ear2="Ishvara Earring",
-		body="Jhakri Robe +2",hands="Jhakri Cuffs +1",ring1="Metamor. Ring +1",ring2="Rufescent Ring",
+		body="Jhakri Robe +2",hands="Jhakri Cuffs +2",ring1="Metamor. Ring +1",ring2="Rufescent Ring",
 		back=gear.wsd_jse_back,waist="Prosilio Belt +1",legs="Jhakri Slops +1",feet="Jhakri Pigaches +1"}
 		
 	sets.precast.WS['Sanguine Blade'] = {range=empty,ammo="Pemphredo Tathlum",
@@ -148,7 +148,7 @@ function init_gear_sets()
 	sets.midcast.FastRecast = {ammo="Homiliary",
 		head="Atro. Chapeau +2",neck="Baetyl Pendant",ear1="Loquac. Earring",ear2="Malignance Earring",
 		body="Viti. Tabard +1",hands="Leyline Gloves",ring1="Lebeche Ring",
-		back=gear.enfeeble_jse_back,waist="Witful Belt",legs="Aya. Cosciales +1",feet=gear.merlinic_conservemp_feet}
+		back=gear.enfeeble_jse_back,waist="Witful Belt",legs="Aya. Cosciales +2",feet=gear.merlinic_conservemp_feet}
 
 	sets.midcast.Cure = {main="Daybreak",sub="Sors Shield",ammo="Hydrocera",
 		head="Vanya Hood",neck="Incanter's Torque",ear1="Loquac. Earring",ear2="Mendi. Earring",
