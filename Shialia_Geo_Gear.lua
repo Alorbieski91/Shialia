@@ -22,9 +22,9 @@ function user_job_setup()
 	gear.obi_high_nuke_back = gear.nuke_jse_back
 	gear.obi_high_nuke_waist = "Refoccilation Stone"
 
-	autoindi = "Fury"
+	autoindi = "Haste"
 	autogeo = "Frailty"
-	autoentrust = 'Haste'
+	autoentrust = 'Fury'
 	autoentrustee = 'Alltrium'
 
 	include('User/Global-GEO-Binds.lua')

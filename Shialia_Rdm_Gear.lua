@@ -182,12 +182,14 @@ function init_gear_sets()
 	sets.Self_Healing = {
 		--neck="Phalaina Locket",
 		--ear1="Etiolation Earring",
-		--hands="Buremte Gloves",ring2="Kunaji Ring",
+		--hands="Buremte Gloves",
+		--ring2="Kunaji Ring",
 		waist="Gishdubar Sash"
 	}
 	sets.Cure_Received = {
 		--neck="Phalaina Locket",
-		--hands="Buremte Gloves",ring2="Kunaji Ring",
+		--hands="Buremte Gloves",
+		--ring2="Kunaji Ring",
 		waist="Gishdubar Sash"
 	}
 	sets.Self_Refresh = {
@@ -232,7 +234,7 @@ function init_gear_sets()
 	sets.midcast.BoostStat = {hands="Viti. Gloves +1"}
 	sets.midcast.Stoneskin = {
 		neck="Nodens Gorget",
-		--ear2="Earthcry Earring",
+		ear2="Earthcry Earring",
 		--waist="Siegel Sash",
 		--legs="Shedir Seraweels"
 	}
@@ -422,7 +424,7 @@ function init_gear_sets()
 	sets.weapons.DualEvisceration = {main="Tauret",sub="Almace"}
 	sets.weapons.DualAeolian = {main="Tauret",sub="Daybreak"}
 	sets.weapons.DualProcDaggers = {main="Blurred Knife +1",sub="Atoyac"}
-	sets.weapons.EnspellOnly = {main="Bronze Dagger",sub="Bronze Dagger",range="Kaja Bow",ammo="Beetle Arrow"}
+	sets.weapons.EnspellOnly = {main="Ceremonial Dagger",sub="Ceremonial Dagger",range="Kaja Bow",ammo="Beetle Arrow"}
 	sets.weapons.DualClubs = {main="Nehushtan",sub="Nehushtan"}
 	sets.weapons.DualBlackHalo = {main="Kaja Rod",sub="Thibron"}
 	sets.weapons.DualAlmace = {main="Almace",sub="Sequence"}
@@ -440,25 +442,14 @@ function init_gear_sets()
 	-- EG: sets.Dagger.Accuracy.Evasion
 	
 	-- Normal melee group
-	--sets.engaged = {ammo="Aurgelmir Orb +1",
-		--head="Aya. Zucchetto +2",neck="Asperity Necklace",ear1="Cessance Earring",ear2="Brutal Earring",
-		--body="Ayanmo Corazza +2",hands="Aya. Manopolas +2",ring1="Petrov Ring",ring2="Ilabrat Ring",
-		--back=gear.stp_jse_back,waist="Windbuffet Belt +1",legs="Carmine Cuisses +1",feet="Carmine Greaves +1"}
 
 	sets.engaged = {
-		--ammo="Aurgelmir Orb +1",
-		--head="Malignance Chapeau",neck="Asperity Necklace",ear1="Brutal Earring",ear2="Sherida Earring",
-		--body="Ayanmo Corazza +2",hands="Malignance Gloves",ring1="Petrov Ring",ring2="Ilabrat Ring",
-		--back=gear.stp_jse_back,waist="Windbuffet Belt +1",legs="Malignance Tights",feet="Carmine Greaves +1"ammo="Homiliary",
 		head="Malignance Chapeau",neck="Anu Torque",ear1="Suppanomimi",ear2="Brutal Earring",
 		body="Ayanmo Corazza +2",hands="Aya. Manopolas +2",ring1="Ayanmo Ring",ring2="Petrov Ring",
 		back=gear.stp_jse_back,waist="Kentarch Belt +1",legs="Malignance Tights",feet="Malignance Boots"}
 		
 	sets.engaged.EnspellOnly = {
-		--head="Malignance Chapeau",neck="Dls. Torque +1",ear1="Suppanomimi",ear2="Digni. Earring",
-		--body="Ayanmo Corazza +2",hands="Aya. Manopolas +2",ring1="Metamor. Ring +1",ring2="Ramuh Ring +1",
-		--back="Ghostfyre Cape",waist="Windbuffet Belt +1",legs="Carmine Cuisses +1",feet="Malignance Boots"ammo="Homiliary",
-		head="Malignance Chapeau",neck="Sanctity Necklace",ear1="Suppanomimi",ear2="Brutal Earring",
+		head="Malignance Chapeau",neck="Dls. Torque +1",ear1="Suppanomimi",ear2="Brutal Earring",
 		body="Ayanmo Corazza +2",hands="Aya. Manopolas +2",ring1="Ayanmo Ring",ring2="Petrov Ring",
 		back="Ghostfyre Cape",waist="Kentarch Belt +1",legs="Carmine Cuisses +1",feet="Malignance Boots"}
 
@@ -488,10 +479,6 @@ function init_gear_sets()
 		back="Moonlight Cape",waist="Flume Belt +1",legs="Hagondes Pants +1",feet="Battlecast Gaiters"}
 		
 	sets.engaged.DW = {
-		--ammo="Aurgelmir Orb +1",
-		--head="Malignance Chapeau",neck="Anu Torque",ear1="Suppanomimi",ear2="Sherida Earring",
-		--body="Malignance Tabard",hands="Malignance Gloves",ring1="Petrov Ring",ring2="Ilabrat Ring",
-		--back=gear.stp_jse_back,waist="Windbuffet Belt +1",legs="Carmine Cuisses +1",feet="Malignance Boots"ammo="Homiliary",
 		head="Malignance Chapeau",neck="Anu Torque",ear1="Suppanomimi",ear2="Brutal Earring",
 		body="Ayanmo Corazza +2",hands="Aya. Manopolas +2",ring1="Ayanmo Ring",ring2="Petrov Ring",
 		back=gear.stp_jse_back,waist="Kentarch Belt +1",legs="Carmine Cuisses +1",feet="Malignance Boots"}
@@ -611,7 +598,7 @@ buff_spell_lists = {
 		{Name='Refresh III',	Buff='Refresh',			SpellID=894,	Reapply=false},
 		{Name='Haste II',		Buff='Haste',			SpellID=511,	Reapply=false},
 		{Name='Aquaveil',		Buff='Aquaveil',		SpellID=55,		Reapply=false},
-		{Name='Phalanx II',		Buff='Phalanx',			SpellID=107,	Reapply=false},
+		{Name='Phalanx',		Buff='Phalanx',			SpellID=106,	Reapply=false},
 		{Name='Stoneskin',		Buff='Stoneskin',		SpellID=54,		Reapply=false},
 		{Name='Blink',			Buff='Blink',			SpellID=53,		Reapply=false},
 		{Name='Gain-MND',		Buff='MND Boost',		SpellID=491,	Reapply=false},
@@ -624,7 +611,7 @@ buff_spell_lists = {
 		{Name='Haste II',		Buff='Haste',			SpellID=511,	Reapply=false},
 		{Name='Regen II',		Buff='Regen',			SpellID=110,	Reapply=false},
 		{Name='Aquaveil',		Buff='Aquaveil',		SpellID=55,		Reapply=false},
-		{Name='Phalanx II',		Buff='Phalanx',			SpellID=107,	Reapply=false},
+		{Name='Phalanx',		Buff='Phalanx',			SpellID=106,	Reapply=false},
 		{Name='Stoneskin',		Buff='Stoneskin',		SpellID=54,		Reapply=false},
 		{Name='Blink',			Buff='Blink',			SpellID=53,		Reapply=false},
 		{Name='Gain-STR',		Buff='STR Boost',		SpellID=486,	Reapply=false},
@@ -642,7 +629,7 @@ buff_spell_lists = {
 		{Name='Haste II',		Buff='Haste',			SpellID=511,	Reapply=false},
 		{Name='Temper II',		Buff='Multi Strikes',	SpellID=895,	Reapply=false},
 		{Name='Gain-STR',		Buff='STR Boost',		SpellID=486,	Reapply=false},
-		{Name='Phalanx II',		Buff='Phalanx',			SpellID=107,	Reapply=false},
+		{Name='Phalanx',		Buff='Phalanx',			SpellID=106,	Reapply=false},
 		{Name='Shell V',		Buff='Shell',			SpellID=52,		Reapply=false},
 		{Name='Protect V',		Buff='Protect',			SpellID=47,		Reapply=false},
 		{Name='Shock Spikes',	Buff='Shock Spikes',	SpellID=251,	Reapply=false},
@@ -654,7 +641,7 @@ buff_spell_lists = {
 	Odin = {
 		{Name='Refresh III',	Buff='Refresh',			SpellID=894,	Reapply=false},
 		{Name='Haste II',		Buff='Haste',			SpellID=511,	Reapply=false},
-		{Name='Phalanx II',		Buff='Phalanx',			SpellID=107,	Reapply=false},
+		{Name='Phalanx',		Buff='Phalanx',			SpellID=106,	Reapply=false},
 		{Name='Gain-INT',		Buff='INT Boost',		SpellID=490,	Reapply=false},
 		{Name='Temper II',		Buff='Multi Strikes',	SpellID=895,	Reapply=false},
 		{Name='Regen II',		Buff='Regen',			SpellID=110,	Reapply=false},
@@ -668,7 +655,7 @@ buff_spell_lists = {
 	HybridCleave = {
 		{Name='Refresh III',	Buff='Refresh',			SpellID=894,	Reapply=false},
 		{Name='Haste II',		Buff='Haste',			SpellID=511,	Reapply=false},
-		{Name='Phalanx II',		Buff='Phalanx',			SpellID=107,	Reapply=false},
+		{Name='Phalanx',		Buff='Phalanx',			SpellID=106,	Reapply=false},
 		{Name='Gain-INT',		Buff='INT Boost',		SpellID=490,	Reapply=false},
 		{Name='Enthunder II',	Buff='Enthunder II',	SpellID=316,	Reapply=false},
 		{Name='Temper II',		Buff='Multi Strikes',	SpellID=895,	Reapply=false},
