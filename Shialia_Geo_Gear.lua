@@ -350,7 +350,7 @@ function init_gear_sets()
 	
 	sets.defense.GeoLock = sets.midcast.Geomancy.Indi
 
-	sets.Kiting = {feet="Geomancy Sandals"}
+	sets.Kiting = {feet="Geo. Sandals +2"}
 	sets.latent_refresh = {waist="Fucho-no-obi"}
 	sets.latent_refresh_grip = {sub="Oneiros Grip"}
 	sets.TPEat = {neck="Chrys. Torque"}
@@ -399,7 +399,8 @@ function init_gear_sets()
 		--neck="Mizu. Kubikazari",
 		--body="Ea Houppelande",
 		--ring1="Mujin Band",
-		legs="Ea Slops",feet="Jhakri Pigaches +1"
+		legs="Ea Slops",
+		feet="Jhakri Pigaches +1"
 	}
 	sets.ResistantMagicBurst = {
 		--main=gear.grioavolr_nuke_staff,
@@ -408,7 +409,8 @@ function init_gear_sets()
 		--neck="Mizu. Kubikazari",
 		--body="Ea Houppelande",
 		--ring1="Mujin Band",
-		legs="Ea Slops",feet="Jhakri Pigaches +1"
+		legs="Ea Slops",
+		feet="Jhakri Pigaches +1"
 	}
 	
 	sets.buff.Sublimation = {waist="Embla Sash"}
