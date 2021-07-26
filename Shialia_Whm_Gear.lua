@@ -263,7 +263,7 @@ function init_gear_sets()
 	sets.midcast.Stoneskin = set_combine(sets.midcast['Enhancing Magic'], {
 		neck="Nodens Gorget",
 		ear2="Earthcry Earring",
-		--waist="Siegel Sash",
+		waist="Siegel Sash",
 		--legs="Shedir Seraweels"
 	})
 	

@@ -235,7 +235,7 @@ function init_gear_sets()
 	sets.midcast.Stoneskin = {
 		neck="Nodens Gorget",
 		ear2="Earthcry Earring",
-		--waist="Siegel Sash",
+		waist="Siegel Sash",
 		--legs="Shedir Seraweels"
 	}
 	sets.midcast.Protect = {ring2="Sheltered Ring"}
