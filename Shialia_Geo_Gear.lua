@@ -20,7 +20,7 @@ function user_job_setup()
 	gear.obi_low_nuke_waist = "Sekhmet Corset"
 
 	gear.obi_high_nuke_back = gear.nuke_jse_back
-	gear.obi_high_nuke_waist = "Refoccilation Stone"
+	gear.obi_high_nuke_waist = "Sacro Cord"
 
 	autoindi = "Haste"
 	autogeo = "Frailty"
@@ -135,18 +135,18 @@ function init_gear_sets()
 	sets.midcast.Cure = {main="Daybreak",sub="Sors Shield",range="Dunna",
 		head="Vanya Hood",neck="Incanter's Torque",ear1="Meili Earring",ear2="Mendi. Earring",
 		body="Vanya Robe",hands=gear.telchine_enh_hands,ring1="Ephedra Ring",ring2="Janniston Ring",
-		back=gear.mndenfeeb_jse_back,waist="Porous Rope",legs="Vanya Slops",feet="Vanya Clogs"}
+		back=gear.mndenfeeb_jse_back,waist="Sacro Cord",legs="Vanya Slops",feet="Vanya Clogs"}
 
 	sets.midcast.LightWeatherCure = {main="Iridal Staff",sub="Enki Strap",range="Dunna",
 		head="Vanya Hood",neck="Incanter's Torque",ear1="Meili Earring",ear2="Mendi. Earring",
 		body="Vanya Robe",hands=gear.telchine_enh_hands,ring1="Ephedra Ring",ring2="Janniston Ring",
-		back="Twilight Cape",waist="Porous Rope",legs="Vanya Slops",feet="Vanya Clogs"}
+		back="Twilight Cape",waist="Sacro Cord",legs="Vanya Slops",feet="Vanya Clogs"}
 		
 		--Cureset for if it's not light weather but is light day.
 	sets.midcast.LightDayCure = {main="Daybreak",sub="Sors Shield",range="Dunna",
 		head="Vanya Hood",neck="Incanter's Torque",ear1="Meili Earring",ear2="Mendi. Earring",
 		body="Vanya Robe",hands=gear.telchine_enh_hands,ring1="Ephedra Ring",ring2="Janniston Ring",
-		back="Twilight Cape",waist="Porous Rope",legs="Vanya Slops",feet="Vanya Clogs"}
+		back="Twilight Cape",waist="Sacro Cord",legs="Vanya Slops",feet="Vanya Clogs"}
 
 	sets.midcast.Curaga = set_combine(sets.midcast.Cure, {main="Daybreak",sub="Sors Shield"})
 
@@ -155,49 +155,49 @@ function init_gear_sets()
 
 	sets.midcast.StatusRemoval = set_combine(sets.midcast.FastRecast, {main=gear.grioavolr_fc_staff,sub="Clemency Grip"})
 
-	sets.midcast['Elemental Magic'] = {main="Daybreak",sub="Culminus",range="Dunna",
+	sets.midcast['Elemental Magic'] = {main="Daybreak",sub="Culminus",ammo="Ghastly Tathlum",
 		head="Mallquis Chapeau +1",neck="Baetyl Pendant",ear1="Friomisi Earring",ear2="Malignance Earring",
 		body="Mallquis Saio +2",hands="Mallquis Cuffs +1",ring1="Tamas Ring",ring2="Mallquis Ring",
-		back=gear.nuke_jse_back,waist="Refoccilation Stone",legs="Mallquis Trews +1",feet="Mallquis Clogs +2"}
+		back=gear.nuke_jse_back,waist="Sacro Cord",legs="Mallquis Trews +1",feet="Mallquis Clogs +2"}
 
-	sets.midcast['Elemental Magic'].Resistant = {main="Daybreak",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
+	sets.midcast['Elemental Magic'].Resistant = {main="Daybreak",sub="Ammurapi Shield",ammo="Ghastly Tathlum",
 		head=gear.merlinic_nuke_head,neck="Sanctity Necklace",ear1="Regal Earring",ear2="Malignance Earring",
 		body=gear.merlinic_nuke_body,hands="Mallquis Cuffs +2",ring1="Shiva Ring +1",ring2="Freke Ring",
-		back=gear.nuke_jse_back,waist="Yamabuki-no-Obi",legs="Merlinic Shalwar",feet=gear.merlinic_nuke_feet}
+		back=gear.nuke_jse_back,waist="Sacro Cord",legs="Merlinic Shalwar",feet=gear.merlinic_nuke_feet}
 		
 	sets.midcast['Elemental Magic'].Proc = {main=empty,sub=empty,ammo="Impatiens",
 		head="Nahtirah Hat",neck="Loricate Torque +1",ear1="Gifted Earring",ear2="Loquac. Earring",
 		body="Seidr Cotehardie",hands="Hagondes Cuffs +1",ring1="Kishar Ring",ring2="Prolix Ring",
 		back="Swith Cape +1",waist="Witful Belt",legs="Assid. Pants +1",feet="Regal Pumps +1"}
 
-	sets.midcast['Elemental Magic'].Fodder = {main="Daybreak",sub="Culminus",range="Dunna",
+	sets.midcast['Elemental Magic'].Fodder = {main="Daybreak",sub="Culminus",ammo="Ghastly Tathlum",
 		head="Mallquis Chapeau +1",neck="Baetyl Pendant",ear1="Friomisi Earring",ear2="Malignance Earring",
 		body="Mallquis Saio +2",hands="Mallquis Cuffs +1",ring1="Tamas Ring",ring2="Mallquis Ring",
-		back=gear.nuke_jse_back,waist="Refoccilation Stone",legs="Mallquis Trews +1",feet="Mallquis Clogs +2"}
+		back=gear.nuke_jse_back,waist="Sacro Cord",legs="Mallquis Trews +1",feet="Mallquis Clogs +2"}
 
-	sets.midcast['Elemental Magic'].HighTierNuke = {main="Solstice",sub="Culminus",range="Dunna",
+	sets.midcast['Elemental Magic'].HighTierNuke = {main="Daybreak",sub="Culminus",ammo="Ghastly Tathlum",
 		head=gear.merlinic_nuke_head,neck="Baetyl Pendant",ear1="Friomisi Earring",ear2="Malignance Earring",
-		body="Shamash Robe",hands="Mallquis Cuffs +1",ring1="Tamas Ring",ring2="Metamor. Ring +1",
-		back=gear.nuke_jse_back,waist="Refoccilation Stone",legs="Ea Slops",feet=gear.merlinic_nuke_feet}
+		body="Jhakri Robe +2",hands="Jhakri Cuffs +2",ring1="Tamas Ring",ring2="Metamor. Ring +1",
+		back=gear.nuke_jse_back,waist="Sacro Cord",legs="Jhakri Slops +1",feet=gear.merlinic_nuke_feet}
 
-	sets.midcast['Elemental Magic'].HighTierNuke.Resistant = {main="Daybreak",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
+	sets.midcast['Elemental Magic'].HighTierNuke.Resistant = {main="Daybreak",sub="Ammurapi Shield",ammo="Ghastly Tathlum",
 		head=gear.merlinic_nuke_head,neck="Sanctity Necklace",ear1="Regal Earring",ear2="Malignance Earring",
-		body=gear.merlinic_nuke_body,hands="Amalric Gages +1",ring1="Freke Ring",ring2="Metamor. Ring +1",
-		back=gear.nuke_jse_back,waist="Yamabuki-no-Obi",legs="Merlinic Shalwar",feet=gear.merlinic_nuke_feet}
+		body=gear.merlinic_nuke_body,hands="Jhakri Cuffs +2",ring1="Freke Ring",ring2="Metamor. Ring +1",
+		back=gear.nuke_jse_back,waist="Sacro Cord",legs="Merlinic Shalwar",feet=gear.merlinic_nuke_feet}
 
-	sets.midcast['Elemental Magic'].HighTierNuke.Fodder = {main="Solstice",sub="Culminus",range="Dunna",
+	sets.midcast['Elemental Magic'].HighTierNuke.Fodder = {main="Daybreak",sub="Culminus",ammo="Ghastly Tathlum",
 		head=gear.merlinic_nuke_head,neck="Baetyl Pendant",ear1="Friomisi Earring",ear2="Malignance Earring",
-		body="Shamash Robe",hands="Mallquis Cuffs +1",ring1="Tamas Ring",ring2="Metamor. Ring +1",
-		back=gear.nuke_jse_back,waist="Refoccilation Stone",legs="Ea Slops",feet=gear.merlinic_nuke_feet}
+		body="Jhakri Robe +2",hands="Jhakri Cuffs +2",ring1="Tamas Ring",ring2="Metamor. Ring +1",
+		back=gear.nuke_jse_back,waist="Sacro Cord",legs="Jhakri Slops +1",feet=gear.merlinic_nuke_feet}
 
 	sets.midcast['Dark Magic'] = {main="Rubicundity",sub="Culminus",range="Dunna",
 		head="Bagua Galero",neck="Erra Pendant",ear1="Gwati Earring",ear2="Malignance Earring",
-		body="Mallquis Saio +2",hands="Mallquis Cuffs +1",ring1="Archon Ring",ring2="Evanescence Ring",
+		body="Mallquis Saio +2",hands="Jhakri Cuffs +2",ring1="Archon Ring",ring2="Evanescence Ring",
 		back=gear.nuke_jse_back,waist="Fucho-no-Obi",legs="Mallquis Trews +1",feet=gear.merlinic_conservemp_feet}
 
 	sets.midcast.Drain = {main="Rubicundity",sub="Culminus",range="Dunna",
 		head="Bagua Galero",neck="Erra Pendant",ear1="Gwati Earring",ear2="Malignance Earring",
-		body="Mallquis Saio +2",hands="Mallquis Cuffs +1",ring1="Archon Ring",ring2="Evanescence Ring",
+		body="Mallquis Saio +2",hands="Jhakri Cuffs +2",ring1="Archon Ring",ring2="Evanescence Ring",
 		back=gear.nuke_jse_back,waist="Fucho-no-Obi",legs="Mallquis Trews +1",feet=gear.merlinic_conservemp_feet}
 
 	sets.midcast.Aspir = sets.midcast.Drain
@@ -214,13 +214,13 @@ function init_gear_sets()
 
 	sets.midcast.Impact = {main="Daybreak",sub="Genmei Shield",range="Dunna",
 		head=empty,neck="Erra Pendant",ear1="Gwati Earring",ear2="Malignance Earring",
-		body="Twilight Cloak",hands="Mallquis Cuffs +1",ring1="Metamor. Ring +1",ring2="Stikini Ring",
-		back=gear.mndenfeeb_jse_back,waist="Porous Rope",legs="Ea Slops",feet="Mallquis Clogs +2"}
+		body="Twilight Cloak",hands="Jhakri Cuffs +2",ring1="Metamor. Ring +1",ring2="Stikini Ring",
+		back=gear.mndenfeeb_jse_back,waist="Sacro Cord",legs="Jhakri Slops +1",feet="Mallquis Clogs +2"}
 
 	sets.midcast.Dispel = {main="Daybreak",sub="Genmei Shield",range="Dunna",
 		head="Befouled Crown",neck="Erra Pendant",ear1="Vor Earring",ear2="Malignance Earring",
-		body="Shamash Robe",hands="Mallquis Cuffs +1",ring1="Metamor. Ring +1",ring2="Stikini Ring",
-		back=gear.nuke_jse_back,waist="Porous Rope",legs="Ea Slops",feet="Mallquis Clogs +2"}
+		body="Shamash Robe",hands="Jhakri Cuffs +2",ring1="Metamor. Ring +1",ring2="Stikini Ring",
+		back=gear.nuke_jse_back,waist="Sacro Cord",legs="Jhakri Slops +1",feet="Mallquis Clogs +2"}
 
 	sets.midcast.Dispelga = set_combine(sets.midcast.Dispel, {
 		main="Daybreak",
@@ -230,13 +230,13 @@ function init_gear_sets()
 
 	sets.midcast['Enfeebling Magic'] = {main="Daybreak",sub="Genmei Shield",range="Dunna",
 		head="Befouled Crown",neck="Erra Pendant",ear1="Vor Earring",ear2="Malignance Earring",
-		body="Shamash Robe",hands="Mallquis Cuffs +1",ring1="Metamor. Ring +1",ring2="Stikini Ring",
-		back=gear.mndenfeeb_jse_back,waist="Porous Rope",legs="Ea Slops",feet="Mallquis Clogs +2"}
+		body="Shamash Robe",hands="Jhakri Cuffs +2",ring1="Metamor. Ring +1",ring2="Stikini Ring",
+		back=gear.mndenfeeb_jse_back,waist="Sacro Cord",legs="Ea Slops",feet="Mallquis Clogs +2"}
 
 	sets.midcast['Enfeebling Magic'].Resistant = {main="Daybreak",sub="Genmei Shield",range="Dunna",
 		head="Befouled Crown",neck="Erra Pendant",ear1="Vor Earring",ear2="Malignance Earring",
-		body="Shamash Robe",hands="Mallquis Cuffs +1",ring1="Metamor. Ring +1",ring2="Stikini Ring",
-		back=gear.mndenfeeb_jse_back,waist="Porous Rope",legs="Ea Slops",feet="Mallquis Clogs +2"}
+		body="Shamash Robe",hands="Jhakri Cuffs +2",ring1="Metamor. Ring +1",ring2="Stikini Ring",
+		back=gear.mndenfeeb_jse_back,waist="Sacro Cord",legs="Ea Slops",feet="Mallquis Clogs +2"}
 
 	sets.midcast.ElementalEnfeeble = set_combine(sets.midcast['Enfeebling Magic'], {head="Amalric Coif",ear2="Malignance Earring",waist="Acuity Belt +1"})
 	sets.midcast.ElementalEnfeeble.Resistant = set_combine(sets.midcast['Enfeebling Magic'].Resistant, {head="Amalric Coif",ear2="Malignance Earring",waist="Acuity Belt +1"})
@@ -301,8 +301,8 @@ function init_gear_sets()
 		body="Shamash Robe",hands="Bagua Mitaines +1",ring1="Gelatinous Ring +1",ring2="Fortified Ring",
 		back=gear.idle_jse_back,legs="Assid. Pants +1",feet="Mallquis Clogs +2"}
 
-	sets.idle.PDT = {main="Malignance Pole",head="Befouled Crown",range="Dunna",
-		neck="Bathy Choker +1",ear1="Moonshade Earring",ear2="Etiolation Earring",
+	sets.idle.PDT = {main="Malignance Pole",range="Dunna",
+		head="Befouled Crown",neck="Bathy Choker +1",ear1="Moonshade Earring",ear2="Etiolation Earring",
 		body="Shamash Robe",hands="Geo. Mitaines +1",ring1="Gelatinous Ring +1",ring2="Fortified Ring",
 		back=gear.idle_jse_back,legs="Assid. Pants +1",feet="Mallquis Clogs +2"}
 

@@ -15,7 +15,7 @@ function user_job_setup()
 	gear.enf_jse_cape = {name="Alaunus's Cape",augments={'MND+20','Mag. Acc+20 /Mag. Dmg.+20','MND+10','Enmity-10',}}
 
 	gear.obi_nuke_waist = "Sekhmet Corset"
-	gear.obi_high_nuke_waist = "Yamabuki-no-Obi"
+	gear.obi_high_nuke_waist = "Sacro Cord"
 	gear.obi_nuke_back = "Toro Cape"
 
 	include('User/Global-WHM-Binds.lua')
@@ -157,12 +157,12 @@ function init_gear_sets()
 	sets.midcast.Cure = {main="Queller Rod",sub="Sors Shield",ammo="Hydrocera",
 		head="Gende. Caubeen +1",neck="Incanter's Torque",ear1="Glorious Earring",ear2="Nourish. Earring +1",
 		body="Theo. Bliaut +2",hands="Theophany Mitts +2",ring1="Lebeche Ring",ring2="Janniston Ring",
-		back=gear.enf_jse_cape,waist="Porous Rope",legs="Ebers Pant. +1",feet="Vanya Clogs"}
+		back=gear.enf_jse_cape,waist="Sacro Cord",legs="Ebers Pant. +1",feet="Vanya Clogs"}
 		
 	sets.midcast.CureSolace = {main="Queller Rod",sub="Sors Shield",ammo="Hydrocera",
 		head="Gende. Caubeen +1",neck="Incanter's Torque",ear1="Glorious Earring",ear2="Nourish. Earring +1",
 		body="Ebers Bliaut +1",hands="Theophany Mitts +2",ring1="Lebeche Ring",ring2="Janniston Ring",
-		back=gear.enf_jse_cape,waist="Porous Rope",legs="Ebers Pant. +1",feet="Vanya Clogs"}
+		back=gear.enf_jse_cape,waist="Sacro Cord",legs="Ebers Pant. +1",feet="Vanya Clogs"}
 
 	sets.midcast.LightWeatherCure = set_combine(sets.midcast.Cure, {
 		main="Iridal Staff",
@@ -212,7 +212,7 @@ function init_gear_sets()
 	sets.midcast.MeleeCure = {ammo="Hydrocera",
 		head="Gende. Caubeen +1",neck="Incanter's Torque",ear1="Glorious Earring",ear2="Nourish. Earring +1",
 		body="Theo. Bliaut +2",hands="Theophany Mitts +2",ring1="Lebeche Ring",ring2="Janniston Ring",
-		back=gear.enf_jse_cape,waist="Porous Rope",legs="Ebers Pant. +1",feet="Vanya Clogs"}
+		back=gear.enf_jse_cape,waist="Sacro Cord",legs="Ebers Pant. +1",feet="Vanya Clogs"}
 		
 	sets.midcast.MeleeCureSolace = set_combine(sets.midcast.MeleeCure, {body="Ebers Bliaut +1"})
 	sets.midcast.MeleeLightWeatherCure = set_combine(sets.midcast.MeleeCure, {waist="Hachirin-no-Obi"})
@@ -245,7 +245,7 @@ function init_gear_sets()
 	sets.midcast.Cursna = {main=gear.gada_enhancing_club,sub="Thuellaic Ecu +1",
 		head="Ebers Cap +1",neck="Malison Medallion",ear1="Beatific Earring",ear2="Meili Earring",
 		body="Ebers Bliaut +1",hands="Fanatic Gloves",ring1="Ephedra Ring",ring2="Haoma's Ring",
-		back=gear.fc_jse_cape,waist="Porous Rope",legs="Theo. Pant. +1",feet="Vanya Clogs"}
+		back=gear.fc_jse_cape,waist="Sacro Cord",legs="Theo. Pant. +1",feet="Vanya Clogs"}
 
 	sets.midcast.StatusRemoval = {
 		head="Ebers Cap +1",neck="Baetyl Pendant",ear1="Loquacious Earring",ear2="Malignance Earring",
@@ -292,7 +292,7 @@ function init_gear_sets()
 	sets.midcast.Impact = {main="Daybreak",sub="Thuellaic Ecu +1",ammo="Hydrocera",
 		head=empty,neck="Erra Pendant",ear1="Vor Earring",ear2="Malignance Earring",
 		body="Twilight Cloak",hands="Inyan. Dastanas +2",ring1="Metamor. Ring +1",ring2="Stikini Ring",
-		back=gear.enf_jse_cape,waist="Porous Rope",legs=gear.chironic_enfeeble_legs,feet="Theo. Duckbills +2"}
+		back=gear.enf_jse_cape,waist="Sacro Cord",legs=gear.chironic_enfeeble_legs,feet="Theo. Duckbills +2"}
 		
 	sets.midcast['Elemental Magic'] = {main="Daybreak",sub="Ammurapi Shield",ammo="Dosis Tathlum",
 		head="C. Palug Crown",neck="Baetyl Pendant",ear1="Regal Earring",ear2="Friomisi Earring",
@@ -302,12 +302,12 @@ function init_gear_sets()
 	sets.midcast['Elemental Magic'].Resistant = {main="Daybreak",sub="Ammurapi Shield",ammo="Dosis Tathlum",
 		head="C. Palug Crown",neck="Sanctity Necklace",ear1="Regal Earring",ear2="Crematio Earring",
 		body="Witching Robe",hands=gear.chironic_enfeeble_hands,ring1="Metamor. Ring +1",ring2="Freke Ring",
-		back="Toro Cape",waist="Yamabuki-no-Obi",legs="Chironic Hose",feet=gear.chironic_nuke_feet}
+		back="Toro Cape",waist="Sacro Cord",legs="Chironic Hose",feet=gear.chironic_nuke_feet}
 
 	sets.midcast['Divine Magic'] = {main="Daybreak",sub="Thuellaic Ecu +1",ammo="Hydrocera",
 		head="Befouled Crown",neck="Erra Pendant",ear1="Vor Earring",ear2="Malignance Earring",
 		body="Inyanga Jubbah +2",hands="Inyan. Dastanas +2",ring1="Metamor. Ring +1",ring2="Stikini Ring",
-		back=gear.enf_jse_cape,waist="Porous Rope",legs=gear.chironic_enfeeble_legs,feet="Theo. Duckbills +2"}
+		back=gear.enf_jse_cape,waist="Sacro Cord",legs=gear.chironic_enfeeble_legs,feet="Theo. Duckbills +2"}
 		
 	sets.midcast.Holy = {main="Daybreak",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
 		head="C. Palug Crown",neck="Baetyl Pendant",ear1="Regal Earring",ear2="Friomisi Earring",
@@ -317,7 +317,7 @@ function init_gear_sets()
 	sets.midcast['Dark Magic'] = {main="Rubicundity",sub="Thuellaic Ecu +1",ammo="Hydrocera",
 		head="Befouled Crown",neck="Erra Pendant",ear1="Vor Earring",ear2="Malignance Earring",
 		body="Inyanga Jubbah +2",hands="Inyan. Dastanas +2",ring1="Metamor. Ring +1",ring2="Stikini Ring",
-		back=gear.enf_jse_cape,waist="Porous Rope",legs=gear.chironic_enfeeble_legs,feet="Theo. Duckbills +2"}
+		back=gear.enf_jse_cape,waist="Sacro Cord",legs=gear.chironic_enfeeble_legs,feet="Theo. Duckbills +2"}
 
 	sets.midcast.Drain = {main="Rubicundity",sub="Thuellaic Ecu +1",ammo="Hydrocera",
 		head="Inyanga Tiara +2",neck="Erra Pendant",ear1="Vor Earring",ear2="Malignance Earring",
@@ -345,19 +345,19 @@ function init_gear_sets()
 	sets.midcast.Dispel = {main="Daybreak",sub="Thuellaic Ecu +1",ammo="Hydrocera",
 		head="Befouled Crown",neck="Erra Pendant",ear1="Vor Earring",ear2="Malignance Earring",
 		body="Inyanga Jubbah +2",hands="Inyan. Dastanas +2",ring1="Metamor. Ring +1",ring2="Stikini Ring",
-		back=gear.enf_jse_cape,waist="Porous Rope",legs=gear.chironic_enfeeble_legs,feet="Theo. Duckbills +2"}
+		back=gear.enf_jse_cape,waist="Sacro Cord",legs=gear.chironic_enfeeble_legs,feet="Theo. Duckbills +2"}
 		
 	sets.midcast.Dispelga = set_combine(sets.midcast.Dispel, {main="Daybreak",sub="Ammurapi Shield"})
 
 	sets.midcast['Enfeebling Magic'] = {main="Daybreak",sub="Thuellaic Ecu +1",ammo="Hydrocera",
 		head="Befouled Crown",neck="Erra Pendant",ear1="Vor Earring",ear2="Malignance Earring",
 		body="Theo. Bliaut +2",hands="Inyan. Dastanas +2",ring1="Metamor. Ring +1",ring2="Stikini Ring",
-		back=gear.enf_jse_cape,waist="Porous Rope",legs=gear.chironic_enfeeble_legs,feet="Theo. Duckbills +2"}
+		back=gear.enf_jse_cape,waist="Sacro Cord",legs=gear.chironic_enfeeble_legs,feet="Theo. Duckbills +2"}
 
 	sets.midcast['Enfeebling Magic'].Resistant = {main="Daybreak",sub="Thuellaic Ecu +1",ammo="Hydrocera",
 		head="Befouled Crown",neck="Erra Pendant",ear1="Vor Earring",ear2="Malignance Earring",
 		body="Theo. Bliaut +2",hands="Inyan. Dastanas +2",ring1="Metamor. Ring +1",ring2="Stikini Ring",
-		back=gear.enf_jse_cape,waist="Porous Rope",legs=gear.chironic_enfeeble_legs,feet="Theo. Duckbills +2"}
+		back=gear.enf_jse_cape,waist="Sacro Cord",legs=gear.chironic_enfeeble_legs,feet="Theo. Duckbills +2"}
 		
 	sets.midcast.Dia = set_combine(sets.midcast['Enfeebling Magic'], sets.TreasureHunter)
 	sets.midcast.Diaga = set_combine(sets.midcast['Enfeebling Magic'], sets.TreasureHunter)
@@ -368,8 +368,8 @@ function init_gear_sets()
 	sets.midcast.ElementalEnfeeble = set_combine(sets.midcast['Enfeebling Magic'], {})
 	sets.midcast.ElementalEnfeeble.Resistant = set_combine(sets.midcast['Enfeebling Magic'].Resistant, {})
 
-	sets.midcast.IntEnfeebles = set_combine(sets.midcast['Enfeebling Magic'], {waist="Porous Rope"})
-	sets.midcast.IntEnfeebles.Resistant = set_combine(sets.midcast['Enfeebling Magic'].Resistant, {waist="Porous Rope"})
+	sets.midcast.IntEnfeebles = set_combine(sets.midcast['Enfeebling Magic'], {waist="Sacro Cord"})
+	sets.midcast.IntEnfeebles.Resistant = set_combine(sets.midcast['Enfeebling Magic'].Resistant, {waist="Sacro Cord"})
 
 	sets.midcast.MndEnfeebles = set_combine(sets.midcast['Enfeebling Magic'], {back=gear.fc_jse_cape})
 	sets.midcast.MndEnfeebles.Resistant = set_combine(sets.midcast['Enfeebling Magic'].Resistant, {back=gear.fc_jse_cape})
