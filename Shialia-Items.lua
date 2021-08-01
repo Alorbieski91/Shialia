@@ -29,6 +29,7 @@ gear.chironic_enfeeble_legs = {name="Chironic Hose",augments={'Mag. Acc.+25 "Mag
 gear.chironic_nuke_feet = {name="Chironic Slippers",augments={'Mag. Acc.+25 "Mag.Atk.Bns."+25','"Drain" and "Aspir" potency +10','CHR+6','"Mag.Atk.Bns."+15',}}
 
 gear.telchine_enh_head = {name="Telchine Cap",augments={'"Conserve MP"+4','Enh. Mag. eff. dur. +10',}}
+gear.telchine_pet_head = {name="Telchine Cap",augments={'Pet: "Regen"+3','Pet: Damage taken -4%',}}
 gear.telchine_enh_body = {name="Telchine Chas.",augments={'"Conserve MP"+4','Enh. Mag. eff. dur. +10',}}
 gear.telchine_enh_hands = {name="Telchine Gloves",augments={'"Conserve MP"+5','Enh. Mag. eff. dur. +7',}}
 gear.telchine_enh_legs = {name="Telchine Braconi",augments={'"Conserve MP"+5','Enh. Mag. eff. dur. +6',}}
