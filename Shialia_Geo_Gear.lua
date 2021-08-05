@@ -413,8 +413,8 @@ function init_gear_sets()
 		feet="Jhakri Pigaches +1"
 	}
 	
-	sets.buff.Sublimation = {waist="Embla Sash"}
-	sets.buff.DTSublimation = {waist="Embla Sash"}
+	sets.buff.Sublimation = {}
+	sets.buff.DTSublimation = {}
 	
 	-- Weapons sets
 	sets.weapons.Nehushtan = {main='Nehushtan',sub='Genmei Shield'}

@@ -50,8 +50,8 @@ function init_gear_sets()
 	sets.weapons.MeleeWeapons = {main="Izcalli",sub="Ammurapi Shield"}
 	sets.weapons.DualWeapons = {main="Izcalli",sub="Nehushtan"}
 	
-	sets.buff.Sublimation = {waist="Embla Sash"}
-	sets.buff.DTSublimation = {waist="Embla Sash"}
+	sets.buff.Sublimation = {}
+	sets.buff.DTSublimation = {}
 	
 	-- Precast Sets
 
@@ -391,7 +391,7 @@ function init_gear_sets()
 	sets.idle.PDT = {main="Bolelabunga",sub="Genmei Shield",ammo="Staunch Tathlum +1",
 		head="Gende. Caubeen +1",neck="Loricate Torque +1",ear1="Etiolation Earring",ear2="Ethereal Earring",
 		body="Shamash Robe",hands="Gende. Gages +1",ring1="Defending Ring",ring2="Dark Ring",
-		back="Solemnity Cape",waist="Flax Sash",legs="Inyanga Shalwar +2",feet="Aya. Gambieras +1"}
+		back="Solemnity Cape",waist="Flax Sash",legs="Inyanga Shalwar +2",feet="Aya. Gambieras +2"}
 		
 	sets.idle.MDT = {main="Daybreak",sub="Genmei Shield",ammo="Staunch Tathlum +1",
 		head="Gende. Caubeen +1",neck="Loricate Torque +1",ear1="Etiolation Earring",ear2="Ethereal Earring",
@@ -401,14 +401,14 @@ function init_gear_sets()
 	sets.idle.Weak = {main="Bolelabunga",sub="Genmei Shield",ammo="Homiliary",
 		head="Inyanga Tiara +2",neck="Bathy Choker +1",ear1="Moonshade Earring",ear2="Etiolation Earring",
 		body="Shamash Robe",hands="Inyan. Dastanas +2",ring1="Gelatinous Ring +1",ring2="Inyanga Ring",
-		back="Solemnity Cape",legs="Inyanga Shalwar +2",feet="Aya. Gambieras +1"}
+		back="Solemnity Cape",legs="Inyanga Shalwar +2",feet="Aya. Gambieras +2"}
 
 	-- Defense sets
 
 	sets.defense.PDT = {main="Bolelabunga",sub="Genmei Shield",ammo="Staunch Tathlum +1",
 		head="Gende. Caubeen +1",neck="Loricate Torque +1",ear1="Etiolation Earring",ear2="Ethereal Earring",
 		body="Vrikodara Jupon",hands="Gende. Gages +1",ring1="Defending Ring",ring2="Dark Ring",
-		back="Solemnity Cape",waist="Flax Sash",legs="Inyanga Shalwar +2",feet="Aya. Gambieras +1"}
+		back="Solemnity Cape",waist="Flax Sash",legs="Inyanga Shalwar +2",feet="Aya. Gambieras +2"}
 
 	sets.defense.MDT = {main="Mafic Cudgel",sub="Genmei Shield",ammo="Staunch Tathlum +1",
 		head="Gende. Caubeen +1",neck="Loricate Torque +1",ear1="Etiolation Earring",ear2="Sanare Earring",

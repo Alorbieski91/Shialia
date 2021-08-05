@@ -151,18 +151,18 @@ function init_gear_sets()
 		back=gear.enfeeble_jse_back,waist="Witful Belt",legs="Aya. Cosciales +2",feet=gear.merlinic_conservemp_feet}
 
 	sets.midcast.Cure = {main="Daybreak",sub="Sors Shield",ammo="Hydrocera",
-		head="Vanya Hood",neck="Incanter's Torque",ear1="Loquac. Earring",ear2="Mendi. Earring",
+		head="Vanya Hood",neck="Incanter's Torque",ear1="Meili Earring",ear2="Mendi. Earring",
 		body="Viti. Tabard +1",hands="Kaykaus Cuffs",ring1="Lebeche Ring",ring2="Janniston Ring",
 		back=gear.enfeeble_jse_back,waist="Sacro Cord",legs="Atrophy Tights +1",feet="Vanya Clogs"}
 		
 	sets.midcast.LightWeatherCure = {main="Iridal Staff",sub="Achaq Grip",ammo="Regal Gem",
-		head="Vanya Hood",neck="Incanter's Torque",ear1="Loquac. Earring",ear2="Mendi. Earring",
+		head="Vanya Hood",neck="Incanter's Torque",ear1="Meili Earring",ear2="Mendi. Earring",
 		body="Viti. Tabard +1",hands="Kaykaus Cuffs",ring1="Lebeche Ring",ring2="Janniston Ring",
 		back="Twilight Cape",waist="Sacro Cord",legs="Atrophy Tights +1",feet="Vanya Clogs"}
 		
 		--Cureset for if it's not light weather but is light day.
 	sets.midcast.LightDayCure = {main="Iridal Staff",sub="Achaq Grip",ammo="Regal Gem",
-		head="Vanya Hood",neck="Incanter's Torque",ear1="Loquac. Earring",ear2="Mendi. Earring",
+		head="Vanya Hood",neck="Incanter's Torque",ear1="Meili Earring",ear2="Mendi. Earring",
 		body="Viti. Tabard +1",hands="Kaykaus Cuffs",ring1="Lebeche Ring",ring2="Janniston Ring",
 		back="Twilight Cloak",waist="Sacro Cord",legs="Atrophy Tights +1",feet="Vanya Clogs"}
 		
@@ -200,7 +200,7 @@ function init_gear_sets()
 	sets.midcast['Enhancing Magic'] = {main="Daybreak",sub="Thuellaic Ecu +1",ammo="Hydrocera",
 		head=gear.telchine_enh_head,neck="Incanter's Torque",ear1="Mimir Earring",ear2="Andoaa Earring",
 		body=gear.telchine_enh_body,hands="Atrophy Gloves +2",ring1="Lebeche Ring",ring2="Stikini Ring",
-		back=gear.enfeeble_jse_back,waist="Embla Sash",legs=gear.telchine_enh_legs,feet="Leth. Houseaux +1"}
+		back="Ghostfyre Cape",waist="Embla Sash",legs=gear.telchine_enh_legs,feet="Leth. Houseaux +1"}
 
 	--Atrophy Gloves are better than Lethargy for me despite the set bonus for duration on others.		
 	sets.buff.ComposureOther = {
@@ -431,8 +431,8 @@ function init_gear_sets()
 	sets.weapons.DualBow = {main="Naegling",sub="Tauret",range="Kaja Bow"}
 	sets.weapons.BowMacc = {range="Kaja Bow",ammo=empty}
 	
-	sets.buff.Sublimation = {waist="Embla Sash"}
-	sets.buff.DTSublimation = {waist="Embla Sash"}
+	sets.buff.Sublimation = {}
+	sets.buff.DTSublimation = {}
 
 	-- Engaged sets
 
@@ -645,8 +645,8 @@ buff_spell_lists = {
 		{Name='Gain-INT',		Buff='INT Boost',		SpellID=490,	Reapply=false},
 		{Name='Temper II',		Buff='Multi Strikes',	SpellID=895,	Reapply=false},
 		{Name='Regen II',		Buff='Regen',			SpellID=110,	Reapply=false},
-		--{Name='Enaero',			Buff='Enaero',			SpellID=102,	Reapply=false},
-		{Name='Enthunder',		Buff='Enthunder',		SpellID=104,	Reapply=false},
+		{Name='Enaero',			Buff='Enaero',			SpellID=102,	Reapply=false},
+		--{Name='Enthunder',		Buff='Enthunder',		SpellID=104,	Reapply=false},
 		{Name='Stoneskin',		Buff='Stoneskin',		SpellID=54,		Reapply=false},
 		{Name='Shell V',		Buff='Shell',			SpellID=52,		Reapply=false},
 		{Name='Protect V',		Buff='Protect',			SpellID=47,		Reapply=false},
