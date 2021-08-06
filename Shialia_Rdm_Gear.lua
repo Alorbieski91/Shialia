@@ -20,7 +20,7 @@ function user_job_setup()
 	gear.obi_high_nuke_back = "Toro Cape"
 	gear.obi_high_nuke_waist = "Sacro Cord"
 
-	gear.stp_jse_back = {name="Sucellos's Cape", augments={'DEX+20','Accuracy+20 Attack+20','Accuracy+5','"Store TP"+10',}}
+	gear.da_jse_back = {name="Sucellos's Cape", augments={'DEX+20','Accuracy+20 Attack+20','Accuracy+5','"Dbl.Atk."+10',}}
 	gear.nuke_jse_back = {name="Sucellos's Cape",augments={'INT+20','Mag. Acc+20 /Mag. Dmg.+20','INT+10','"Mag.Atk.Bns."+10','Phys. dmg. taken-10%',}}
 	gear.wsd_jse_back = {name="Sucellos's Cape",augments={'STR+20','Accuracy+20 Attack+20','Weapon skill damage +10%',}}
 	gear.enfeeble_jse_back = {name="Sucellos's Cape",augments={'MND+20','Mag. Acc+20 /Mag. Dmg.+20','Enmity-10','Phys. dmg. taken-10%',}}
@@ -446,7 +446,7 @@ function init_gear_sets()
 	sets.engaged = {ammo="Coiste Bodhar",
 		head="Malignance Chapeau",neck="Anu Torque",ear1="Brutal Earring",ear2="Sherida Earring",
 		body="Ayanmo Corazza +2",hands="Aya. Manopolas +2",ring1="Ayanmo Ring",ring2="Petrov Ring",
-		back=gear.stp_jse_back,waist="Kentarch Belt +1",legs="Malignance Tights",feet="Malignance Boots"}
+		back=gear.da_jse_back,waist="Kentarch Belt +1",legs="Malignance Tights",feet="Malignance Boots"}
 		
 	sets.engaged.EnspellOnly = {ammo="Coiste Bodhar",
 		head="Malignance Chapeau",neck="Dls. Torque +1",ear1="Brutal Earring",ear2="Sherida Earring",
@@ -456,12 +456,12 @@ function init_gear_sets()
 	sets.engaged.Acc = {ammo="Coiste Bodhar",
 		head="Malignance Chapeau",neck="Asperity Necklace",ear1="Brutal Earring",ear2="Sherida Earring",
 		body="Ayanmo Corazza +2",hands="Malignance Gloves",ring1="Petrov Ring",ring2="Ilabrat Ring",
-		back=gear.stp_jse_back,waist="Windbuffet Belt +1",legs="Malignance Tights",feet="Carmine Greaves +1"}	
+		back=gear.da_jse_back,waist="Windbuffet Belt +1",legs="Malignance Tights",feet="Carmine Greaves +1"}	
 		
 	sets.engaged.FullAcc = {ammo="Coiste Bodhar",
 		head="Malignance Chapeau",neck="Asperity Necklace",ear1="Brutal Earring",ear2="Sherida Earring",
 		body="Ayanmo Corazza +2",hands="Malignance Gloves",ring1="Petrov Ring",ring2="Ilabrat Ring",
-		back=gear.stp_jse_back,waist="Windbuffet Belt +1",legs="Malignance Tights",feet="Carmine Greaves +1"}
+		back=gear.da_jse_back,waist="Windbuffet Belt +1",legs="Malignance Tights",feet="Carmine Greaves +1"}
 
 	sets.engaged.DT = {ammo="Coiste Bodhar",
 		head="Malignance Chapeau",neck="Loricate Torque +1",ear1="Brutal Earring",ear2="Sherida Earring",
@@ -481,17 +481,17 @@ function init_gear_sets()
 	sets.engaged.DW = {ammo="Coiste Bodhar",
 		head="Malignance Chapeau",neck="Anu Torque",ear1="Suppanomimi",ear2="Sherida Earring",
 		body="Ayanmo Corazza +2",hands="Aya. Manopolas +2",ring1="Ayanmo Ring",ring2="Petrov Ring",
-		back=gear.stp_jse_back,waist="Kentarch Belt +1",legs="Carmine Cuisses +1",feet="Malignance Boots"}
+		back=gear.da_jse_back,waist="Kentarch Belt +1",legs="Carmine Cuisses +1",feet="Malignance Boots"}
 		
 	sets.engaged.DW.Acc = {ammo="Coiste Bodhar",
 		head="Malignance Chapeau",neck="Combatant's Torque",ear1="Suppanomimi",ear2="Sherida Earring",
 		body="Malignance Tabard",hands="Malignance Gloves",ring1="Ramuh Ring +1",ring2="Ilabrat Ring",
-		back=gear.stp_jse_back,waist="Olseni Belt",legs="Carmine Cuisses +1",feet="Malignance Boots"}
+		back=gear.da_jse_back,waist="Olseni Belt",legs="Carmine Cuisses +1",feet="Malignance Boots"}
 		
 	sets.engaged.DW.FullAcc = {ammo="Coiste Bodhar",
 		head="Malignance Chapeau",neck="Combatant's Torque",ear1="Suppanomimi",ear2="Telos Earring",
 		body="Malignance Tabard",hands="Malignance Gloves",ring1="Ramuh Ring +1",ring2="Ramuh Ring +1",
-		back=gear.stp_jse_back,waist="Olseni Belt",legs="Carmine Cuisses +1",feet="Malignance Boots"}
+		back=gear.da_jse_back,waist="Olseni Belt",legs="Carmine Cuisses +1",feet="Malignance Boots"}
 		
 	sets.engaged.DW.DT = {ammo="Coiste Bodhar",
 		head="Malignance Chapeau",neck="Loricate Torque +1",ear1="Suppanomimi",ear2="Sherida Earring",
