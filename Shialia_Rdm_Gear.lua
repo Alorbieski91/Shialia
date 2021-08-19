@@ -127,7 +127,7 @@ function init_gear_sets()
 
 	-- Midcast Sets
 
-	sets.TreasureHunter = set_combine(sets.TreasureHunter, {hands=gear.chironic_treasure_hands,feet=gear.chironic_treasure_feet,})
+	sets.TreasureHunter = set_combine(sets.TreasureHunter, {hands=gear.chironic_treasure_hands,feet=gear.merlinic_treasure_feet})
 	
 	-- Gear that converts elemental damage done to recover MP.	
 	sets.RecoverMP = {body="Seidr Cotehardie"}
@@ -282,7 +282,7 @@ function init_gear_sets()
 	
 	sets.midcast.Bio = set_combine(sets.midcast['Enfeebling Magic'], sets.TreasureHunter)
 	sets.midcast['Bio II'] = set_combine(sets.midcast['Enfeebling Magic'], sets.TreasureHunter)
-	sets.midcast['Bio III'] = set_combine(sets.midcast['Enfeebling Magic'], {head="Viti. Chapeau +1",waist="Chaac Belt",feet=gear.chironic_treasure_feet})
+	sets.midcast['Bio III'] = set_combine(sets.midcast['Enfeebling Magic'], {head="Viti. Chapeau +1",waist="Chaac Belt"})
 
 	sets.midcast['Elemental Magic'] = {main="Daybreak",sub="Culminus",ammo="Ghastly Tathlum",
 		head=gear.merlinic_nuke_head,neck="Baetyl Pendant",ear1="Friomisi Earring",ear2="Malignance Earring",

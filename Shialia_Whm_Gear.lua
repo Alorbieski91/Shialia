@@ -116,7 +116,7 @@ function init_gear_sets()
 	sets.TPEat = {neck="Chrys. Torque"}
 	sets.DayIdle = {}
 	sets.NightIdle = {}
-	sets.TreasureHunter = set_combine(sets.TreasureHunter, {hands=gear.chironic_treasure_hands,feet=gear.chironic_treasure_feet})
+	sets.TreasureHunter = set_combine(sets.TreasureHunter, {hands=gear.chironic_treasure_hands})
 	
 	--Situational sets: Gear that is equipped on certain targets
 	sets.Self_Healing = {

@@ -36,3 +36,4 @@ gear.merlinic_nuke_head = {name="Merlinic Hood",augments={'"Mag.Atk.Bns."+29','P
 gear.merlinic_conservemp_feet = {name="Merlinic Crackows",augments={'Mag. Acc.+18','"Conserve MP"+6','MND+4',}}
 gear.merlinic_nuke_feet = {name="Merlinic Crackows",augments={'Magic burst dmg.+9%','INT+10','Mag. Acc.+11','"Mag.Atk.Bns."+14',}}
 gear.merlinic_aspir_feet = {name="Merlinic Crackows",augments={'Mag. Acc.+22 "Mag.Atk.Bns."+22','"Drain" and "Aspir" potency +10','Mag. Acc.+15',}}
+gear.merlinic_treasure_feet = {name="Merlinic Crackows",augments={'Mag. Acc.+7','MND+4','"Treasure Hunter"+2','Accuracy+17 Attack+17',}}
