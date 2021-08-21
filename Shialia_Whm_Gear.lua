@@ -385,7 +385,7 @@ function init_gear_sets()
 	-- Idle sets (default idle set not needed since the other three are defined, but leaving for testing purposes)
 	sets.idle = {main="Bolelabunga",sub="Genmei Shield",ammo="Homiliary",
 		head="Inyanga Tiara +2",neck="Bathy Choker +1",ear1="Moonshade Earring",ear2="Etiolation Earring",
-		body="Shamash Robe",hands="Inyan. Dastanas +2",ring1="Gelatinous Ring +1",ring2="Inyanga Ring",
+		body="Shamash Robe",hands="Inyan. Dastanas +2",ring1="Defending Ring",ring2="Inyanga Ring",
 		back="Solemnity Cape",legs="Inyanga Shalwar +2",feet="Inyan. Crackows +2"}
 
 	sets.idle.PDT = {main="Bolelabunga",sub="Genmei Shield",ammo="Staunch Tathlum +1",
@@ -400,7 +400,7 @@ function init_gear_sets()
 		
 	sets.idle.Weak = {main="Bolelabunga",sub="Genmei Shield",ammo="Homiliary",
 		head="Inyanga Tiara +2",neck="Bathy Choker +1",ear1="Moonshade Earring",ear2="Etiolation Earring",
-		body="Shamash Robe",hands="Inyan. Dastanas +2",ring1="Gelatinous Ring +1",ring2="Inyanga Ring",
+		body="Shamash Robe",hands="Inyan. Dastanas +2",ring1="Defending Ring",ring2="Inyanga Ring",
 		back="Solemnity Cape",legs="Inyanga Shalwar +2",feet="Aya. Gambieras +2"}
 
 	-- Defense sets

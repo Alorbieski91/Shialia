@@ -125,7 +125,7 @@ function init_gear_sets()
 
 	sets.midcast.Geomancy = {main="Solstice",sub="Genmei Shield",
 		head=gear.telchine_enh_head,neck="Bagua Charm +1",ear1="Magnetic Earring",ear2="Gifted Earring",
-		body="Bagua Tunic +1",hands="Shrieker's Cuffs",ring2="Stikini Ring",
+		body="Bagua Tunic +1",hands="Shrieker's Cuffs",ring1="Defending Ring",ring2="Stikini Ring",
 		back="Lifestream Cape",waist="Austerity Belt",legs="Vanya Slops",feet=gear.merlinic_conservemp_feet}
 
 
@@ -292,29 +292,29 @@ function init_gear_sets()
 	-- Resting sets
 	sets.resting = {main="Iridal Staff",sub="Oneiros Grip",
 		head="Befouled Crown",neck="Twilight Torque",ear1="Etiolation Earring",ear2="Ethereal Earring",
-		body="Jhakri Robe +2",hands=gear.merlinic_refresh_hands,ring1="Gelatinous Ring +1",ring2="Fortified Ring",
+		body="Jhakri Robe +2",hands=gear.merlinic_refresh_hands,ring1="Defending Ring",ring2="Gelatinous Ring +1",
 		back="Sloemnity Cape",legs="Assid. Pants +1",feet=gear.merlinic_refresh_feet}
 
 	-- Idle sets
 	sets.idle = {main="Bolelabunga",sub="Genmei Shield",range="Dunna",
 		head="Befouled Crown",neck="Twilight Torque",ear1="Moonshade Earring",ear2="Etiolation Earring",
-		body="Shamash Robe",hands="Bagua Mitaines +1",ring1="Gelatinous Ring +1",ring2="Fortified Ring",
+		body="Shamash Robe",hands="Bagua Mitaines +1",ring1="Defending Ring",ring2="Gelatinous Ring +1",
 		back=gear.idle_jse_back,legs="Assid. Pants +1",feet="Mallquis Clogs +2"}
 
 	sets.idle.PDT = {main="Malignance Pole",range="Dunna",
 		head="Befouled Crown",neck="Twilight Torque",ear1="Moonshade Earring",ear2="Etiolation Earring",
-		body="Shamash Robe",hands="Geo. Mitaines +2",ring1="Gelatinous Ring +1",ring2="Fortified Ring",
+		body="Shamash Robe",hands="Geo. Mitaines +2",ring1="Defending Ring",ring2="Gelatinous Ring +1",
 		back=gear.idle_jse_back,legs="Assid. Pants +1",feet="Mallquis Clogs +2"}
 
 	-- .Pet sets are for when Luopan is present.
 	sets.idle.Pet = {main="Bolelabunga",sub="Genmei Shield",range="Dunna",
 		head=gear.telchine_pet_head,neck="Twilight Torque",ear1="Handler's Earring",ear2="Handler's Earring +1",
-		body="Shamash Robe",hands="Geo. Mitaines +2",ring1="Gelatinous Ring +1",ring2="Fortified Ring",
+		body="Shamash Robe",hands="Geo. Mitaines +2",ring1="Defending Ring",ring2="Gelatinous Ring +1",
 		back=gear.idle_jse_back,waist="Isa Belt",legs=gear.telchine_pet_legs,feet="Bagua Sandals +1"}
 
 	sets.idle.PDT.Pet = {main="Malignance Pole",range="Dunna",
 		head=gear.telchine_pet_head,neck="Twilight Torque",ear1="Handler's Earring",ear2="Handler's Earring +1",
-		body="Shamash Robe",hands="Geo. Mitaines +2",ring1="Gelatinous Ring +1",ring2="Fortified Ring",
+		body="Shamash Robe",hands="Geo. Mitaines +2",ring1="Defending Ring",ring2="Gelatinous Ring +1",
 		back=gear.idle_jse_back,waist="Isa Belt",legs=gear.telchine_pet_legs,feet="Bagua Sandals +1"}
 
 	-- .Indi sets are for when an Indi-spell is active.
@@ -325,18 +325,18 @@ function init_gear_sets()
 
 	sets.idle.Weak = {main="Bolelabunga",sub="Genmei Shield",ammo="Staunch Tathlum +1",
 		head="Befouled Crown",neck="Twilight Torque",ear1="Etiolation Earring",ear2="Ethereal Earring",
-		body="Shamash Robe",hands=gear.merlinic_refresh_hands,ring1="Gelatinous Ring +1",ring2="Fortified Ring",
+		body="Shamash Robe",hands=gear.merlinic_refresh_hands,ring1="Defending Ring",ring2="Gelatinous Ring +1",
 		back="Sloemnity Cape",waist="Flax Sash",legs="Assid. Pants +1",feet="Mallquis Clogs +2"}
 
 	-- Defense sets
 	sets.defense.PDT = {main="Malignance Pole",sub="Enki Strap",ammo="Staunch Tathlum +1",
 		head=gear.merlinic_nuke_head,neck="Twilight Torque",ear1="Etiolation Earring",ear2="Handler's Earring +1",
-		body="Shamash Robe",hands="Geo. Mitaines +2",ring1="Gelatinous Ring +1",ring2="Fortified Ring",
+		body="Shamash Robe",hands="Geo. Mitaines +2",ring1="Defending Ring",ring2="Gelatinous Ring +1",
 		back="Sloemnity Cape",waist="Flax Sash",legs="Hagondes Pants +1",feet="Mallquis Clogs +2"}
 
 	sets.defense.MDT = {main="Malignance Pole",sub="Enki Strap",ammo="Staunch Tathlum +1",
 		head="Azimuth Hood +1",neck="Twilight Torque",ear1="Etiolation Earring",ear2="Handler's Earring +1",
-		body="Mallquis Saio +2",hands="Geo. Mitaines +2",ring1="Gelatinous Ring +1",ring2="Fortified Ring",
+		body="Mallquis Saio +2",hands="Geo. Mitaines +2",ring1="Defending Ring",ring2="Gelatinous Ring +1",
 		back="Sloemnity Cape",waist="Flax Sash",legs="Hagondes Pants +1",feet="Mallquis Clogs +2"}
 		
 	sets.defense.MEVA = {main="Malignance Pole",sub="Enki Strap",ammo="Staunch Tathlum +1",

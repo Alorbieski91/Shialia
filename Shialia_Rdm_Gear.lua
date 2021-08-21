@@ -366,7 +366,7 @@ function init_gear_sets()
 	-- Idle sets
 	sets.idle = {main="Bolelabunga",sub="Genmei Shield",ammo="Homiliary",
 		head="Viti. Chapeau +1",neck="Bathy Choker +1",ear1="Moonshade Earring",ear2="Etiolation Earring",
-		body="Shamash Robe",hands="Aya. Manopolas +2",ring1="Gelatinous Ring +1",ring2="Fortified Ring",
+		body="Shamash Robe",hands="Aya. Manopolas +2",ring1="Defending Ring",ring2="Fortified Ring",
 		back=gear.enfeeble_jse_back,waist="Fucho-no-Obi",legs="Malignance Tights",feet="Malignance Boots"}
 		
 	sets.idle.PDT = {main="Terra's Staff",sub="Oneiros Grip",range=empty,ammo="Staunch Tathlum +1",
