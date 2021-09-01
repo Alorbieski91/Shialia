@@ -113,17 +113,17 @@ function init_gear_sets()
 	sets.precast.WS['Sanguine Blade'] = {range=empty,ammo="Pemphredo Tathlum",
 		head="Pixie Hairpin +1",neck="Baetyl Pendant",ear1="Regal Earring",ear2="Malignance Earring",
 		body=gear.merlinic_nuke_body,hands="Jhakri Cuffs +2",ring1="Metamor. Ring +1",ring2="Archon Ring",
-		back=gear.nuke_jse_back,waist="Sacro Cord",legs="Merlinic Shalwar",feet=gear.merlinic_nuke_feet}
+		back=gear.nuke_jse_back,waist="Sacro Cord",legs="Merlinic Shalwar",feet="Jhakri Pigaches +2"}
 		
 	sets.precast.WS['Seraph Blade'] = {range=empty,ammo="Pemphredo Tathlum",
 		head=gear.merlinic_nuke_head,neck="Baetyl Pendant",ear1="Regal Earring",ear2="Malignance Earring",
 		body=gear.merlinic_nuke_body,hands="Jhakri Cuffs +2",ring1="Shiva Ring +1",ring2="Freke Ring",
-		back=gear.nuke_jse_back,waist="Sacro Cord",legs="Merlinic Shalwar",feet=gear.merlinic_nuke_feet}
+		back=gear.nuke_jse_back,waist="Sacro Cord",legs="Merlinic Shalwar",feet="Jhakri Pigaches +2"}
 		
 	sets.precast.WS['Aeolian Edge'] = {range=empty,ammo="Pemphredo Tathlum",
 		head=gear.merlinic_nuke_head,neck="Baetyl Pendant",ear1="Regal Earring",ear2="Malignance Earring",
 		body=gear.merlinic_nuke_body,hands="Jhakri Cuffs +2",ring1="Metamor. Ring +1",ring2="Freke Ring",
-		back=gear.nuke_jse_back,waist="Sacro Cord",legs="Merlinic Shalwar",feet=gear.merlinic_nuke_feet}
+		back=gear.nuke_jse_back,waist="Sacro Cord",legs="Merlinic Shalwar",feet="Jhakri Pigaches +2"}
 
 	-- Midcast Sets
 
@@ -287,17 +287,17 @@ function init_gear_sets()
 	sets.midcast['Elemental Magic'] = {main="Daybreak",sub="Culminus",ammo="Ghastly Tathlum",
 		head=gear.merlinic_nuke_head,neck="Baetyl Pendant",ear1="Friomisi Earring",ear2="Malignance Earring",
 		body="Shamash Robe",hands=gear.chironic_treasure_hands,ring1="Metamor. Ring +1",ring2="Tamas Ring",
-		back=gear.enfeeble_jse_back,waist="Sacro Cord",legs=gear.chironic_enfeeble_legs,feet=gear.merlinic_nuke_feet}
+		back=gear.enfeeble_jse_back,waist="Sacro Cord",legs=gear.chironic_enfeeble_legs,feet="Jhakri Pigaches +2"}
 		
 	sets.midcast['Elemental Magic'].Resistant = {main="Daybreak",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
 		head=gear.merlinic_nuke_head,neck="Dls. Torque +1",ear1="Regal Earring",ear2="Friomisi Earring",
 		body=gear.merlinic_nuke_body,hands="Amalric Gages +1",ring1="Metamor. Ring +1",ring2="Freke Ring",
-		back=gear.nuke_jse_back,waist="Sacro Cord",legs="Merlinic Shalwar",feet=gear.merlinic_nuke_feet}
+		back=gear.nuke_jse_back,waist="Sacro Cord",legs="Merlinic Shalwar",feet="Jhakri Pigaches +2"}
 		
 	sets.midcast['Elemental Magic'].Fodder = {main="Daybreak",sub="Ammurapi Shield",range=empty,ammo="Dosis Tathlum",
 		head=gear.merlinic_nuke_head,neck="Baetyl Pendant",ear1="Crematio Earring",ear2="Friomisi Earring",
 		body=gear.merlinic_nuke_body,hands="Amalric Gages +1",ring1="Shiva Ring +1",ring2="Freke Ring",
-		back=gear.nuke_jse_back,waist=gear.ElementalObi,legs="Merlinic Shalwar",feet=gear.merlinic_nuke_feet}
+		back=gear.nuke_jse_back,waist=gear.ElementalObi,legs="Merlinic Shalwar",feet="Jhakri Pigaches +2"}
 
 	sets.midcast['Elemental Magic'].Proc = {main=empty,sub=empty,range=empty,ammo="Impatiens",
 		head="Nahtirah Hat",neck="Voltsurge Torque",ear1="Enchntr. Earring +1",ear2="Loquac. Earring",
@@ -320,12 +320,12 @@ function init_gear_sets()
 	sets.midcast['Dark Magic'] = {main="Rubicundity",sub="Thuellaic Ecu +1",ammo="Regal Gem",
 		head="Atro. Chapeau +2",neck="Erra Pendant",ear1="Gwati Earring",ear2="Malignance Earring",
 		body="Atrophy Tabard +2",hands="Kaykaus Cuffs",ring1="Evanescence Ring",ring2="Archon Ring",
-		back=gear.enfeeble_jse_back,waist="Fucho-no-Obi",legs=gear.chironic_enfeeble_legs,feet=gear.merlinic_nuke_feet}
+		back=gear.enfeeble_jse_back,waist="Fucho-no-Obi",legs=gear.chironic_enfeeble_legs,feet="Jhakri Pigaches +2"}
 
 	sets.midcast.Drain = {main="Rubicundity",sub="Thuellaic Ecu +1",ammo="Regal Gem",
 		head="Atro. Chapeau +2",neck="Erra Pendant",ear1="Gwati Earring",ear2="Malignance Earring",
 		body="Atrophy Tabard +2",hands="Kaykaus Cuffs",ring1="Evanescence Ring",ring2="Archon Ring",
-		back=gear.enfeeble_jse_back,waist="Fucho-no-Obi",legs=gear.chironic_enfeeble_legs,feet=gear.merlinic_nuke_feet}
+		back=gear.enfeeble_jse_back,waist="Fucho-no-Obi",legs=gear.chironic_enfeeble_legs,feet="Jhakri Pigaches +2"}
 
 	sets.midcast.Aspir = sets.midcast.Drain
 		

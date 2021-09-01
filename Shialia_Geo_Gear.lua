@@ -163,7 +163,7 @@ function init_gear_sets()
 	sets.midcast['Elemental Magic'].Resistant = {main="Daybreak",sub="Ammurapi Shield",ammo="Ghastly Tathlum",
 		head=gear.merlinic_nuke_head,neck="Sanctity Necklace",ear1="Regal Earring",ear2="Malignance Earring",
 		body="Jhakri Robe +2",hands="Mallquis Cuffs +2",ring1="Shiva Ring +1",ring2="Freke Ring",
-		back=gear.nuke_jse_back,waist="Sacro Cord",legs="Merlinic Shalwar",feet=gear.merlinic_nuke_feet}
+		back=gear.nuke_jse_back,waist="Sacro Cord",legs="Merlinic Shalwar",feet="Jhakri Pigaches +2"}
 		
 	sets.midcast['Elemental Magic'].Proc = {main=empty,sub=empty,ammo="Impatiens",
 		head="Nahtirah Hat",neck="Loricate Torque +1",ear1="Gifted Earring",ear2="Loquac. Earring",
@@ -178,17 +178,17 @@ function init_gear_sets()
 	sets.midcast['Elemental Magic'].HighTierNuke = {main="Daybreak",sub="Culminus",ammo="Ghastly Tathlum",
 		head=gear.merlinic_nuke_head,neck="Baetyl Pendant",ear1="Friomisi Earring",ear2="Malignance Earring",
 		body="Jhakri Robe +2",hands="Jhakri Cuffs +2",ring1="Tamas Ring",ring2="Metamor. Ring +1",
-		back=gear.nuke_jse_back,waist="Sacro Cord",legs="Jhakri Slops +2",feet=gear.merlinic_nuke_feet}
+		back=gear.nuke_jse_back,waist="Sacro Cord",legs="Jhakri Slops +2",feet="Jhakri Pigaches +2"}
 
 	sets.midcast['Elemental Magic'].HighTierNuke.Resistant = {main="Daybreak",sub="Ammurapi Shield",ammo="Ghastly Tathlum",
 		head=gear.merlinic_nuke_head,neck="Sanctity Necklace",ear1="Regal Earring",ear2="Malignance Earring",
 		body="Jhakri Robe +2",hands="Jhakri Cuffs +2",ring1="Freke Ring",ring2="Metamor. Ring +1",
-		back=gear.nuke_jse_back,waist="Sacro Cord",legs="Merlinic Shalwar",feet=gear.merlinic_nuke_feet}
+		back=gear.nuke_jse_back,waist="Sacro Cord",legs="Merlinic Shalwar",feet="Jhakri Pigaches +2"}
 
 	sets.midcast['Elemental Magic'].HighTierNuke.Fodder = {main="Daybreak",sub="Culminus",ammo="Ghastly Tathlum",
 		head=gear.merlinic_nuke_head,neck="Baetyl Pendant",ear1="Friomisi Earring",ear2="Malignance Earring",
 		body="Jhakri Robe +2",hands="Jhakri Cuffs +2",ring1="Tamas Ring",ring2="Metamor. Ring +1",
-		back=gear.nuke_jse_back,waist="Sacro Cord",legs="Jhakri Slops +2",feet=gear.merlinic_nuke_feet}
+		back=gear.nuke_jse_back,waist="Sacro Cord",legs="Jhakri Slops +2",feet="Jhakri Pigaches +2"}
 
 	sets.midcast['Dark Magic'] = {main="Rubicundity",sub="Culminus",range="Dunna",
 		head="Bagua Galero +1",neck="Erra Pendant",ear1="Gwati Earring",ear2="Malignance Earring",
