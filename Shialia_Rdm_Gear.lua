@@ -369,12 +369,12 @@ function init_gear_sets()
 		body="Shamash Robe",hands="Aya. Manopolas +2",ring1="Defending Ring",ring2="Fortified Ring",
 		back=gear.enfeeble_jse_back,waist="Fucho-no-Obi",legs="Malignance Tights",feet="Malignance Boots"}
 		
-	sets.idle.PDT = {main="Terra's Staff",sub="Oneiros Grip",range=empty,ammo="Staunch Tathlum +1",
+	sets.idle.PDT = {main="Sakpata's Sword",sub="Genmei Shield",range=empty,ammo="Staunch Tathlum +1",
 		head="Malignance Chapeau",neck="Loricate Torque +1",ear1="Etiolation Earring",ear2="Ethereal Earring",
-		body="Malignance Tabard",hands="Malignance Gloves",ring1="Defending Ring",ring2="Dark Ring",
+		body="Shamash Robe",hands="Malignance Gloves",ring1="Defending Ring",ring2="Dark Ring",
 		back="Moonlight Cape",waist="Flume Belt +1",legs="Malignance Tights",feet="Malignance Boots"}
 		
-	sets.idle.MDT = {main="Daybreak",sub="Beatific Shield +1",range=empty,ammo="Staunch Tathlum +1",
+	sets.idle.MDT = {main="Sakpata's Sword",sub="Beatific Shield +1",range=empty,ammo="Staunch Tathlum +1",
 		head="Malignance Chapeau",neck="Warder's Charm +1",ear1="Etiolation Earring",ear2="Sanare Earring",
 		body="Malignance Tabard",hands="Malignance Gloves",ring1="Defending Ring",ring2="Shadow Ring",
 		back="Moonlight Cape",waist="Carrier's Sash",legs="Malignance Tights",feet="Malignance Boots"}
@@ -391,14 +391,14 @@ function init_gear_sets()
 	})
 	
 	-- Defense sets
-	sets.defense.PDT = {main="Earth Staff",sub="Umbra Strap",range=empty,ammo="Staunch Tathlum +1",
+	sets.defense.PDT = {main="Sakpata's Sword",sub="Genmei Shield",range=empty,ammo="Staunch Tathlum +1",
 		head="Malignance Chapeau",neck="Loricate Torque +1",ear1="Etiolation Earring",ear2="Ethereal Earring",
-		body="Malignance Tabard",hands="Malignance Gloves",ring1="Defending Ring",ring2="Dark Ring",
+		body="Shamash Robe",hands="Malignance Gloves",ring1="Defending Ring",ring2="Dark Ring",
 		back="Moonlight Cape",waist="Flume Belt +1",legs="Malignance Tights",feet="Malignance Boots"}
 
 	sets.defense.NukeLock = sets.midcast['Elemental Magic']
 		
-	sets.defense.MDT = {main="Bolelabunga",sub="Beatific Shield +1",range=empty,ammo="Staunch Tathlum +1",
+	sets.defense.MDT = {main="Sakpata's Sword",sub="Beatific Shield +1",range=empty,ammo="Staunch Tathlum +1",
 		head="Malignance Chapeau",neck="Warder's Charm +1",ear1="Etiolation Earring",ear2="Ethereal Earring",
 		body="Malignance Tabard",hands="Malignance Gloves",ring1="Defending Ring",ring2="Dark Ring",
 		back="Moonlight Cape",waist="Carrier's Sash",legs="Malignance Tights",feet="Malignance Boots"}
