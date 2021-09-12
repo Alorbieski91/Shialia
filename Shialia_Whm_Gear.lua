@@ -77,7 +77,7 @@ function init_gear_sets()
 
 	sets.precast.FC.Impact =  set_combine(sets.precast.FC, {head=empty,body="Twilight Cloak"})
 	
-	sets.precast.FC.Dispelga = set_combine(sets.precast.FC, {main="Daybreak",sub="Thuellaic Ecu +1"})
+	sets.precast.FC.Dispelga = set_combine(sets.precast.FC, {main="Daybreak",sub="Ammurapi Shield"})
 
 	-- Precast sets to enhance JAs
 	sets.precast.JA.Benediction = {body="Piety Bliaut +1"}
@@ -135,7 +135,7 @@ function init_gear_sets()
 
 	-- Conserve Mp set for spells that don't need anything else, for set_combine.
 	
-	sets.ConserveMP = {main="Rubicundity",sub="Thuellaic Ecu +1",
+	sets.ConserveMP = {main="Rubicundity",sub="Ammurapi Shield",
 		head="Vanya Hood",neck="Incanter's Torque",ear1="Mendi. Earring",ear2="Gwati Earring",
 		hands="Shrieker's Cuffs",
 		back="Solemnity Cape",waist="Austerity Belt",legs="Vanya Slops",feet="Medium's Sabots"}
@@ -242,7 +242,7 @@ function init_gear_sets()
 	sets.midcast.MeleeLightWeatherCuraga.DT = set_combine(sets.midcast.Cure.DT, {waist="Hachirin-no-Obi"})
 	sets.midcast.MeleeLightDayCuraga.DT = set_combine(sets.midcast.Cure.DT, {waist="Hachirin-no-Obi"})
 
-	sets.midcast.Cursna = {main=gear.gada_enhancing_club,sub="Thuellaic Ecu +1",
+	sets.midcast.Cursna = {main=gear.gada_enhancing_club,sub="Ammurapi Shield",
 		head="Ebers Cap +1",neck="Malison Medallion",ear1="Beatific Earring",ear2="Meili Earring",
 		body="Ebers Bliaut +1",hands="Fanatic Gloves",ring1="Ephedra Ring",ring2="Haoma's Ring",
 		back=gear.fc_jse_cape,waist="Sacro Cord",legs="Theo. Pant. +1",feet="Vanya Clogs"}
@@ -255,7 +255,7 @@ function init_gear_sets()
 	sets.midcast.Erase = set_combine(sets.midcast.StatusRemoval, {neck="Cleric's Torque"})
 
 	-- 110 total Enhancing Magic Skill; caps even without Light Arts
-	sets.midcast['Enhancing Magic'] = {main=gear.gada_enhancing_club,sub="Thuellaic Ecu +1",
+	sets.midcast['Enhancing Magic'] = {main=gear.gada_enhancing_club,sub="Ammurapi Shield",
 		head=gear.telchine_enh_head,neck="Incanter's Torque",ear1="Mimir Earring",ear2="Andoaa Earring",
 		body=gear.telchine_enh_body,hands=gear.telchine_enh_hands,ring2="Stikini Ring",
 		waist="Embla Sash",legs=gear.telchine_enh_legs,feet="Theo. Duckbills +2"}
@@ -271,7 +271,7 @@ function init_gear_sets()
 	
 	sets.midcast.Aquaveil = set_combine(sets.midcast['Enhancing Magic'], {
 		main="Vadose Rod",
-		--sub="Ammurapi Shield",
+		sub="Ammurapi Shield",
 		--hands="Regal Cuffs",
 		--waist="Emphatikos Rope",
 		--legs="Shedir Seraweels"
@@ -289,7 +289,7 @@ function init_gear_sets()
 		body="Ebers Bliaut +1",hands="Ebers Mitts +1",ring1="Stikini Ring +1",ring2="Stikini Ring",
 		back=gear.enf_jse_cape,waist="Olympus Sash",legs="Piety Pantaln. +1",feet="Ebers Duckbills +1"}
 
-	sets.midcast.Impact = {main="Daybreak",sub="Thuellaic Ecu +1",ammo="Hydrocera",
+	sets.midcast.Impact = {main="Daybreak",sub="Ammurapi Shield",ammo="Hydrocera",
 		head=empty,neck="Erra Pendant",ear1="Vor Earring",ear2="Malignance Earring",
 		body="Twilight Cloak",hands="Inyan. Dastanas +2",ring1="Metamor. Ring +1",ring2="Stikini Ring",
 		back=gear.enf_jse_cape,waist="Sacro Cord",legs=gear.chironic_enfeeble_legs,feet="Theo. Duckbills +2"}
@@ -304,7 +304,7 @@ function init_gear_sets()
 		body="Witching Robe",hands=gear.chironic_enfeeble_hands,ring1="Metamor. Ring +1",ring2="Freke Ring",
 		back="Toro Cape",waist="Sacro Cord",legs="Chironic Hose",feet=gear.chironic_nuke_feet}
 
-	sets.midcast['Divine Magic'] = {main="Daybreak",sub="Thuellaic Ecu +1",ammo="Hydrocera",
+	sets.midcast['Divine Magic'] = {main="Daybreak",sub="Ammurapi Shield",ammo="Hydrocera",
 		head="Befouled Crown",neck="Erra Pendant",ear1="Vor Earring",ear2="Malignance Earring",
 		body="Inyanga Jubbah +2",hands="Inyan. Dastanas +2",ring1="Metamor. Ring +1",ring2="Stikini Ring",
 		back=gear.enf_jse_cape,waist="Sacro Cord",legs=gear.chironic_enfeeble_legs,feet="Theo. Duckbills +2"}
@@ -314,17 +314,17 @@ function init_gear_sets()
 		body="Witching Robe",hands=gear.chironic_enfeeble_hands,ring1="Metamor. Ring +1",ring2="Freke Ring",
 		back="Toro Cape",waist=gear.ElementalObi,legs="Gyve Trousers",feet=gear.chironic_nuke_feet}
 
-	sets.midcast['Dark Magic'] = {main="Rubicundity",sub="Thuellaic Ecu +1",ammo="Hydrocera",
+	sets.midcast['Dark Magic'] = {main="Rubicundity",sub="Ammurapi Shield",ammo="Hydrocera",
 		head="Befouled Crown",neck="Erra Pendant",ear1="Vor Earring",ear2="Malignance Earring",
 		body="Inyanga Jubbah +2",hands="Inyan. Dastanas +2",ring1="Metamor. Ring +1",ring2="Stikini Ring",
 		back=gear.enf_jse_cape,waist="Sacro Cord",legs=gear.chironic_enfeeble_legs,feet="Theo. Duckbills +2"}
 
-	sets.midcast.Drain = {main="Rubicundity",sub="Thuellaic Ecu +1",ammo="Hydrocera",
+	sets.midcast.Drain = {main="Rubicundity",sub="Ammurapi Shield",ammo="Hydrocera",
 		head="Inyanga Tiara +2",neck="Erra Pendant",ear1="Vor Earring",ear2="Malignance Earring",
 		body="Inyanga Jubbah +2",hands="Inyan. Dastanas +2",ring1="Evanescence Ring",ring2="Archon Ring",
 		back=gear.enf_jse_cape,waist="Fucho-no-Obi",legs=gear.chironic_enfeeble_legs,feet="Theo. Duckbills +2"}
 
-	sets.midcast.Drain.Resistant = {main="Rubicundity",sub="Thuellaic Ecu +1",ammo="Hydrocera",
+	sets.midcast.Drain.Resistant = {main="Rubicundity",sub="Ammurapi Shield",ammo="Hydrocera",
 		head="Inyanga Tiara +2",neck="Erra Pendant",ear1="Vor Earring",ear2="Malignance Earring",
 		body="Inyanga Jubbah +2",hands="Inyan. Dastanas +2",ring1="Evanescence Ring",ring2="Archon Ring",
 		back=gear.enf_jse_cape,waist="Fucho-no-Obi",legs=gear.chironic_enfeeble_legs,feet="Theo. Duckbills +2"}
@@ -342,19 +342,19 @@ function init_gear_sets()
 		body="Inyanga Jubbah +2",hands="Fanatic Gloves",ring1="Stikini Ring",ring2="Stikini Ring",
 		back="Aurist's Cape +1",waist="Acuity Belt +1",legs="Chironic Hose",feet=gear.chironic_nuke_feet}
 		
-	sets.midcast.Dispel = {main="Daybreak",sub="Thuellaic Ecu +1",ammo="Hydrocera",
+	sets.midcast.Dispel = {main="Daybreak",sub="Ammurapi Shield",ammo="Hydrocera",
 		head="Befouled Crown",neck="Erra Pendant",ear1="Vor Earring",ear2="Malignance Earring",
 		body="Inyanga Jubbah +2",hands="Inyan. Dastanas +2",ring1="Metamor. Ring +1",ring2="Stikini Ring",
 		back=gear.enf_jse_cape,waist="Sacro Cord",legs=gear.chironic_enfeeble_legs,feet="Theo. Duckbills +2"}
 		
 	sets.midcast.Dispelga = set_combine(sets.midcast.Dispel, {main="Daybreak",sub="Ammurapi Shield"})
 
-	sets.midcast['Enfeebling Magic'] = {main="Daybreak",sub="Thuellaic Ecu +1",ammo="Hydrocera",
+	sets.midcast['Enfeebling Magic'] = {main="Daybreak",sub="Ammurapi Shield",ammo="Hydrocera",
 		head="Befouled Crown",neck="Erra Pendant",ear1="Vor Earring",ear2="Malignance Earring",
 		body="Theo. Bliaut +2",hands="Inyan. Dastanas +2",ring1="Metamor. Ring +1",ring2="Stikini Ring",
 		back=gear.enf_jse_cape,waist="Sacro Cord",legs=gear.chironic_enfeeble_legs,feet="Theo. Duckbills +2"}
 
-	sets.midcast['Enfeebling Magic'].Resistant = {main="Daybreak",sub="Thuellaic Ecu +1",ammo="Hydrocera",
+	sets.midcast['Enfeebling Magic'].Resistant = {main="Daybreak",sub="Ammurapi Shield",ammo="Hydrocera",
 		head="Befouled Crown",neck="Erra Pendant",ear1="Vor Earring",ear2="Malignance Earring",
 		body="Theo. Bliaut +2",hands="Inyan. Dastanas +2",ring1="Metamor. Ring +1",ring2="Stikini Ring",
 		back=gear.enf_jse_cape,waist="Sacro Cord",legs=gear.chironic_enfeeble_legs,feet="Theo. Duckbills +2"}
