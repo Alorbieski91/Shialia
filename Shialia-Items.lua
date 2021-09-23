@@ -1,7 +1,7 @@
 --Gearsets your character will use among multiple jobs.
 sets.BehemothSuit = {body="Behemoth Suit +1",hands=empty,legs=empty,feet=empty}
 sets.Sheltered = {ring2="Sheltered Ring"}
-sets.Capacity = {back="Aptitude Mantle"}
+sets.Capacity = {back="Mecisto. Mantle"}
 
 sets.buff.Doom = {
     --neck="Nicander's Necklace",
@@ -17,6 +17,7 @@ sets.precast.Item['Holy Water'] = {}
 --Augmented items that you'll use among multiple jobs.
 
 gear.gada_enhancing_club = {name="Gada",augments={'Enh. Mag. eff. dur. +4','MND+6','Mag. Acc.+8','DMG:+2',}}
+gear.gada_indi_club = {name="Gada",augments={'Indi. eff. dur. +8','VIT+4','Mag. Acc.+14','"Mag.Atk.Bns."+8',}}
 gear.gada_healing_club = {name="Gada",augments={'"Cure" potency +9%','Mag. Acc.+11','"Mag.Atk.Bns."+13','DMG:+3',}}
 gear.grioavolr_fc_staff = {name="Grioavolr", augments={'"Fast Cast"+7','Mag. Acc.+25','Magic Damage +3',}}
 
