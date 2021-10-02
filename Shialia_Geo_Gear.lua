@@ -287,29 +287,29 @@ function init_gear_sets()
 
 	-- Resting sets
 	sets.resting = {main="Iridal Staff",sub="Oneiros Grip",
-		head="Befouled Crown",neck="Twilight Torque",ear1="Moonshade Earring",ear2="Etiolation Earring",
+		head="Befouled Crown",neck="Loricate Torque +1",ear1="Moonshade Earring",ear2="Etiolation Earring",
 		body="Jhakri Robe +2",hands=gear.merlinic_refresh_hands,ring1="Defending Ring",ring2="Gelatinous Ring +1",
 		back="Solemnity Cape",waist="Isa Belt",legs="Assid. Pants +1",feet=gear.merlinic_refresh_feet}
 
 	-- Idle sets
 	sets.idle = {main="Bolelabunga",sub="Genmei Shield",range="Dunna",
-		head="Befouled Crown",neck="Twilight Torque",ear1="Moonshade Earring",ear2="Etiolation Earring",
+		head="Befouled Crown",neck="Loricate Torque +1",ear1="Moonshade Earring",ear2="Etiolation Earring",
 		body="Shamash Robe",hands="Bagua Mitaines +1",ring1="Defending Ring",ring2="Gelatinous Ring +1",
 		back=gear.idle_jse_back,waist="Isa Belt",legs="Assid. Pants +1",feet="Mallquis Clogs +2"}
 
 	sets.idle.PDT = {main="Malignance Pole",range="Dunna",
-		head="Nyame Helm",neck="Twilight Torque",ear1="Moonshade Earring",ear2="Etiolation Earring",
+		head="Nyame Helm",neck="Loricate Torque +1",ear1="Moonshade Earring",ear2="Etiolation Earring",
 		body="Shamash Robe",hands="Nyame Gauntlets",ring1="Defending Ring",ring2="Gelatinous Ring +1",
 		back=gear.idle_jse_back,waist="Isa Belt",legs="Nyame Flanchard",feet="Nyame Sollerets"}
 
 	-- .Pet sets are for when Luopan is present.
 	sets.idle.Pet = {main="Bolelabunga",sub="Genmei Shield",range="Dunna",
-		head=gear.telchine_pet_head,neck="Twilight Torque",ear1="Handler's Earring",ear2="Handler's Earring +1",
+		head=gear.telchine_pet_head,neck="Loricate Torque +1",ear1="Handler's Earring",ear2="Handler's Earring +1",
 		body="Shamash Robe",hands="Geo. Mitaines +2",ring1="Defending Ring",ring2="Gelatinous Ring +1",
 		back=gear.idle_jse_back,waist="Isa Belt",legs=gear.telchine_pet_legs,feet="Bagua Sandals +1"}
 
 	sets.idle.PDT.Pet = {main="Malignance Pole",range="Dunna",
-		head=gear.telchine_pet_head,neck="Twilight Torque",ear1="Handler's Earring",ear2="Handler's Earring +1",
+		head=gear.telchine_pet_head,neck="Loricate Torque +1",ear1="Handler's Earring",ear2="Handler's Earring +1",
 		body="Shamash Robe",hands="Geo. Mitaines +2",ring1="Defending Ring",ring2="Gelatinous Ring +1",
 		back=gear.idle_jse_back,waist="Isa Belt",legs=gear.telchine_pet_legs,feet="Bagua Sandals +1"}
 
@@ -320,18 +320,18 @@ function init_gear_sets()
 	sets.idle.PDT.Pet.Indi = set_combine(sets.idle.PDT.Pet, {})
 
 	sets.idle.Weak = {main="Bolelabunga",sub="Genmei Shield",ammo="Staunch Tathlum +1",
-		head="Befouled Crown",neck="Twilight Torque",ear1="Moonshade Earring",ear2="Etiolation Earring",
+		head="Befouled Crown",neck="Loricate Torque +1",ear1="Moonshade Earring",ear2="Etiolation Earring",
 		body="Shamash Robe",hands="Nyame Gauntlets",ring1="Defending Ring",ring2="Gelatinous Ring +1",
 		back="Solemnity Cape",waist="Flax Sash",legs="Assid. Pants +1",feet="Nyame Sollerets"}
 
 	-- Defense sets
 	sets.defense.PDT = {main="Daybreak",sub="Genmei Shield",ammo="Staunch Tathlum +1",
-		head="Nyame Helm",neck="Twilight Torque",ear1="Moonshade Earring",ear2="Etiolation Earring",
+		head="Nyame Helm",neck="Loricate Torque +1",ear1="Moonshade Earring",ear2="Etiolation Earring",
 		body="Shamash Robe",hands="Nyame Gauntlets",ring1="Defending Ring",ring2="Gelatinous Ring +1",
 		back="Solemnity Cape",waist="Flax Sash",legs="Nyame Flanchard",feet="Nyame Sollerets"}
 
 	sets.defense.MDT = {main="Daybreak",sub="Genmei Shield",ammo="Staunch Tathlum +1",
-		head="Nyame Helm",neck="Twilight Torque",ear1="Lugalbanda Earring",ear2="Etiolation Earring",
+		head="Nyame Helm",neck="Loricate Torque +1",ear1="Lugalbanda Earring",ear2="Etiolation Earring",
 		body="Nyame Mail",hands="Nyame Gauntlets",ring1="Defending Ring",ring2="Gelatinous Ring +1",
 		back="Solemnity Cape",waist="Flax Sash",legs="Nyame Flanchard",feet="Nyame Sollerets"}
 		

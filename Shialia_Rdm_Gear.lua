@@ -413,9 +413,9 @@ function init_gear_sets()
 	sets.NightIdle = {}
 	
 	-- Weapons sets
-	sets.weapons.Sequence = {main="Sequence",sub="Ammurapi Shield"}
-	sets.weapons.Naegling = {main="Naegling",sub="Ammurapi Shield"}
-	sets.weapons.Almace = {main="Almace",sub="Ammurapi Shield"}
+	sets.weapons.Sequence = {main="Sequence",sub="Genmei Shield"}
+	sets.weapons.Naegling = {main="Naegling",sub="Genmei Shield"}
+	sets.weapons.Almace = {main="Almace",sub="Genmei Shield"}
 	sets.weapons.DualWeapons = {main="Naegling",sub="Machaera +2"}
 	sets.weapons.DualWeaponsAcc = {main="Naegling",sub="Almace"}
 	sets.weapons.DualEvisceration = {main="Tauret",sub="Almace"}
