@@ -69,7 +69,7 @@ function init_gear_sets()
 
 	sets.precast.FC = {main=gear.grioavolr_fc_staff,sub="Clerisy Strap",
 		head="Amalric Coif",neck="Baetyl Pendant",ear1="Loquac. Earring",ear2="Malignance Earring",
-		body="Merlinic Jubbah",ring1="Lebeche Ring",
+		body="Merlinic Jubbah",ring1="Lebeche Ring",ring2="Kishar Ring",
 		back=gear.mndenfeeb_jse_back,waist="Witful Belt",legs="Geomancy Pants +2",feet="Regal Pumps +1"}
 
 	sets.precast.FC.Geomancy = set_combine(sets.precast.FC, {range="Dunna",ammo=empty})
@@ -104,7 +104,7 @@ function init_gear_sets()
 
 	sets.precast.FC.Impact = {main=gear.grioavolr_fc_staff,sub="Clerisy Strap",
 		head=empty,neck="Baetyl Pendant",ear1="Loquac. Earring",ear2="Malignance Earring",
-		body="Twilight Cloak",ring1="Lebeche Ring",
+		body="Twilight Cloak",ring1="Lebeche Ring",ring2="Kishar Ring",
 		back=gear.mndenfeeb_jse_back,waist="Witful Belt",legs="Geomancy Pants +2",feet="Regal Pumps +1"}
 		
 	sets.precast.FC.Dispelga = set_combine(sets.precast.FC, {main="Daybreak",sub="Genmei Shield"})
@@ -120,7 +120,7 @@ function init_gear_sets()
 
 	sets.midcast.FastRecast = {main=gear.grioavolr_fc_staff,sub="Clerisy Strap",
 		head="Amalric Coif",neck="Baetyl Pendant",ear1="Loquac. Earring",ear2="Malignance Earring",
-		body="Merlinic Jubbah",ring1="Lebeche Ring",
+		body="Merlinic Jubbah",ring1="Lebeche Ring",ring2="Kishar Ring",
 		back=gear.mndenfeeb_jse_back,waist="Witful Belt",legs="Geomancy Pants +2",feet="Regal Pumps +1"}
 
 	sets.midcast.Geomancy = {main=gear.gada_indi_club,sub="Genmei Shield",
@@ -226,7 +226,7 @@ function init_gear_sets()
 
 	sets.midcast['Enfeebling Magic'] = {main="Daybreak",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
 		head="Geo. Galero +2",neck="Bagua Charm +1",ear1="Vor Earring",ear2="Malignance Earring",
-		body="Geomancy Tunic +2",hands="Geo. Mitaines +2",ring1="Metamor. Ring +1",ring2="Stikini Ring",
+		body="Geomancy Tunic +2",hands="Geo. Mitaines +2",ring1="Stikini Ring",ring2="Kishar Ring",
 		back=gear.mndenfeeb_jse_back,waist="Sacro Cord",legs="Geomancy Pants +2",feet="Geo. Sandals +2"}
 
 	sets.midcast['Enfeebling Magic'].Resistant = {main="Daybreak",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
@@ -240,7 +240,7 @@ function init_gear_sets()
 	sets.midcast.IntEnfeebles = set_combine(sets.midcast['Enfeebling Magic'], {head="Amalric Coif",ear2="Malignance Earring",waist="Acuity Belt +1"})
 	sets.midcast.IntEnfeebles.Resistant = set_combine(sets.midcast['Enfeebling Magic'].Resistant, {head="Amalric Coif",ear2="Malignance Earring",waist="Acuity Belt +1"})
 
-	sets.midcast.MndEnfeebles = set_combine(sets.midcast['Enfeebling Magic'], {range=empty,ring2="Stikini Ring"})
+	sets.midcast.MndEnfeebles = set_combine(sets.midcast['Enfeebling Magic'], {range=empty,ring2="Kishar Ring"})
 	sets.midcast.MndEnfeebles.Resistant = set_combine(sets.midcast['Enfeebling Magic'].Resistant, {range=empty,ring2="Stikini Ring"})
 
 	sets.midcast.Dia = set_combine(sets.midcast['Enfeebling Magic'], sets.TreasureHunter)

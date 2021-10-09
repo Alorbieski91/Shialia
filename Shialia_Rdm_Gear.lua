@@ -73,7 +73,7 @@ function init_gear_sets()
 	
 	sets.precast.FC = {main=gear.grioavolr_fc_staff,sub="Clerisy Strap",ammo="Homiliary",
 		head="Atro. Chapeau +2",neck="Baetyl Pendant",ear1="Loquac. Earring",ear2="Malignance Earring",
-		body="Viti. Tabard +1",hands="Leyline Gloves",ring1="Lebeche Ring",
+		body="Viti. Tabard +1",hands="Leyline Gloves",ring1="Lebeche Ring",ring2="Kishar Ring",
 		back=gear.enfeeble_jse_back,waist="Witful Belt",legs="Aya. Cosciales +2",feet=gear.merlinic_conservemp_feet}
 		
 	sets.precast.FC.Impact = set_combine(sets.precast.FC, {head=empty,body="Twilight Cloak"})
@@ -147,7 +147,7 @@ function init_gear_sets()
 	
 	sets.midcast.FastRecast = {ammo="Homiliary",
 		head="Atro. Chapeau +2",neck="Baetyl Pendant",ear1="Loquac. Earring",ear2="Malignance Earring",
-		body="Viti. Tabard +1",hands="Leyline Gloves",ring1="Lebeche Ring",
+		body="Viti. Tabard +1",hands="Leyline Gloves",ring1="Lebeche Ring",ring2="Kishar Ring",
 		back=gear.enfeeble_jse_back,waist="Witful Belt",legs="Aya. Cosciales +2",feet=gear.merlinic_conservemp_feet}
 
 	sets.midcast.Cure = {main="Daybreak",sub="Sors Shield",ammo="Hydrocera",
@@ -243,7 +243,7 @@ function init_gear_sets()
 	
 	sets.midcast['Enfeebling Magic'] = {main="Daybreak",sub="Ammurapi Shield",ammo="Regal Gem",
 		head="Atro. Chapeau +2",neck="Dls. Torque +1",ear1="Snotra Earring",ear2="Malignance Earring",
-		body="Atrophy Tabard +2",hands="Kaykaus Cuffs",ring1="Metamor. Ring +1",ring2="Stikini Ring",
+		body="Atrophy Tabard +2",hands="Kaykaus Cuffs",ring1="Stikini Ring",ring2="Kishar Ring",
 		back=gear.enfeeble_jse_back,waist="Sacro Cord",legs=gear.chironic_enfeeble_legs,feet="Jhakri Pigaches +2"}
 		
 	sets.midcast['Enfeebling Magic'].Resistant = {main="Daybreak",sub="Ammurapi Shield",range="Kaja Bow",
@@ -251,7 +251,7 @@ function init_gear_sets()
 		body="Atrophy Tabard +2",hands="Kaykaus Cuffs",ring1="Metamor. Ring +1",ring2="Stikini Ring",
 		back=gear.enfeeble_jse_back,waist="Sacro Cord",legs=gear.chironic_enfeeble_legs,feet="Jhakri Pigaches +2"}
 		
-	sets.midcast.DurationOnlyEnfeebling = set_combine(sets.midcast['Enfeebling Magic'], {body="Atrophy Tabard +2",range="Regal Gem"})
+	sets.midcast.DurationOnlyEnfeebling = set_combine(sets.midcast['Enfeebling Magic'], {body="Atrophy Tabard +2",range="Regal Gem",ring2="Kishar Ring"})
 		
 	sets.midcast.Silence = sets.midcast.DurationOnlyEnfeebling
 	sets.midcast.Silence.Resistant = sets.midcast['Enfeebling Magic'].Resistant

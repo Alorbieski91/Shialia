@@ -58,7 +58,7 @@ function init_gear_sets()
 	-- Fast cast sets for spells
 	sets.precast.FC = {main=gear.grioavolr_fc_staff,sub="Clerisy Strap",
 		head="Nahtirah Hat",neck="Baetyl Pendant",ear1="Loquacious Earring",ear2="Malignance Earring",
-		body="Inyanga Jubbah +2",hands="Fanatic Gloves",ring1="Lebeche Ring",
+		body="Inyanga Jubbah +2",hands="Fanatic Gloves",ring1="Lebeche Ring",ring2="Kishar Ring",
 		back=gear.fc_jse_cape,waist="Embla Sash",legs="Aya. Cosciales +2",feet="Regal Pumps +1"}
 
 	sets.precast.FC['Enhancing Magic'] = set_combine(sets.precast.FC, {waist="Siegel Sash"})
@@ -147,8 +147,8 @@ function init_gear_sets()
 
 	sets.midcast.FastRecast = {main=gear.grioavolr_fc_staff,sub="Clerisy Strap",
 		head="Nahtirah Hat",neck="Baetyl Pendant",ear1="Loquacious Earring",ear2="Malignance Earring",
-		body="Inyanga Jubbah +2",hands="Fanatic Gloves",ring1="Lebeche Ring",
-		waist="Witful Belt",legs="Aya. Cosciales +2",feet="Regal Pumps +1"}
+		body="Inyanga Jubbah +2",hands="Fanatic Gloves",ring1="Lebeche Ring",ring2="Kishar Ring",
+		back=gear.fc_jse_cape,waist="Witful Belt",legs="Aya. Cosciales +2",feet="Regal Pumps +1"}
 		
 	-- Cure sets
 
@@ -334,12 +334,12 @@ function init_gear_sets()
 
 	sets.midcast.Stun = {main=gear.grioavolr_fc_staff,sub="Clerisy Strap +1",ammo="Hasty Pinion +1",
 		head="Nahtirah Hat",neck="Voltsurge Torque",ear1="Enchntr. Earring +1",ear2="Malignance Earring",
-		body="Inyanga Jubbah +2",hands="Fanatic Gloves",ring1="Kishar Ring",ring2="Stikini Ring",
+		body="Inyanga Jubbah +2",hands="Fanatic Gloves",ring1="Stikini Ring",ring2="Kishar Ring",
 		back="Aurist's Cape +1",waist="Witful Belt",legs="Lengo Pants",feet="Regal Pumps +1"}
 
 	sets.midcast.Stun.Resistant = {main="Daybreak",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
 		head="Nahtirah Hat",neck="Erra Pendant",ear1="Digni. Earring",ear2="Malignance Earring",
-		body="Inyanga Jubbah +2",hands="Fanatic Gloves",ring1="Stikini Ring",ring2="Stikini Ring",
+		body="Inyanga Jubbah +2",hands="Fanatic Gloves",ring1="Metamor. Ring +1",ring2="Stikini Ring",
 		back="Aurist's Cape +1",waist="Acuity Belt +1",legs="Chironic Hose",feet=gear.chironic_nuke_feet}
 		
 	sets.midcast.Dispel = {main="Daybreak",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
@@ -351,7 +351,7 @@ function init_gear_sets()
 
 	sets.midcast['Enfeebling Magic'] = {main="Daybreak",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
 		head="Befouled Crown",neck="Erra Pendant",ear1="Vor Earring",ear2="Malignance Earring",
-		body="Theo. Bliaut +2",hands="Inyan. Dastanas +2",ring1="Metamor. Ring +1",ring2="Stikini Ring",
+		body="Theo. Bliaut +2",hands="Inyan. Dastanas +2",ring1="Stikini Ring",ring2="Kishar Ring",
 		back=gear.enf_jse_cape,waist="Sacro Cord",legs=gear.chironic_enfeeble_legs,feet="Theo. Duckbills +2"}
 
 	sets.midcast['Enfeebling Magic'].Resistant = {main="Daybreak",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
