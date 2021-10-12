@@ -123,14 +123,14 @@ function init_gear_sets()
 		body="Merlinic Jubbah",ring1="Lebeche Ring",ring2="Kishar Ring",
 		back=gear.mndenfeeb_jse_back,waist="Witful Belt",legs="Geomancy Pants +2",feet="Regal Pumps +1"}
 
-	sets.midcast.Geomancy = {main=gear.gada_indi_club,sub="Genmei Shield",
+	sets.midcast.Geomancy = {main="Idris",sub="Genmei Shield",
 		head=gear.telchine_enh_head,neck="Bagua Charm +1",ear1="Magnetic Earring",ear2="Gifted Earring",
 		body="Bagua Tunic +1",hands="Shrieker's Cuffs",ring1="Defending Ring",ring2="Stikini Ring",
 		back="Lifestream Cape",waist="Austerity Belt",legs="Vanya Slops",feet=gear.merlinic_conservemp_feet}
 
 
 	--Extra Indi duration as long as you can keep your 900 skill cap.
-	sets.midcast.Geomancy.Indi = set_combine(sets.midcast.Geomancy, {back=gear.idle_jse_back,legs="Bagua Pants +1",feet="Azimuth Gaiters +1"})
+	sets.midcast.Geomancy.Indi = set_combine(sets.midcast.Geomancy, {back="Lifestream Cape",legs="Bagua Pants +1",feet="Azimuth Gaiters +1"})
 
 	sets.midcast.Cure = {main="Daybreak",sub="Sors Shield",range="Dunna",
 		head="Vanya Hood",neck="Incanter's Torque",ear1="Meili Earring",ear2="Mendi. Earring",
@@ -303,13 +303,13 @@ function init_gear_sets()
 		back=gear.idle_jse_back,waist="Isa Belt",legs="Nyame Flanchard",feet="Nyame Sollerets"}
 
 	-- .Pet sets are for when Luopan is present.
-	sets.idle.Pet = {main="Bolelabunga",sub="Genmei Shield",range="Dunna",
-		head=gear.telchine_pet_head,neck="Loricate Torque +1",ear1="Handler's Earring",ear2="Handler's Earring +1",
+	sets.idle.Pet = {main="Idris",sub="Genmei Shield",range="Dunna",
+		head=gear.telchine_pet_head,neck="Bagua Charm +1",ear1="Moonshade Earring",ear2="Etiolation Earring",
 		body="Shamash Robe",hands="Geo. Mitaines +2",ring1="Defending Ring",ring2="Gelatinous Ring +1",
 		back=gear.idle_jse_back,waist="Isa Belt",legs=gear.telchine_pet_legs,feet="Bagua Sandals +1"}
 
-	sets.idle.PDT.Pet = {main="Malignance Pole",range="Dunna",
-		head=gear.telchine_pet_head,neck="Loricate Torque +1",ear1="Handler's Earring",ear2="Handler's Earring +1",
+	sets.idle.PDT.Pet = {main="Idris",sub="Genmei Shield",range="Dunna",
+		head=gear.telchine_pet_head,neck="Loricate Torque +1",ear1="Moonshade Earring",ear2="Etiolation Earring",
 		body="Shamash Robe",hands="Geo. Mitaines +2",ring1="Defending Ring",ring2="Gelatinous Ring +1",
 		back=gear.idle_jse_back,waist="Isa Belt",legs=gear.telchine_pet_legs,feet="Bagua Sandals +1"}
 
