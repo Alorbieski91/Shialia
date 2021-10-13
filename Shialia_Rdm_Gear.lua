@@ -446,9 +446,9 @@ function init_gear_sets()
 		back=gear.da_jse_back,waist="Kentarch Belt +1",legs="Malignance Tights",feet="Malignance Boots"}
 		
 	sets.engaged.EnspellOnly = {ammo="Coiste Bodhar",
-		head="Malignance Chapeau",neck="Dls. Torque +1",ear1="Brutal Earring",ear2="Sherida Earring",
+		head="Malignance Chapeau",neck="Sanctity Necklace",ear1="Suppanomimi",ear2="Sherida Earring",
 		body="Ayanmo Corazza +2",hands="Aya. Manopolas +2",ring1="Metamor. Ring +1",ring2="Stikini Ring",
-		back=gear.da_jse_back,waist="Sacro Cord",legs="Malignance Tights",feet="Malignance Boots"}
+		back=gear.da_jse_back,waist="Kentarch Belt +1",legs="Carmine Cuisses +1",feet="Malignance Boots"}
 
 	sets.engaged.Acc = {ammo="Coiste Bodhar",
 		head="Malignance Chapeau",neck="Asperity Necklace",ear1="Brutal Earring",ear2="Sherida Earring",
