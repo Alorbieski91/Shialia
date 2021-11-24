@@ -77,6 +77,11 @@ send_command('bind !t input /target <bt>') --Targets the battle target.
 send_command('bind ^o fillmode') --Lets you see through walls.
 send_command('bind @m gs c mount Raptor')
 
+send_command('bind ^f exec follow')
+send_command('bind !f exec unfollow')
+send_command('bind @, exec speed')
+send_command('bind @w send @all /warp')
+
 NotifyBuffs = S{'doom','petrification'}
 
 bayld_items = {'Tlalpoloani','Macoquetza','Camatlatia','Icoyoca','Tlamini','Suijingiri Kanemitsu',

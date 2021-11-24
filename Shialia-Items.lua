@@ -29,8 +29,8 @@ gear.chironic_nuke_feet = {name="Chironic Slippers",augments={'Mag. Acc.+25 "Mag
 gear.telchine_enh_head = {name="Telchine Cap",augments={'"Conserve MP"+4','Enh. Mag. eff. dur. +10',}}
 gear.telchine_pet_head = {name="Telchine Cap",augments={'Pet: "Regen"+3','Pet: Damage taken -4%',}}
 gear.telchine_enh_body = {name="Telchine Chas.",augments={'"Conserve MP"+4','Enh. Mag. eff. dur. +10',}}
-gear.telchine_enh_hands = {name="Telchine Gloves",augments={'"Conserve MP"+5','Enh. Mag. eff. dur. +7',}}
-gear.telchine_enh_legs = {name="Telchine Braconi",augments={'"Conserve MP"+5','Enh. Mag. eff. dur. +6',}}
+gear.telchine_enh_hands = {name="Telchine Gloves",augments={'"Conserve MP"+5','Enh. Mag. eff. dur. +10',}}
+gear.telchine_enh_legs = {name="Telchine Braconi",augments={'"Conserve MP"+5','Enh. Mag. eff. dur. +9',}}
 gear.telchine_pet_legs = {name="Telchine Braconi",augments={'Pet: "Regen"+3','Pet: Damage taken -4%',}}
 
 gear.merlinic_nuke_head = {name="Merlinic Hood",augments={'"Mag.Atk.Bns."+29','Phys. dmg. taken -2%','INT+13','Mag. Acc.+9',}}

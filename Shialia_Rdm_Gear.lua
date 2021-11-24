@@ -12,10 +12,10 @@ function user_job_setup()
 	state.Weapons:options('None','Naegling','Sequence','DualWeapons','DualWeaponsAcc','DualEvisceration','DualClubs','DualAeolian','DualProcDaggers','EnspellOnly')
 	
 	gear.obi_cure_back = "Tempered Cape +1"
-	gear.obi_cure_waist = "Witful Belt"
+	gear.obi_cure_waist = "Sacro Cord"
 
 	gear.obi_low_nuke_back = "Toro Cape"
-	gear.obi_low_nuke_waist = "Sekhmet Corset"
+	gear.obi_low_nuke_waist = "Sacro Cord"
 
 	gear.obi_high_nuke_back = "Toro Cape"
 	gear.obi_high_nuke_waist = "Sacro Cord"
@@ -158,13 +158,13 @@ function init_gear_sets()
 	sets.midcast.LightWeatherCure = {main="Iridal Staff",sub="Achaq Grip",ammo="Regal Gem",
 		head="Vanya Hood",neck="Incanter's Torque",ear1="Meili Earring",ear2="Mendi. Earring",
 		body="Viti. Tabard +1",hands="Kaykaus Cuffs",ring1="Lebeche Ring",ring2="Janniston Ring",
-		back="Twilight Cape",waist="Sacro Cord",legs="Atrophy Tights +1",feet="Vanya Clogs"}
+		back="Twilight Cape",waist="Hachirin-no-Obi",legs="Atrophy Tights +1",feet="Vanya Clogs"}
 		
 		--Cureset for if it's not light weather but is light day.
 	sets.midcast.LightDayCure = {main="Iridal Staff",sub="Achaq Grip",ammo="Regal Gem",
 		head="Vanya Hood",neck="Incanter's Torque",ear1="Meili Earring",ear2="Mendi. Earring",
 		body="Viti. Tabard +1",hands="Kaykaus Cuffs",ring1="Lebeche Ring",ring2="Janniston Ring",
-		back="Twilight Cloak",waist="Sacro Cord",legs="Atrophy Tights +1",feet="Vanya Clogs"}
+		back="Twilight Cloak",waist="Hachirin-no-Obi",legs="Atrophy Tights +1",feet="Vanya Clogs"}
 		
 	sets.midcast.Cursna =  set_combine(sets.midcast.Cure, {
 		neck="Malison Medallion",
@@ -287,7 +287,7 @@ function init_gear_sets()
 	sets.midcast['Elemental Magic'] = {main="Daybreak",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
 		head="Jhakri Coronal +2",neck="Baetyl Pendant",ear1="Friomisi Earring",ear2="Malignance Earring",
 		body="Shamash Robe",hands=gear.chironic_treasure_hands,ring1="Metamor. Ring +1",ring2="Tamas Ring",
-		back=gear.enfeeble_jse_back,waist="Sacro Cord",legs=gear.chironic_enfeeble_legs,feet="Jhakri Pigaches +2"}
+		back=gear.enfeeble_jse_back,waist=gear.ElementalObi,legs=gear.chironic_enfeeble_legs,feet="Jhakri Pigaches +2"}
 		
 	sets.midcast['Elemental Magic'].Resistant = {main="Daybreak",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
 		head="Jhakri Coronal +2",neck="Dls. Torque +1",ear1="Regal Earring",ear2="Friomisi Earring",
@@ -362,31 +362,30 @@ function init_gear_sets()
 		head="Viti. Chapeau +3",neck="Loricate Torque +1",ear1="Etiolation Earring",ear2="Ethereal Earring",
 		body="Jhakri Robe +2",hands=gear.merlinic_refresh_hands,ring1="Defending Ring",ring2="Sheltered Ring",
 		back="Solemnity Cape",waist="Flume Belt +1",legs="Lengo Pants",feet=gear.chironic_refresh_feet}
-	
 
 	-- Idle sets
 	sets.idle = {main="Bolelabunga",sub="Genmei Shield",ammo="Homiliary",
 		head="Viti. Chapeau +1",neck="Bathy Choker +1",ear1="Moonshade Earring",ear2="Etiolation Earring",
 		body="Shamash Robe",hands="Nyame Gauntlets",ring1="Defending Ring",ring2="Fortified Ring",
-		back=gear.enfeeble_jse_back,waist="Fucho-no-Obi",legs="Nyame Flanchard",feet="Nyame Sollerets"}
-		
+		back=gear.enfeeble_jse_back,waist="Carrier's Sash",legs="Nyame Flanchard",feet="Nyame Sollerets"}
+
 	sets.idle.PDT = {main="Sakpata's Sword",sub="Genmei Shield",range=empty,ammo="Staunch Tathlum +1",
 		head="Malignance Chapeau",neck="Loricate Torque +1",ear1="Etiolation Earring",ear2="Ethereal Earring",
 		body="Shamash Robe",hands="Nyame Gauntlets",ring1="Defending Ring",ring2="Dark Ring",
 		back="Solemnity Cape",waist="Flume Belt +1",legs="Malignance Tights",feet="Malignance Boots"}
 		
 	sets.idle.MDT = {main="Sakpata's Sword",sub="Beatific Shield +1",range=empty,ammo="Staunch Tathlum +1",
-		head="Malignance Chapeau",neck="Warder's Charm",ear1="Etiolation Earring",ear2="Sanare Earring",
+		head="Malignance Chapeau",neck="Warder's Charm +1",ear1="Etiolation Earring",ear2="Sanare Earring",
 		body="Malignance Tabard",hands="Nyame Gauntlets",ring1="Defending Ring",ring2="Shadow Ring",
 		back="Solemnity Cape",waist="Carrier's Sash",legs="Nyame Flanchard",feet="Nyame Sollerets"}
-		
+
 	sets.idle.Weak = {main="Bolelabunga",sub="Beatific Shield +1",range=empty,ammo="Homiliary",
 		head="Viti. Chapeau +3",neck="Loricate Torque +1",ear1="Etiolation Earring",ear2="Sanare Earring",
 		body="Jhakri Robe +2",hands=gear.merlinic_refresh_hands,ring1="Defending Ring",ring2="Dark Ring",
 		back="Solemnity Cape",waist="Flume Belt +1",legs="Lengo Pants",feet=gear.chironic_refresh_feet}
-	
+
 	sets.idle.DTHippo = set_combine(sets.idle.PDT, {back="Solemnity Cape",legs="Carmine Cuisses +1",feet="Hippo. Socks +1"})
-	
+
 	-- Defense sets
 	sets.defense.PDT = {main="Sakpata's Sword",sub="Genmei Shield",range=empty,ammo="Staunch Tathlum +1",
 		head="Malignance Chapeau",neck="Loricate Torque +1",ear1="Etiolation Earring",ear2="Ethereal Earring",
@@ -394,17 +393,17 @@ function init_gear_sets()
 		back="Solemnity Cape",waist="Flume Belt +1",legs="Malignance Tights",feet="Malignance Boots"}
 
 	sets.defense.NukeLock = sets.midcast['Elemental Magic']
-		
+
 	sets.defense.MDT = {main="Sakpata's Sword",sub="Beatific Shield +1",range=empty,ammo="Staunch Tathlum +1",
-		head="Nyame Helm",neck="Warder's Charm",ear1="Etiolation Earring",ear2="Ethereal Earring",
+		head="Nyame Helm",neck="Warder's Charm +1",ear1="Etiolation Earring",ear2="Ethereal Earring",
 		body="Malignance Tabard",hands="Nyame Gauntlets",ring1="Defending Ring",ring2="Dark Ring",
 		back="Solemnity Cape",waist="Carrier's Sash",legs="Nyame Flanchard",feet="Nyame Sollerets"}
-		
+
 	sets.defense.MEVA = {main="Daybreak",sub="Beatific Shield +1",range=empty,ammo="Staunch Tathlum +1",
-		head="Nyame Helm",neck="Warder's Charm",ear1="Etiolation Earring",ear2="Ethereal Earring",
+		head="Nyame Helm",neck="Warder's Charm +1",ear1="Etiolation Earring",ear2="Ethereal Earring",
 		body="Malignance Tabard",hands="Nyame Gauntlets",ring1="Defending Ring",ring2="Dark Ring",
 		back="Solemnity Cape",waist="Carrier's Sash",legs="Nyame Flanchard",feet="Nyame Sollerets"}
-		
+
 	sets.Kiting = {legs="Carmine Cuisses +1"}
 	sets.latent_refresh = {waist="Fucho-no-obi"}
 	sets.latent_refresh_grip = {sub="Oneiros Grip"}
