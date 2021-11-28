@@ -12,15 +12,6 @@ function user_job_setup()
 	gear.nuke_jse_back = {name="Nantosuelta's Cape",augments={'INT+20','Mag. Acc+20 /Mag. Dmg.+20','"Mag.Atk.Bns."+10'}}
 	gear.idle_jse_back = {name="Nantosuelta's Cape",augments={'HP+60','Eva.+20 /Mag. Eva.+20','Pet: "Regen"+10','Pet: "Regen"+5',}}
 	gear.mndenfeeb_jse_back = {name="Nantosuelta's Cape",augments={'MND+20','Mag. Acc+20 /Mag. Dmg.+20','"Fast Cast"+10'}}
-	
-	gear.obi_cure_back = "Tempered Cape +1"
-	gear.obi_cure_waist = "Sacro Cord"
-
-	gear.obi_low_nuke_back = gear.nuke_jse_back
-	gear.obi_low_nuke_waist = "Sacro Cord"
-
-	gear.obi_high_nuke_back = gear.nuke_jse_back
-	gear.obi_high_nuke_waist = "Sacro Cord"
 
 	autoindi = "Haste"
 	autogeo = "Frailty"
@@ -158,7 +149,7 @@ function init_gear_sets()
 	sets.midcast['Elemental Magic'] = {main="Bunzi's Rod",sub="Culminus",ammo="Pemphredo Tathlum",
 		head="Mall. Chapeau +2",neck="Baetyl Pendant",ear1="Friomisi Earring",ear2="Malignance Earring",
 		body="Mallquis Saio +2",hands="Mallquis Cuffs +2",ring1="Mallquis Ring",ring2="Metamor. Ring +1",
-		back=gear.nuke_jse_back,waist=gear.ElementalObi,legs="Mallquis Trews +2",feet="Mallquis Clogs +2"}
+		back=gear.nuke_jse_back,waist="Sacro Cord",legs="Mallquis Trews +2",feet="Mallquis Clogs +2"}
 
 	sets.midcast['Elemental Magic'].Resistant = {main="Bunzi's Rod",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
 		head="Jhakri Coronal +2",neck="Sanctity Necklace",ear1="Regal Earring",ear2="Malignance Earring",
@@ -173,12 +164,12 @@ function init_gear_sets()
 	sets.midcast['Elemental Magic'].Fodder = {main="Bunzi's Rod",sub="Culminus",ammo="Pemphredo Tathlum",
 		head="Mall. Chapeau +2",neck="Baetyl Pendant",ear1="Friomisi Earring",ear2="Malignance Earring",
 		body="Mallquis Saio +2",hands="Mallquis Cuffs +2",ring1="Mallquis Ring",ring2="Metamor. Ring +1",
-		back=gear.nuke_jse_back,waist=gear.ElementalObi,legs="Mallquis Trews +2",feet="Mallquis Clogs +2"}
+		back=gear.nuke_jse_back,waist="Sacro Cord",legs="Mallquis Trews +2",feet="Mallquis Clogs +2"}
 
 	sets.midcast['Elemental Magic'].HighTierNuke = {main="Bunzi's Rod",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
 		head="Jhakri Coronal +2",neck="Baetyl Pendant",ear1="Friomisi Earring",ear2="Malignance Earring",
 		body="Jhakri Robe +2",hands="Jhakri Cuffs +2",ring1="Shiva Ring +1",ring2="Metamor. Ring +1",
-		back=gear.nuke_jse_back,waist=gear.ElementalObi,legs="Jhakri Slops +2",feet="Jhakri Pigaches +2"}
+		back=gear.nuke_jse_back,waist="Sacro Cord",legs="Jhakri Slops +2",feet="Jhakri Pigaches +2"}
 
 	sets.midcast['Elemental Magic'].HighTierNuke.Resistant = {main="Bunzi's Rod",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
 		head="Jhakri Coronal +2",neck="Sanctity Necklace",ear1="Regal Earring",ear2="Malignance Earring",
@@ -188,7 +179,7 @@ function init_gear_sets()
 	sets.midcast['Elemental Magic'].HighTierNuke.Fodder = {main="Bunzi's Rod",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
 		head="Jhakri Coronal +2",neck="Baetyl Pendant",ear1="Friomisi Earring",ear2="Malignance Earring",
 		body="Jhakri Robe +2",hands="Jhakri Cuffs +2",ring1="Shiva Ring +1",ring2="Metamor. Ring +1",
-		back=gear.nuke_jse_back,waist=gear.ElementalObi,legs="Jhakri Slops +2",feet="Jhakri Pigaches +2"}
+		back=gear.nuke_jse_back,waist="Sacro Cord",legs="Jhakri Slops +2",feet="Jhakri Pigaches +2"}
 
 	sets.midcast['Dark Magic'] = {main="Rubicundity",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
 		head="Bagua Galero +1",neck="Erra Pendant",ear1="Digni. Earring",ear2="Malignance Earring",

@@ -8,15 +8,8 @@ function user_job_setup()
 	state.ResistDefenseMode:options('MEVA')
 	state.Weapons:options('None','DualWeapons','MeleeWeapons')
 
-	gear.obi_cure_waist = "Austerity Belt +1"
-	gear.obi_cure_back = "Alaunus's Cape"
-
 	gear.fc_jse_cape = {name="Alaunus's Cape",augments={'MND+20','"Fast Cast"+10',}}
 	gear.enf_jse_cape = {name="Alaunus's Cape",augments={'MND+20','Mag. Acc+20 /Mag. Dmg.+20','MND+10','Enmity-10',}}
-
-	gear.obi_nuke_waist = "Sekhmet Corset"
-	gear.obi_high_nuke_waist = "Sacro Cord"
-	gear.obi_nuke_back = "Toro Cape"
 
 	include('User/Global-WHM-Binds.lua')
 
@@ -272,7 +265,7 @@ function init_gear_sets()
 	sets.midcast['Elemental Magic'] = {main="Daybreak",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
 		head="C. Palug Crown",neck="Baetyl Pendant",ear1="Regal Earring",ear2="Friomisi Earring",
 		body="Witching Robe",hands=gear.chironic_enfeeble_hands,ring1="Shiva Ring +1",ring2="Freke Ring",
-		back="Toro Cape",waist=gear.ElementalObi,legs="Chironic Hose",feet=gear.chironic_nuke_feet}
+		back="Toro Cape",waist="Sacro Cord",legs="Chironic Hose",feet=gear.chironic_nuke_feet}
 
 	sets.midcast['Elemental Magic'].Resistant = {main="Daybreak",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
 		head="C. Palug Crown",neck="Sanctity Necklace",ear1="Regal Earring",ear2="Crematio Earring",
@@ -287,7 +280,7 @@ function init_gear_sets()
 	sets.midcast.Holy = {main="Daybreak",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
 		head="C. Palug Crown",neck="Baetyl Pendant",ear1="Regal Earring",ear2="Friomisi Earring",
 		body="Witching Robe",hands=gear.chironic_enfeeble_hands,ring1="Metamor. Ring +1",ring2="Freke Ring",
-		back="Toro Cape",waist=gear.ElementalObi,legs="Gyve Trousers",feet=gear.chironic_nuke_feet}
+		back="Toro Cape",waist="Sacro Cord",legs="Gyve Trousers",feet=gear.chironic_nuke_feet}
 
 	sets.midcast['Dark Magic'] = {main="Rubicundity",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
 		head="Befouled Crown",neck="Erra Pendant",ear1="Digni. Earring",ear2="Malignance Earring",

@@ -10,15 +10,6 @@ function user_job_setup()
 	state.MagicalDefenseMode:options('MDT')
 	state.ResistDefenseMode:options('MEVA')
 	state.Weapons:options('None','Naegling','Sequence','DualWeapons','DualWeaponsAcc','DualEvisceration','DualClubs','DualAeolian','DualProcDaggers','EnspellOnly')
-	
-	gear.obi_cure_back = "Tempered Cape +1"
-	gear.obi_cure_waist = "Sacro Cord"
-
-	gear.obi_low_nuke_back = "Toro Cape"
-	gear.obi_low_nuke_waist = "Sacro Cord"
-
-	gear.obi_high_nuke_back = "Toro Cape"
-	gear.obi_high_nuke_waist = "Sacro Cord"
 
 	gear.da_jse_back = {name="Sucellos's Cape", augments={'DEX+20','Accuracy+20 Attack+20','Accuracy+5','"Dbl.Atk."+10',}}
 	gear.nuke_jse_back = {name="Sucellos's Cape",augments={'INT+20','Mag. Acc+20 /Mag. Dmg.+20','INT+10','"Mag.Atk.Bns."+10','Phys. dmg. taken-10%',}}
@@ -287,7 +278,7 @@ function init_gear_sets()
 	sets.midcast['Elemental Magic'] = {main="Daybreak",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
 		head="Jhakri Coronal +2",neck="Baetyl Pendant",ear1="Friomisi Earring",ear2="Malignance Earring",
 		body="Shamash Robe",hands=gear.chironic_treasure_hands,ring1="Metamor. Ring +1",ring2="Tamas Ring",
-		back=gear.enfeeble_jse_back,waist=gear.ElementalObi,legs=gear.chironic_enfeeble_legs,feet="Jhakri Pigaches +2"}
+		back=gear.enfeeble_jse_back,waist="Sacro Cord",legs=gear.chironic_enfeeble_legs,feet="Jhakri Pigaches +2"}
 		
 	sets.midcast['Elemental Magic'].Resistant = {main="Daybreak",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
 		head="Jhakri Coronal +2",neck="Dls. Torque +1",ear1="Regal Earring",ear2="Friomisi Earring",
@@ -297,7 +288,7 @@ function init_gear_sets()
 	sets.midcast['Elemental Magic'].Fodder = {main="Daybreak",sub="Ammurapi Shield",range=empty,ammo="Dosis Tathlum",
 		head="Jhakri Coronal +2",neck="Baetyl Pendant",ear1="Crematio Earring",ear2="Friomisi Earring",
 		body=gear.merlinic_nuke_body,hands="Amalric Gages +1",ring1="Shiva Ring +1",ring2="Freke Ring",
-		back=gear.nuke_jse_back,waist=gear.ElementalObi,legs="Merlinic Shalwar",feet="Jhakri Pigaches +2"}
+		back=gear.nuke_jse_back,waist="Sacro Cord",legs="Merlinic Shalwar",feet="Jhakri Pigaches +2"}
 
 	sets.midcast['Elemental Magic'].Proc = {main=empty,sub=empty,range=empty,ammo="Impatiens",
 		head="Nahtirah Hat",neck="Voltsurge Torque",ear1="Enchntr. Earring +1",ear2="Loquac. Earring",
