@@ -46,7 +46,7 @@ function init_gear_sets()
 	-- Precast sets to enhance JAs
 	sets.precast.JA.Bolster = {body="Bagua Tunic +1"}
 	sets.precast.JA['Life Cycle'] = {body="Geomancy Tunic +2",back=gear.idle_jse_back}
-	sets.precast.JA['Radial Arcana'] = {feet="Bagua Sandals +1"}
+	sets.precast.JA['Radial Arcana'] = {feet="Bagua Sandals +3"}
 	sets.precast.JA['Mending Halation'] = {legs="Bagua Pants +1"}
 	sets.precast.JA['Full Circle'] = {head="Azimuth Hood +1",hands="Bagua Mitaines +1"}
 
@@ -200,29 +200,29 @@ function init_gear_sets()
 
 	sets.midcast.Stun.Resistant = {main="Daybreak",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
 		head="Geo. Galero +2",neck="Erra Pendant",ear1="Digni. Earring",ear2="Malignance Earring",
-		body="Geomancy Tunic +2",hands="Geo. Mitaines +2",ring1="Metamor. Ring +1",ring2="Stikini Ring",
+		body="Geomancy Tunic +2",hands="Geo. Mitaines +3",ring1="Metamor. Ring +1",ring2="Stikini Ring",
 		back=gear.nuke_jse_back,waist="Acuity Belt +1",legs="Geomancy Pants +2",feet="Geo. Sandals +2"}
 
 	sets.midcast.Impact = {main="Daybreak",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
 		head=empty,neck="Bagua Charm +1",ear1="Digni. Earring",ear2="Malignance Earring",
-		body="Twilight Cloak",hands="Geo. Mitaines +2",ring1="Metamor. Ring +1",ring2="Stikini Ring",
+		body="Twilight Cloak",hands="Geo. Mitaines +3",ring1="Metamor. Ring +1",ring2="Stikini Ring",
 		back=gear.mndenfeeb_jse_back,waist="Sacro Cord",legs="Geomancy Pants +2",feet="Geo. Sandals +2"}
 
 	sets.midcast.Dispel = {main="Daybreak",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
 		head="Geo. Galero +2",neck="Bagua Charm +1",ear1="Digni. Earring",ear2="Malignance Earring",
-		body="Geomancy Tunic +2",hands="Geo. Mitaines +2",ring1="Metamor. Ring +1",ring2="Stikini Ring",
+		body="Geomancy Tunic +2",hands="Geo. Mitaines +3",ring1="Metamor. Ring +1",ring2="Stikini Ring",
 		back=gear.nuke_jse_back,waist="Sacro Cord",legs="Geomancy Pants +2",feet="Geo. Sandals +2"}
 
 	sets.midcast.Dispelga = set_combine(sets.midcast.Dispel, {main="Daybreak",sub="Ammurapi Shield"})
 
 	sets.midcast['Enfeebling Magic'] = {main="Daybreak",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
 		head="Geo. Galero +2",neck="Bagua Charm +1",ear1="Vor Earring",ear2="Malignance Earring",
-		body="Geomancy Tunic +2",hands="Geo. Mitaines +2",ring1="Stikini Ring",ring2="Kishar Ring",
+		body="Geomancy Tunic +2",hands="Geo. Mitaines +3",ring1="Stikini Ring",ring2="Kishar Ring",
 		back=gear.mndenfeeb_jse_back,waist="Sacro Cord",legs="Geomancy Pants +2",feet="Geo. Sandals +2"}
 
 	sets.midcast['Enfeebling Magic'].Resistant = {main="Daybreak",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
 		head="Geo. Galero +2",neck="Bagua Charm +1",ear1="Vor Earring",ear2="Malignance Earring",
-		body="Geomancy Tunic +2",hands="Geo. Mitaines +2",ring1="Metamor. Ring +1",ring2="Stikini Ring",
+		body="Geomancy Tunic +2",hands="Geo. Mitaines +3",ring1="Metamor. Ring +1",ring2="Stikini Ring",
 		back=gear.mndenfeeb_jse_back,waist="Sacro Cord",legs="Geomancy Pants +2",feet="Geo. Sandals +2"}
 
 	sets.midcast.ElementalEnfeeble = set_combine(sets.midcast['Enfeebling Magic'], {head="Amalric Coif",ear2="Malignance Earring",waist="Acuity Belt +1"})
@@ -283,12 +283,12 @@ function init_gear_sets()
 		back="Solemnity Cape",waist="Carrier's Sash",legs="Assid. Pants +1",feet=gear.merlinic_refresh_feet}
 
 	-- Idle sets
-	sets.idle = {main="Bolelabunga",sub="Genmei Shield",range="Dunna",
+	sets.idle = {main="Daybreak",sub="Genmei Shield",range="Dunna",
 		head="Befouled Crown",neck="Loricate Torque +1",ear1="Moonshade Earring",ear2="Etiolation Earring",
 		body="Shamash Robe",hands="Bagua Mitaines +1",ring1="Defending Ring",ring2="Gelatinous Ring +1",
 		back=gear.idle_jse_back,waist="Carrier's Sash",legs="Assid. Pants +1",feet="Mallquis Clogs +2"}
 
-	sets.idle.PDT = {main="Malignance Pole",range="Dunna",
+	sets.idle.PDT = {main="Daybreak",sub="Genmei Shield",range="Dunna",
 		head="Nyame Helm",neck="Loricate Torque +1",ear1="Moonshade Earring",ear2="Etiolation Earring",
 		body="Shamash Robe",hands="Nyame Gauntlets",ring1="Defending Ring",ring2="Gelatinous Ring +1",
 		back=gear.idle_jse_back,waist="Isa Belt",legs="Nyame Flanchard",feet="Nyame Sollerets"}
@@ -296,13 +296,13 @@ function init_gear_sets()
 	-- .Pet sets are for when Luopan is present.
 	sets.idle.Pet = {main="Idris",sub="Genmei Shield",range="Dunna",
 		head=gear.telchine_pet_head,neck="Bagua Charm +1",ear1="Moonshade Earring",ear2="Etiolation Earring",
-		body="Shamash Robe",hands="Geo. Mitaines +2",ring1="Defending Ring",ring2="Gelatinous Ring +1",
-		back=gear.idle_jse_back,waist="Isa Belt",legs=gear.telchine_pet_legs,feet="Bagua Sandals +1"}
+		body="Shamash Robe",hands="Geo. Mitaines +3",ring1="Defending Ring",ring2="Gelatinous Ring +1",
+		back=gear.idle_jse_back,waist="Isa Belt",legs=gear.telchine_pet_legs,feet="Bagua Sandals +3"}
 
 	sets.idle.PDT.Pet = {main="Idris",sub="Genmei Shield",range="Dunna",
 		head=gear.telchine_pet_head,neck="Loricate Torque +1",ear1="Genmei Earring",ear2="Etiolation Earring",
-		body="Shamash Robe",hands="Geo. Mitaines +2",ring1="Defending Ring",ring2="Gelatinous Ring +1",
-		back=gear.idle_jse_back,waist="Isa Belt",legs=gear.telchine_pet_legs,feet="Bagua Sandals +1"}
+		body="Shamash Robe",hands="Geo. Mitaines +3",ring1="Defending Ring",ring2="Gelatinous Ring +1",
+		back=gear.idle_jse_back,waist="Isa Belt",legs=gear.telchine_pet_legs,feet="Bagua Sandals +3"}
 
 	-- .Indi sets are for when an Indi-spell is active.
 	sets.idle.Indi = set_combine(sets.idle, {})
@@ -310,7 +310,7 @@ function init_gear_sets()
 	sets.idle.PDT.Indi = set_combine(sets.idle.PDT, {}) 
 	sets.idle.PDT.Pet.Indi = set_combine(sets.idle.PDT.Pet, {})
 
-	sets.idle.Weak = {main="Bolelabunga",sub="Genmei Shield",ammo="Staunch Tathlum +1",
+	sets.idle.Weak = {main="Daybreak",sub="Genmei Shield",ammo="Staunch Tathlum +1",
 		head="Befouled Crown",neck="Loricate Torque +1",ear1="Moonshade Earring",ear2="Etiolation Earring",
 		body="Shamash Robe",hands="Nyame Gauntlets",ring1="Defending Ring",ring2="Gelatinous Ring +1",
 		back="Solemnity Cape",waist="Carrier's Sash",legs="Assid. Pants +1",feet="Nyame Sollerets"}
@@ -361,12 +361,12 @@ function init_gear_sets()
 	-- EG: sets.engaged.Dagger.Accuracy.Evasion
 
 	-- Normal melee group
-	sets.engaged = {ammo="Hasty Pinion +1",
+	sets.engaged = {main="Idris",sub="Genmei Shield",ammo="Hasty Pinion +1",
 		head="Nyame Helm",neck="Asperity Necklace",ear1="Cessance Earring",ear2="Brutal Earring",
 		body="Nyame Mail",hands="Nyame Gauntlets",ring1="Ramuh Ring +1",ring2="Ramuh Ring +1",
 		back="Kayapa Cape",waist="Witful Belt",legs="Nyame Flanchard",feet="Nyame Sollerets"}
 		
-	sets.engaged.DW = {ammo="Hasty Pinion +1",
+	sets.engaged.DW = {main="Idris",sub="Daybreak",ammo="Hasty Pinion +1",
 		head="Nyame Helm",neck="Asperity Necklace",ear1="Dudgeon Earring",ear2="Heartseeker Earring",
 		body="Nyame Mail",hands="Nyame Gauntlets",ring1="Ramuh Ring +1",ring2="Ramuh Ring +1",
 		back="Kayapa Cape",waist="Witful Belt",legs="Nyame Flanchard",feet="Nyame Sollerets"}
