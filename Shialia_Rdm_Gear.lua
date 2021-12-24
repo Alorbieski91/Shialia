@@ -10,6 +10,7 @@ function user_job_setup()
 	state.MagicalDefenseMode:options('MDT')
 	state.ResistDefenseMode:options('MEVA')
 	state.Weapons:options('None','Naegling','Sequence','DualWeapons','DualWeaponsAcc','DualEvisceration','DualClubs','DualAeolian','DualProcDaggers','EnspellOnly')
+	state.UnlockWeapons = M(true, 'Unlock Weapons')
 
 	gear.da_jse_back = {name="Sucellos's Cape", augments={'DEX+20','Accuracy+20 Attack+20','Accuracy+5','"Dbl.Atk."+10',}}
 	gear.nuke_jse_back = {name="Sucellos's Cape",augments={'INT+20','Mag. Acc+20 /Mag. Dmg.+20','INT+10','"Mag.Atk.Bns."+10','Phys. dmg. taken-10%',}}
@@ -49,11 +50,9 @@ function init_gear_sets()
 	--------------------------------------
 	
 	-- Precast Sets
-	
 	-- Precast sets to enhance JAs
 	sets.precast.JA['Chainspell'] = {body="Viti. Tabard +1"}
 	
-
 	-- Waltz set (chr and vit)
 	sets.precast.Waltz = {}
 		
@@ -432,67 +431,67 @@ function init_gear_sets()
 
 	sets.engaged = {ammo="Coiste Bodhar",
 		head="Malignance Chapeau",neck="Anu Torque",ear1="Brutal Earring",ear2="Sherida Earring",
-		body="Ayanmo Corazza +2",hands="Aya. Manopolas +2",ring1="Ayanmo Ring",ring2="Petrov Ring",
+		body="Malignance Tabard",hands="Bunzi's Gloves",ring1="Ayanmo Ring",ring2="Petrov Ring",
 		back=gear.da_jse_back,waist="Kentarch Belt +1",legs="Malignance Tights",feet="Malignance Boots"}
 		
 	sets.engaged.EnspellOnly = {ammo="Coiste Bodhar",
 		head="Malignance Chapeau",neck="Sanctity Necklace",ear1="Suppanomimi",ear2="Sherida Earring",
-		body="Ayanmo Corazza +2",hands="Aya. Manopolas +2",ring1="Metamor. Ring +1",ring2="Stikini Ring",
+		body="Malignance Tabard",hands="Aya. Manopolas +2",ring1="Metamor. Ring +1",ring2="Stikini Ring",
 		back=gear.da_jse_back,waist="Kentarch Belt +1",legs="Carmine Cuisses +1",feet="Malignance Boots"}
 
 	sets.engaged.Acc = {ammo="Coiste Bodhar",
 		head="Malignance Chapeau",neck="Asperity Necklace",ear1="Brutal Earring",ear2="Sherida Earring",
-		body="Ayanmo Corazza +2",hands="Nyame Gauntlets",ring1="Petrov Ring",ring2="Ilabrat Ring",
+		body="Malignance Tabard",hands="Bunzi's Gloves",ring1="Petrov Ring",ring2="Ilabrat Ring",
 		back=gear.da_jse_back,waist="Windbuffet Belt +1",legs="Malignance Tights",feet="Carmine Greaves +1"}	
 		
 	sets.engaged.FullAcc = {ammo="Coiste Bodhar",
 		head="Malignance Chapeau",neck="Asperity Necklace",ear1="Brutal Earring",ear2="Sherida Earring",
-		body="Ayanmo Corazza +2",hands="Nyame Gauntlets",ring1="Petrov Ring",ring2="Ilabrat Ring",
+		body="Malignance Tabard",hands="Bunzi's Gloves",ring1="Petrov Ring",ring2="Ilabrat Ring",
 		back=gear.da_jse_back,waist="Windbuffet Belt +1",legs="Malignance Tights",feet="Carmine Greaves +1"}
 
 	sets.engaged.DT = {ammo="Coiste Bodhar",
 		head="Malignance Chapeau",neck="Loricate Torque +1",ear1="Brutal Earring",ear2="Sherida Earring",
-		body="Malignance Tabard",hands="Hagondes Cuffs +1",ring1="Defending Ring",ring2="Gelatinous Ring +1",
+		body="Malignance Tabard",hands="Bunzi's Gloves",ring1="Defending Ring",ring2="Gelatinous Ring +1",
 		back="Solemnity Cape",waist="Windbuffet Belt +1",legs="Hagondes Pants +1",feet="Battlecast Gaiters"}
 		
 	sets.engaged.Acc.DT = {ammo="Coiste Bodhar",
 		head="Malignance Chapeau",neck="Loricate Torque +1",ear1="Brutal Earring",ear2="Sherida Earring",
-		body="Malignance Tabard",hands="Hagondes Cuffs +1",ring1="Defending Ring",ring2="Gelatinous Ring +1",
+		body="Malignance Tabard",hands="Bunzi's Gloves",ring1="Defending Ring",ring2="Gelatinous Ring +1",
 		back="Solemnity Cape",waist="Flume Belt +1",legs="Hagondes Pants +1",feet="Battlecast Gaiters"}
 		
 	sets.engaged.FullAcc.DT = {ammo="Coiste Bodhar",
 		head="Malignance Chapeau",neck="Loricate Torque +1",ear1="Brutal Earring",ear2="Sherida Earring",
-		body="Malignance Tabard",hands="Hagondes Cuffs +1",ring1="Defending Ring",ring2="Gelatinous Ring +1",
+		body="Malignance Tabard",hands="Bunzi's Gloves",ring1="Defending Ring",ring2="Gelatinous Ring +1",
 		back="Solemnity Cape",waist="Flume Belt +1",legs="Hagondes Pants +1",feet="Battlecast Gaiters"}
 		
 	sets.engaged.DW = {ammo="Coiste Bodhar",
 		head="Malignance Chapeau",neck="Anu Torque",ear1="Suppanomimi",ear2="Sherida Earring",
-		body="Ayanmo Corazza +2",hands="Aya. Manopolas +2",ring1="Ayanmo Ring",ring2="Petrov Ring",
+		body="Malignance Tabard",hands="Bunzi's Gloves",ring1="Ayanmo Ring",ring2="Petrov Ring",
 		back=gear.da_jse_back,waist="Kentarch Belt +1",legs="Carmine Cuisses +1",feet="Malignance Boots"}
 		
 	sets.engaged.DW.Acc = {ammo="Coiste Bodhar",
 		head="Malignance Chapeau",neck="Combatant's Torque",ear1="Suppanomimi",ear2="Sherida Earring",
-		body="Malignance Tabard",hands="Nyame Gauntlets",ring1="Ramuh Ring +1",ring2="Ilabrat Ring",
+		body="Malignance Tabard",hands="Bunzi's Gloves",ring1="Ramuh Ring +1",ring2="Ilabrat Ring",
 		back=gear.da_jse_back,waist="Olseni Belt",legs="Carmine Cuisses +1",feet="Malignance Boots"}
 		
 	sets.engaged.DW.FullAcc = {ammo="Coiste Bodhar",
 		head="Malignance Chapeau",neck="Combatant's Torque",ear1="Suppanomimi",ear2="Telos Earring",
-		body="Malignance Tabard",hands="Nyame Gauntlets",ring1="Ramuh Ring +1",ring2="Ramuh Ring +1",
+		body="Malignance Tabard",hands="Bunzi's Gloves",ring1="Ramuh Ring +1",ring2="Ramuh Ring +1",
 		back=gear.da_jse_back,waist="Olseni Belt",legs="Carmine Cuisses +1",feet="Malignance Boots"}
 		
 	sets.engaged.DW.DT = {ammo="Coiste Bodhar",
 		head="Malignance Chapeau",neck="Loricate Torque +1",ear1="Suppanomimi",ear2="Sherida Earring",
-		body="Malignance Tabard",hands="Nyame Gauntlets",ring1="Defending Ring",ring2="Ilabrat Ring",
+		body="Malignance Tabard",hands="Bunzi's Gloves",ring1="Defending Ring",ring2="Ilabrat Ring",
 		back="Solemnity Cape",waist="Reiki Yotai",legs="Malignance Tights",feet="Malignance Boots"}
 		
 	sets.engaged.DW.Acc.DT = {ammo="Coiste Bodhar",
 		head="Malignance Chapeau",neck="Loricate Torque +1",ear1="Suppanomimi",ear2="Sherida Earring",
-		body="Malignance Tabard",hands="Nyame Gauntlets",ring1="Defending Ring",ring2="Ilabrat Ring",
+		body="Malignance Tabard",hands="Bunzi's Gloves",ring1="Defending Ring",ring2="Ilabrat Ring",
 		back="Solemnity Cape",waist="Reiki Yotai",legs="Malignance Tights",feet="Malignance Boots"}
 		
 	sets.engaged.DW.FullAcc.DT = {ammo="Coiste Bodhar",
 		head="Malignance Chapeau",neck="Loricate Torque +1",ear1="Suppanomimi",ear2="Telos Earring",
-		body="Malignance Tabard",hands="Nyame Gauntlets",ring1="Defending Ring",ring2="Ramuh Ring +1",
+		body="Malignance Tabard",hands="Bunzi's Gloves",ring1="Defending Ring",ring2="Ramuh Ring +1",
 		back="Solemnity Cape",waist="Reiki Yotai",legs="Malignance Tights",feet="Malignance Boots"}
 end
 

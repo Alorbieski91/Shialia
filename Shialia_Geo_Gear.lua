@@ -152,9 +152,9 @@ function init_gear_sets()
 		back=gear.nuke_jse_back,waist="Sacro Cord",legs="Mallquis Trews +2",feet="Mallquis Clogs +2"}
 
 	sets.midcast['Elemental Magic'].Resistant = {main="Bunzi's Rod",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
-		head="Jhakri Coronal +2",neck="Sanctity Necklace",ear1="Regal Earring",ear2="Malignance Earring",
-		body="Jhakri Robe +2",hands="Mallquis Cuffs +2",ring1="Shiva Ring +1",ring2="Freke Ring",
-		back=gear.nuke_jse_back,waist="Sacro Cord",legs="Merlinic Shalwar",feet="Jhakri Pigaches +2"}
+		head="Agwu's Cap",neck="Sanctity Necklace",ear1="Regal Earring",ear2="Malignance Earring",
+		body="Agwu's Robe",hands="Agwu's Gages",ring1="Shiva Ring +1",ring2="Freke Ring",
+		back=gear.nuke_jse_back,waist="Sacro Cord",legs="Agwu's Slops",feet="Bagua Sandals +3"}
 		
 	sets.midcast['Elemental Magic'].Proc = {main=empty,sub=empty,ammo="Impatiens",
 		head="Nahtirah Hat",neck="Loricate Torque +1",ear1="Gifted Earring",ear2="Loquac. Earring",
@@ -169,27 +169,27 @@ function init_gear_sets()
 	sets.midcast['Elemental Magic'].HighTierNuke = {main="Bunzi's Rod",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
 		head="Jhakri Coronal +2",neck="Baetyl Pendant",ear1="Friomisi Earring",ear2="Malignance Earring",
 		body="Jhakri Robe +2",hands="Jhakri Cuffs +2",ring1="Shiva Ring +1",ring2="Metamor. Ring +1",
-		back=gear.nuke_jse_back,waist="Sacro Cord",legs="Jhakri Slops +2",feet="Jhakri Pigaches +2"}
+		back=gear.nuke_jse_back,waist="Sacro Cord",legs="Jhakri Slops +2",feet="Bagua Sandals +3"}
 
 	sets.midcast['Elemental Magic'].HighTierNuke.Resistant = {main="Bunzi's Rod",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
 		head="Jhakri Coronal +2",neck="Sanctity Necklace",ear1="Regal Earring",ear2="Malignance Earring",
 		body="Jhakri Robe +2",hands="Jhakri Cuffs +2",ring1="Freke Ring",ring2="Metamor. Ring +1",
-		back=gear.nuke_jse_back,waist="Sacro Cord",legs="Merlinic Shalwar",feet="Jhakri Pigaches +2"}
+		back=gear.nuke_jse_back,waist="Sacro Cord",legs="Merlinic Shalwar",feet="Bagua Sandals +3"}
 
 	sets.midcast['Elemental Magic'].HighTierNuke.Fodder = {main="Bunzi's Rod",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
 		head="Jhakri Coronal +2",neck="Baetyl Pendant",ear1="Friomisi Earring",ear2="Malignance Earring",
 		body="Jhakri Robe +2",hands="Jhakri Cuffs +2",ring1="Shiva Ring +1",ring2="Metamor. Ring +1",
-		back=gear.nuke_jse_back,waist="Sacro Cord",legs="Jhakri Slops +2",feet="Jhakri Pigaches +2"}
+		back=gear.nuke_jse_back,waist="Sacro Cord",legs="Jhakri Slops +2",feet="Bagua Sandals +3"}
 
 	sets.midcast['Dark Magic'] = {main="Rubicundity",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
 		head="Bagua Galero +1",neck="Erra Pendant",ear1="Digni. Earring",ear2="Malignance Earring",
 		body="Mallquis Saio +2",hands="Jhakri Cuffs +2",ring1="Archon Ring",ring2="Evanescence Ring",
-		back=gear.nuke_jse_back,waist="Fucho-no-Obi",legs="Mallquis Trews +2",feet=gear.merlinic_conservemp_feet}
+		back=gear.nuke_jse_back,waist="Fucho-no-Obi",legs="Mallquis Trews +2",feet="Agwu's Pigaches"}
 
 	sets.midcast.Drain = {main="Rubicundity",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
 		head="Bagua Galero +1",neck="Erra Pendant",ear1="Digni. Earring",ear2="Malignance Earring",
 		body="Mallquis Saio +2",hands="Jhakri Cuffs +2",ring1="Archon Ring",ring2="Evanescence Ring",
-		back=gear.nuke_jse_back,waist="Fucho-no-Obi",legs="Mallquis Trews +2",feet=gear.merlinic_conservemp_feet}
+		back=gear.nuke_jse_back,waist="Fucho-no-Obi",legs="Mallquis Trews +2",feet="Agwu's Pigaches"}
 
 	sets.midcast.Aspir = sets.midcast.Drain
 
@@ -300,9 +300,9 @@ function init_gear_sets()
 		back=gear.idle_jse_back,waist="Isa Belt",legs=gear.telchine_pet_legs,feet="Bagua Sandals +3"}
 
 	sets.idle.PDT.Pet = {main="Idris",sub="Genmei Shield",range="Dunna",
-		head=gear.telchine_pet_head,neck="Loricate Torque +1",ear1="Genmei Earring",ear2="Etiolation Earring",
+		head="Nyame Helm",neck="Bagua Charm +1",ear1="Moonshade Earring",ear2="Etiolation Earring",
 		body="Shamash Robe",hands="Geo. Mitaines +3",ring1="Defending Ring",ring2="Gelatinous Ring +1",
-		back=gear.idle_jse_back,waist="Isa Belt",legs=gear.telchine_pet_legs,feet="Bagua Sandals +3"}
+		back=gear.idle_jse_back,waist="Isa Belt",legs="Nyame Flanchard",feet="Bagua Sandals +3"}
 
 	-- .Indi sets are for when an Indi-spell is active.
 	sets.idle.Indi = set_combine(sets.idle, {})
@@ -382,10 +382,10 @@ function init_gear_sets()
 	sets.MagicBurst = {
 		main="Bunzi's Rod",
 		sub="Ammurapi Shield",
-		head="Nyame Helm",
+		head="Agwu's Cap",
 		neck="Mizu. Kubikazari",
-		body="Nyame Mail",
-		hands="Nyame Gauntlets",
+		body="Agwu's Robe",
+		hands="Agwu's Gages",
 		--ring1="Mujin Band",
 		legs="Ea Slops",
 		feet="Jhakri Pigaches +2"
@@ -393,10 +393,10 @@ function init_gear_sets()
 	sets.ResistantMagicBurst = {
 		main="Bunzi's Rod",
 		sub="Ammurapi Shield",
-		head="Nyame Helm",
+		head="Agwu's Cap",
 		neck="Mizu. Kubikazari",
-		body="Nyame Mail",
-		hands="Nyame Gauntlets",
+		body="Agwu's Robe",
+		hands="Agwu's Gages",
 		--ring1="Mujin Band",
 		legs="Ea Slops",
 		feet="Jhakri Pigaches +2"
