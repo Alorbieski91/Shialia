@@ -232,12 +232,12 @@ function init_gear_sets()
 	sets.midcast.Shell = {ring2="Sheltered Ring"}
 	
 	sets.midcast['Enfeebling Magic'] = {main="Daybreak",sub="Ammurapi Shield",ammo="Regal Gem",
-		head="Atro. Chapeau +2",neck="Dls. Torque +1",ear1="Snotra Earring",ear2="Malignance Earring",
+		head="Atro. Chapeau +2",neck="Dls. Torque +1",ear1="Regal Earring",ear2="Snotra Earring",
 		body="Atrophy Tabard +2",hands="Kaykaus Cuffs",ring1="Stikini Ring",ring2="Kishar Ring",
 		back=gear.enfeeble_jse_back,waist="Sacro Cord",legs=gear.chironic_enfeeble_legs,feet="Jhakri Pigaches +2"}
 		
 	sets.midcast['Enfeebling Magic'].Resistant = {main="Daybreak",sub="Ammurapi Shield",range="Kaja Bow",
-		head="Atro. Chapeau +2",neck="Dls. Torque +1",ear1="Snotra Earring",ear2="Malignance Earring",
+		head="Atro. Chapeau +2",neck="Dls. Torque +1",ear1="Regal Earring",ear2="Snotra Earring",
 		body="Atrophy Tabard +2",hands="Kaykaus Cuffs",ring1="Metamor. Ring +1",ring2="Stikini Ring",
 		back=gear.enfeeble_jse_back,waist="Sacro Cord",legs=gear.chironic_enfeeble_legs,feet="Jhakri Pigaches +2"}
 		
@@ -275,17 +275,17 @@ function init_gear_sets()
 	sets.midcast['Bio III'] = set_combine(sets.midcast['Enfeebling Magic'], {head="Viti. Chapeau +1",waist="Chaac Belt"})
 
 	sets.midcast['Elemental Magic'] = {main="Daybreak",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
-		head="Jhakri Coronal +2",neck="Baetyl Pendant",ear1="Friomisi Earring",ear2="Malignance Earring",
+		head="Jhakri Coronal +2",neck="Baetyl Pendant",ear1="Regal Earring",ear2="Malignance Earring",
 		body="Shamash Robe",hands=gear.chironic_treasure_hands,ring1="Metamor. Ring +1",ring2="Tamas Ring",
 		back=gear.enfeeble_jse_back,waist="Sacro Cord",legs=gear.chironic_enfeeble_legs,feet="Jhakri Pigaches +2"}
 		
 	sets.midcast['Elemental Magic'].Resistant = {main="Daybreak",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
-		head="Jhakri Coronal +2",neck="Dls. Torque +1",ear1="Regal Earring",ear2="Friomisi Earring",
+		head="Jhakri Coronal +2",neck="Dls. Torque +1",ear1="Regal Earring",ear2="Malignance Earring",
 		body=gear.merlinic_nuke_body,hands="Amalric Gages +1",ring1="Metamor. Ring +1",ring2="Freke Ring",
 		back=gear.nuke_jse_back,waist="Sacro Cord",legs="Merlinic Shalwar",feet="Jhakri Pigaches +2"}
 		
 	sets.midcast['Elemental Magic'].Fodder = {main="Daybreak",sub="Ammurapi Shield",range=empty,ammo="Dosis Tathlum",
-		head="Jhakri Coronal +2",neck="Baetyl Pendant",ear1="Crematio Earring",ear2="Friomisi Earring",
+		head="Jhakri Coronal +2",neck="Baetyl Pendant",ear1="Regal Earring",ear2="Malignance Earring",
 		body=gear.merlinic_nuke_body,hands="Amalric Gages +1",ring1="Shiva Ring +1",ring2="Freke Ring",
 		back=gear.nuke_jse_back,waist="Sacro Cord",legs="Merlinic Shalwar",feet="Jhakri Pigaches +2"}
 
@@ -294,26 +294,22 @@ function init_gear_sets()
 		body="Zendik Robe",hands="Gende. Gages +1",ring1="Kishar Ring",ring2="Prolix Ring",
 		back="Swith Cape +1",waist="Witful Belt",legs="Psycloth Lappas",feet="Regal Pumps +1"}
 		
-	sets.midcast['Elemental Magic'].HighTierNuke = set_combine(sets.midcast['Elemental Magic'], {
-		ammo="Pemphredo Tathlum",
-		--ear1="Regal Earring",
-		ring1="Metamor. Ring +1"
-	})
+	sets.midcast['Elemental Magic'].HighTierNuke = set_combine(sets.midcast['Elemental Magic'], {ammo="Pemphredo Tathlum",ear1="Regal Earring",ring1="Metamor. Ring +1"})
 	sets.midcast['Elemental Magic'].HighTierNuke.Resistant = set_combine(sets.midcast['Elemental Magic'].Resistant, {ear1="Regal Earring",ring1="Metamor. Ring +1"})
 	sets.midcast['Elemental Magic'].HighTierNuke.Fodder = set_combine(sets.midcast['Elemental Magic'].Fodder, {ammo="Pemphredo Tathlum",ear1="Regal Earring",ring1="Metamor. Ring +1"})
 		
 	sets.midcast.Impact = {main="Daybreak",sub="Ammurapi Shield",range="Kaja Bow",
-		head=empty,neck="Dls. Torque +1",ear1="Snotra Earring",ear2="Malignance Earring",
+		head=empty,neck="Dls. Torque +1",ear1="Regal Earring",ear2="Snotra Earring",
 		body="Twilight Cloak",hands="Leth. Gantherots +1",ring1="Metamor. Ring +1",ring2="Stikini Ring",
 		back=gear.enfeeble_jse_back,waist="Sacro Cord",legs=gear.chironic_enfeeble_legs,feet="Jhakri Pigaches +2"}
 
 	sets.midcast['Dark Magic'] = {main="Rubicundity",sub="Ammurapi Shield",ammo="Regal Gem",
-		head="Atro. Chapeau +2",neck="Erra Pendant",ear1="Snotra Earring",ear2="Malignance Earring",
+		head="Atro. Chapeau +2",neck="Erra Pendant",ear1="Regal Earring",ear2="Snotra Earring",
 		body="Atrophy Tabard +2",hands="Kaykaus Cuffs",ring1="Evanescence Ring",ring2="Archon Ring",
 		back=gear.enfeeble_jse_back,waist="Fucho-no-Obi",legs=gear.chironic_enfeeble_legs,feet="Jhakri Pigaches +2"}
 
 	sets.midcast.Drain = {main="Rubicundity",sub="Ammurapi Shield",ammo="Regal Gem",
-		head="Atro. Chapeau +2",neck="Erra Pendant",ear1="Snotra Earring",ear2="Malignance Earring",
+		head="Atro. Chapeau +2",neck="Erra Pendant",ear1="Regal Earring",ear2="Snotra Earring",
 		body="Atrophy Tabard +2",hands="Kaykaus Cuffs",ring1="Evanescence Ring",ring2="Archon Ring",
 		back=gear.enfeeble_jse_back,waist="Fucho-no-Obi",legs=gear.chironic_enfeeble_legs,feet="Jhakri Pigaches +2"}
 

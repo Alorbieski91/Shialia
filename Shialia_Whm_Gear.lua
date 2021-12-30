@@ -263,7 +263,7 @@ function init_gear_sets()
 		back=gear.enf_jse_cape,waist="Sacro Cord",legs=gear.chironic_enfeeble_legs,feet="Theo. Duckbills +2"}
 		
 	sets.midcast['Elemental Magic'] = {main="Daybreak",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
-		head="C. Palug Crown",neck="Baetyl Pendant",ear1="Regal Earring",ear2="Friomisi Earring",
+		head="C. Palug Crown",neck="Baetyl Pendant",ear1="Regal Earring",ear2="Malignance Earring",
 		body="Witching Robe",hands=gear.chironic_enfeeble_hands,ring1="Shiva Ring +1",ring2="Freke Ring",
 		back="Toro Cape",waist="Sacro Cord",legs="Chironic Hose",feet=gear.chironic_nuke_feet}
 
@@ -311,19 +311,19 @@ function init_gear_sets()
 		back="Aurist's Cape +1",waist="Acuity Belt +1",legs="Chironic Hose",feet=gear.chironic_nuke_feet}
 		
 	sets.midcast.Dispel = {main="Daybreak",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
-		head="Befouled Crown",neck="Erra Pendant",ear1="Vor Earring",ear2="Malignance Earring",
+		head="Befouled Crown",neck="Erra Pendant",ear1="Regal Earring",ear2="Malignance Earring",
 		body="Inyanga Jubbah +2",hands="Inyan. Dastanas +2",ring1="Metamor. Ring +1",ring2="Stikini Ring",
 		back=gear.enf_jse_cape,waist="Sacro Cord",legs=gear.chironic_enfeeble_legs,feet="Theo. Duckbills +2"}
 		
 	sets.midcast.Dispelga = set_combine(sets.midcast.Dispel, {main="Daybreak",sub="Ammurapi Shield"})
 
 	sets.midcast['Enfeebling Magic'] = {main="Daybreak",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
-		head="Befouled Crown",neck="Erra Pendant",ear1="Vor Earring",ear2="Malignance Earring",
+		head="Befouled Crown",neck="Erra Pendant",ear1="Regal Earring",ear2="Malignance Earring",
 		body="Theo. Bliaut +2",hands="Inyan. Dastanas +2",ring1="Stikini Ring",ring2="Kishar Ring",
 		back=gear.enf_jse_cape,waist="Sacro Cord",legs=gear.chironic_enfeeble_legs,feet="Theo. Duckbills +2"}
 
 	sets.midcast['Enfeebling Magic'].Resistant = {main="Daybreak",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
-		head="Befouled Crown",neck="Erra Pendant",ear1="Vor Earring",ear2="Malignance Earring",
+		head="Befouled Crown",neck="Erra Pendant",ear1="Regal Earring",ear2="Malignance Earring",
 		body="Theo. Bliaut +2",hands="Inyan. Dastanas +2",ring1="Metamor. Ring +1",ring2="Stikini Ring",
 		back=gear.enf_jse_cape,waist="Sacro Cord",legs=gear.chironic_enfeeble_legs,feet="Theo. Duckbills +2"}
 		

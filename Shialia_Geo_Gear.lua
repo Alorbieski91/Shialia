@@ -104,7 +104,6 @@ function init_gear_sets()
 	-- Default set for any weaponskill that isn't any more specifically defined
 	sets.precast.WS = {}
 
-
 	--------------------------------------
 	-- Midcast sets
 	--------------------------------------
@@ -147,7 +146,7 @@ function init_gear_sets()
 	sets.midcast.StatusRemoval = set_combine(sets.midcast.FastRecast, {main=gear.grioavolr_fc_staff,sub="Clemency Grip"})
 
 	sets.midcast['Elemental Magic'] = {main="Bunzi's Rod",sub="Culminus",ammo="Pemphredo Tathlum",
-		head="Mall. Chapeau +2",neck="Baetyl Pendant",ear1="Friomisi Earring",ear2="Malignance Earring",
+		head="Mall. Chapeau +2",neck="Baetyl Pendant",ear1="Regal Earring",ear2="Malignance Earring",
 		body="Mallquis Saio +2",hands="Mallquis Cuffs +2",ring1="Mallquis Ring",ring2="Metamor. Ring +1",
 		back=gear.nuke_jse_back,waist="Sacro Cord",legs="Mallquis Trews +2",feet="Mallquis Clogs +2"}
 
@@ -162,12 +161,12 @@ function init_gear_sets()
 		back="Swith Cape +1",waist="Witful Belt",legs="Assid. Pants +1",feet="Regal Pumps +1"}
 
 	sets.midcast['Elemental Magic'].Fodder = {main="Bunzi's Rod",sub="Culminus",ammo="Pemphredo Tathlum",
-		head="Mall. Chapeau +2",neck="Baetyl Pendant",ear1="Friomisi Earring",ear2="Malignance Earring",
+		head="Mall. Chapeau +2",neck="Baetyl Pendant",ear1="Regal Earring",ear2="Malignance Earring",
 		body="Mallquis Saio +2",hands="Mallquis Cuffs +2",ring1="Mallquis Ring",ring2="Metamor. Ring +1",
 		back=gear.nuke_jse_back,waist="Sacro Cord",legs="Mallquis Trews +2",feet="Mallquis Clogs +2"}
 
 	sets.midcast['Elemental Magic'].HighTierNuke = {main="Bunzi's Rod",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
-		head="Jhakri Coronal +2",neck="Baetyl Pendant",ear1="Friomisi Earring",ear2="Malignance Earring",
+		head="Jhakri Coronal +2",neck="Baetyl Pendant",ear1="Regal Earring",ear2="Malignance Earring",
 		body="Jhakri Robe +2",hands="Jhakri Cuffs +2",ring1="Shiva Ring +1",ring2="Metamor. Ring +1",
 		back=gear.nuke_jse_back,waist="Sacro Cord",legs="Jhakri Slops +2",feet="Bagua Sandals +3"}
 
@@ -177,19 +176,19 @@ function init_gear_sets()
 		back=gear.nuke_jse_back,waist="Sacro Cord",legs="Merlinic Shalwar",feet="Bagua Sandals +3"}
 
 	sets.midcast['Elemental Magic'].HighTierNuke.Fodder = {main="Bunzi's Rod",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
-		head="Jhakri Coronal +2",neck="Baetyl Pendant",ear1="Friomisi Earring",ear2="Malignance Earring",
+		head="Jhakri Coronal +2",neck="Baetyl Pendant",ear1="Regal Earring",ear2="Malignance Earring",
 		body="Jhakri Robe +2",hands="Jhakri Cuffs +2",ring1="Shiva Ring +1",ring2="Metamor. Ring +1",
 		back=gear.nuke_jse_back,waist="Sacro Cord",legs="Jhakri Slops +2",feet="Bagua Sandals +3"}
 
 	sets.midcast['Dark Magic'] = {main="Rubicundity",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
-		head="Bagua Galero +1",neck="Erra Pendant",ear1="Digni. Earring",ear2="Malignance Earring",
-		body="Mallquis Saio +2",hands="Jhakri Cuffs +2",ring1="Archon Ring",ring2="Evanescence Ring",
-		back=gear.nuke_jse_back,waist="Fucho-no-Obi",legs="Mallquis Trews +2",feet="Agwu's Pigaches"}
+		head="Bagua Galero +1",neck="Erra Pendant",ear1="Regal Earring",ear2="Malignance Earring",
+		body="Geomancy Tunic +2",hands="Geo. Mitaines +3",ring1="Archon Ring",ring2="Evanescence Ring",
+		back=gear.nuke_jse_back,waist="Fucho-no-Obi",legs="Geomancy Pants +2",feet="Agwu's Pigaches"}
 
 	sets.midcast.Drain = {main="Rubicundity",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
-		head="Bagua Galero +1",neck="Erra Pendant",ear1="Digni. Earring",ear2="Malignance Earring",
-		body="Mallquis Saio +2",hands="Jhakri Cuffs +2",ring1="Archon Ring",ring2="Evanescence Ring",
-		back=gear.nuke_jse_back,waist="Fucho-no-Obi",legs="Mallquis Trews +2",feet="Agwu's Pigaches"}
+		head="Bagua Galero +1",neck="Erra Pendant",ear1="Regal Earring",ear2="Malignance Earring",
+		body="Geomancy Tunic +2",hands="Geo. Mitaines +3",ring1="Archon Ring",ring2="Evanescence Ring",
+		back=gear.nuke_jse_back,waist="Fucho-no-Obi",legs="Geomancy Pants +2",feet="Agwu's Pigaches"}
 
 	sets.midcast.Aspir = sets.midcast.Drain
 
@@ -199,17 +198,17 @@ function init_gear_sets()
 		back="Lifestream Cape",waist="Witful Belt",legs="Geomancy Pants +2",feet="Regal Pumps +1"}
 
 	sets.midcast.Stun.Resistant = {main="Daybreak",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
-		head="Geo. Galero +2",neck="Erra Pendant",ear1="Digni. Earring",ear2="Malignance Earring",
+		head="Geo. Galero +2",neck="Erra Pendant",ear1="Regal Earring",ear2="Malignance Earring",
 		body="Geomancy Tunic +2",hands="Geo. Mitaines +3",ring1="Metamor. Ring +1",ring2="Stikini Ring",
 		back=gear.nuke_jse_back,waist="Acuity Belt +1",legs="Geomancy Pants +2",feet="Geo. Sandals +2"}
 
 	sets.midcast.Impact = {main="Daybreak",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
-		head=empty,neck="Bagua Charm +1",ear1="Digni. Earring",ear2="Malignance Earring",
+		head=empty,neck="Bagua Charm +1",ear1="Regal Earring",ear2="Malignance Earring",
 		body="Twilight Cloak",hands="Geo. Mitaines +3",ring1="Metamor. Ring +1",ring2="Stikini Ring",
 		back=gear.mndenfeeb_jse_back,waist="Sacro Cord",legs="Geomancy Pants +2",feet="Geo. Sandals +2"}
 
 	sets.midcast.Dispel = {main="Daybreak",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
-		head="Geo. Galero +2",neck="Bagua Charm +1",ear1="Digni. Earring",ear2="Malignance Earring",
+		head="Geo. Galero +2",neck="Bagua Charm +1",ear1="Regal Earring",ear2="Malignance Earring",
 		body="Geomancy Tunic +2",hands="Geo. Mitaines +3",ring1="Metamor. Ring +1",ring2="Stikini Ring",
 		back=gear.nuke_jse_back,waist="Sacro Cord",legs="Geomancy Pants +2",feet="Geo. Sandals +2"}
 
@@ -476,3 +475,77 @@ buff_spell_lists = {
 		{Name='Phalanx',	Buff='Phalanx',		SpellID=106,	Reapply=false},
 	},
 }
+
+function default_post_midcast(spell, spellMap, eventArgs)
+
+	if not eventArgs.handled then
+		if not job_post_midcast and is_nuke(spell, spellMap) and state.MagicBurstMode.value ~= 'Off' and sets.MagicBurst then
+			equip(sets.MagicBurst)
+		end
+
+		if spell.target.type == 'SELF' and spellMap then
+			if spellMap:contains('Cure') then
+				if curecheat then
+					if sets.HPCure then
+						equip(sets.HPCure)
+					end
+					curecheat = false
+				elseif sets.Self_Healing then
+					if sets.Self_Healing.SIRD and state.CastingMode.value:contains('SIRD') and (player.in_combat or being_attacked) then
+						equip(sets.Self_Healing.SIRD)
+					else
+						equip(sets.Self_Healing)
+					end
+				end
+			elseif spellMap == 'Refresh' and sets.Self_Refresh then
+				equip(sets.Self_Refresh)
+			end
+		end
+		
+		set_elemental_obi_cape_ring(spell, spellMap)
+		
+		if state.Capacity.value == true then
+			if set.contains(spell.targets, 'Enemy') then
+				if spell.skill == 'Elemental Magic' or spell.skill == 'Blue Magic' or spell.action_type == 'Ranged Attack' then
+					equip(sets.Capacity)
+				end
+			end
+		end
+		
+		if sets.Reive and buffactive['Reive Mark'] and (spell.skill == 'Elemental Magic' or spellMap == 'Cure' or spellMap == 'Curaga') then
+			if sets.Reive.neck == "Arciela's Grace +1" then
+				equip(sets.Reive)
+			end
+		end
+		
+		if state.TreasureMode.value ~= 'None' and spell.target.type == 'MONSTER' and not info.tagged_mobs[spell.target.id] and not spell.english:startswith('Geo-') then
+			equip(sets.TreasureHunter)
+		end
+		
+		if state.DefenseMode.value ~= 'None' and spell.action_type == 'Magic' and (player.in_combat or being_attacked) then
+			if sets.midcast[spell.english] and sets.midcast[spell.english].DT then
+				equip(sets.midcast[spell.english].DT)
+			elseif sets.midcast[spellMap] and sets.midcast[spellMap].DT then
+				equip(sets.midcast[spellMap].DT)
+			elseif sets.midcast[spell.skill] and sets.midcast[spell.skill].DT then
+				equip(sets.midcast[spell.skill].DT)
+			elseif sets.midcast.FastRecast.DT then
+				equip(sets.midcast.FastRecast.DT)
+			else
+				handle_equipping_gear(player.status)
+			end
+
+			if spell.target.type == 'SELF' and spellMap and spellMap:contains('Cure') and sets.Self_Healing and sets.Self_Healing.DT then
+				equip(sets.Self_Healing.DT)
+
+			end
+			
+			eventArgs.handled = true
+		end
+	
+	end
+	
+	if buffactive.doom then
+		equip(sets.buff.Doom)
+	end
+end
