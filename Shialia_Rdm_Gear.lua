@@ -96,7 +96,7 @@ function init_gear_sets()
 	sets.precast.WS['Evisceration'] = sets.precast.WS['Chant Du Cygne']
 
 	sets.precast.WS['Savage Blade'] = {ammo="Regal Gem",
-		head="Jhakri Coronal +2",neck="Caro Necklace",ear1="Ishvara Earring",ear2="Sherida Earring",
+		head="Jhakri Coronal +2",neck="Caro Necklace",ear1="Regal Earring",ear2="Sherida Earring",
 		body="Jhakri Robe +2",hands="Jhakri Cuffs +2",ring1="Metamor. Ring +1",ring2="Rufescent Ring",
 		back=gear.wsd_jse_back,waist="Prosilio Belt +1",legs="Jhakri Slops +2",feet="Jhakri Pigaches +2"}
 		
@@ -107,8 +107,8 @@ function init_gear_sets()
 		
 	sets.precast.WS['Seraph Blade'] = {range=empty,ammo="Pemphredo Tathlum",
 		head="Jhakri Coronal +2",neck="Baetyl Pendant",ear1="Regal Earring",ear2="Malignance Earring",
-		body=gear.merlinic_nuke_body,hands="Jhakri Cuffs +2",ring1="Shiva Ring +1",ring2="Freke Ring",
-		back=gear.nuke_jse_back,waist="Sacro Cord",legs="Merlinic Shalwar",feet="Jhakri Pigaches +2"}
+		body=gear.merlinic_nuke_body,hands="Jhakri Cuffs +2",ring1="Metamor. Ring +1",ring2="Rufescent Ring",
+		back=gear.nuke_jse_back,waist="Sacro Cord",legs="Jhakri Slops +2",feet="Jhakri Pigaches +2"}
 		
 	sets.precast.WS['Aeolian Edge'] = {range=empty,ammo="Pemphredo Tathlum",
 		head="Jhakri Coronal +2",neck="Baetyl Pendant",ear1="Regal Earring",ear2="Malignance Earring",
@@ -337,7 +337,7 @@ function init_gear_sets()
 	sets.HPCure = {main="Daybreak",sub="Sors Shield",range=empty,ammo="Hasty Pinion +1",
 		head="Gende. Caubeen +1",neck="Unmoving Collar +1",ear1="Gifted Earring",ear2="Mendi. Earring",
 		body="Viti. Tabard +3",hands="Kaykaus Cuffs",ring1="Gelatinous Ring +1",ring2="Meridian Ring",
-		back="Solemnity Cape",waist="Luminary Sash",legs="Carmine Cuisses +1",feet="Kaykaus Boots"}
+		back=gear.enfeeble_jse_back,waist="Luminary Sash",legs="Carmine Cuisses +1",feet="Kaykaus Boots"}
 	
 	sets.buff.Doom = set_combine(sets.buff.Doom, {})
 
@@ -345,9 +345,9 @@ function init_gear_sets()
 	
 	-- Resting sets
 	sets.resting = {main="Iridal Staff",sub="Oneiros Grip",range=empty,ammo="Impatiens",
-		head="Viti. Chapeau +3",neck="Loricate Torque +1",ear1="Etiolation Earring",ear2="Ethereal Earring",
+		head="Viti. Chapeau +3",neck="Loricate Torque +1",ear1="Moonshade Earring",ear2="Etiolation Earring",
 		body="Jhakri Robe +2",hands=gear.merlinic_refresh_hands,ring1="Defending Ring",ring2="Sheltered Ring",
-		back="Solemnity Cape",waist="Flume Belt +1",legs="Lengo Pants",feet=gear.chironic_refresh_feet}
+		back=gear.enfeeble_jse_back,waist="Flume Belt +1",legs="Lengo Pants",feet=gear.chironic_refresh_feet}
 
 	-- Idle sets
 	sets.idle = {main="Daybreak",sub="Sacro Bulwark",ammo="Homiliary",
@@ -355,40 +355,40 @@ function init_gear_sets()
 		body="Shamash Robe",hands="Nyame Gauntlets",ring1="Defending Ring",ring2="Gelatinous Ring +1",
 		back=gear.enfeeble_jse_back,waist="Carrier's Sash",legs="Nyame Flanchard",feet="Nyame Sollerets"}
 
-	sets.idle.PDT = {main="Sakpata's Sword",sub="Sacro Bulwark",range=empty,ammo="Staunch Tathlum +1",
-		head="Malignance Chapeau",neck="Loricate Torque +1",ear1="Etiolation Earring",ear2="Ethereal Earring",
+	sets.idle.PDT = {main="Sakpata's Sword",sub="Sacro Bulwark",range=empty,ammo="Staunch Tathlum",
+		head="Nyame Helm",neck="Loricate Torque +1",ear1="Eabani Earring",ear2="Etiolation Earring",
 		body="Shamash Robe",hands="Nyame Gauntlets",ring1="Defending Ring",ring2="Gelatinous Ring +1",
-		back="Solemnity Cape",waist="Flume Belt +1",legs="Malignance Tights",feet="Malignance Boots"}
+		back=gear.enfeeble_jse_back,waist="Flume Belt +1",legs="Nyame Flanchard",feet="Nyame Sollerets"}
 		
-	sets.idle.MDT = {main="Sakpata's Sword",sub="Sacro Bulwark",range=empty,ammo="Staunch Tathlum +1",
-		head="Malignance Chapeau",neck="Warder's Charm +1",ear1="Etiolation Earring",ear2="Sanare Earring",
-		body="Nyame Mail",hands="Nyame Gauntlets",ring1="Defending Ring",ring2="Shadow Ring",
-		back="Solemnity Cape",waist="Carrier's Sash",legs="Nyame Flanchard",feet="Nyame Sollerets"}
+	sets.idle.MDT = {main="Daybreak",sub="Sacro Bulwark",range=empty,ammo="Staunch Tathlum",
+		head="Bunzi's Hat",neck="Warder's Charm +1",ear1="Eabani Earring",ear2="Etiolation Earring",
+		body="Bunzi's Robe",hands="Bunzi's Gloves",ring1="Defending Ring",ring2="Shadow Ring",
+		back=gear.enfeeble_jse_back,waist="Carrier's Sash",legs="Bunzi's Pants",feet="Bunzi's Sabots"}
 
 	sets.idle.Weak = {main="Daybreak",sub="Sacro Bulwark",range=empty,ammo="Homiliary",
-		head="Viti. Chapeau +3",neck="Loricate Torque +1",ear1="Etiolation Earring",ear2="Sanare Earring",
+		head="Viti. Chapeau +3",neck="Loricate Torque +1",ear1="Eabani Earring",ear2="Etiolation Earring",
 		body="Jhakri Robe +2",hands=gear.merlinic_refresh_hands,ring1="Defending Ring",ring2="Gelatinous Ring +1",
-		back="Solemnity Cape",waist="Flume Belt +1",legs="Lengo Pants",feet=gear.chironic_refresh_feet}
+		back=gear.enfeeble_jse_back,waist="Flume Belt +1",legs="Lengo Pants",feet=gear.chironic_refresh_feet}
 
-	sets.idle.DTHippo = set_combine(sets.idle.PDT, {back="Solemnity Cape",legs="Carmine Cuisses +1",feet="Hippo. Socks +1"})
+	sets.idle.DTHippo = set_combine(sets.idle.PDT, {back=gear.enfeeble_jse_back,legs="Carmine Cuisses +1",feet="Hippo. Socks +1"})
 
 	-- Defense sets
-	sets.defense.PDT = {main="Sakpata's Sword",sub="Sacro Bulwark",range=empty,ammo="Staunch Tathlum +1",
-		head="Malignance Chapeau",neck="Loricate Torque +1",ear1="Etiolation Earring",ear2="Ethereal Earring",
-		body="Shamash Robe",hands="Nyame Gauntlets",ring1="Defending Ring",ring2="Gelatinous Ring +1",
-		back="Solemnity Cape",waist="Flume Belt +1",legs="Malignance Tights",feet="Malignance Boots"}
+	sets.defense.PDT = {main="Daybreak",sub="Sacro Bulwark",range=empty,ammo="Staunch Tathlum",
+		head="Nyame Helm",neck="Warder's Charm +1",ear1="Eabani Earring",ear2="Etiolation Earring",
+		body="Nyame Mail",hands="Nyame Gauntlets",ring1="Defending Ring",ring2="Gelatinous Ring +1",
+		back=gear.enfeeble_jse_back,waist="Carrier's Sash",legs="Nyame Flanchard",feet="Nyame Sollerets"}
 
 	sets.defense.NukeLock = sets.midcast['Elemental Magic']
 
-	sets.defense.MDT = {main="Sakpata's Sword",sub="Sacro Bulwark",range=empty,ammo="Staunch Tathlum +1",
-		head="Nyame Helm",neck="Warder's Charm +1",ear1="Etiolation Earring",ear2="Ethereal Earring",
-		body="Nyame Mail",hands="Nyame Gauntlets",ring1="Defending Ring",ring2="Gelatinous Ring +1",
-		back="Solemnity Cape",waist="Carrier's Sash",legs="Nyame Flanchard",feet="Nyame Sollerets"}
+	sets.defense.MDT = {main="Daybreak",sub="Sacro Bulwark",range=empty,ammo="Staunch Tathlum",
+		head="Bunzi's Hat",neck="Warder's Charm +1",ear1="Eabani Earring",ear2="Etiolation Earring",
+		body="Bunzi's Robe",hands="Bunzi's Gloves",ring1="Defending Ring",ring2="Shadow Ring",
+		back=gear.enfeeble_jse_back,waist="Carrier's Sash",legs="Bunzi's Pants",feet="Bunzi's Sabots"}
 
-	sets.defense.MEVA = {main="Daybreak",sub="Sacro Bulwark",range=empty,ammo="Staunch Tathlum +1",
-		head="Nyame Helm",neck="Warder's Charm +1",ear1="Etiolation Earring",ear2="Ethereal Earring",
+	sets.defense.MEVA = {main="Daybreak",sub="Sacro Bulwark",range=empty,ammo="Staunch Tathlum",
+		head="Nyame Helm",neck="Warder's Charm +1",ear1="Eabani Earring",ear2="Etiolation Earring",
 		body="Nyame Mail",hands="Nyame Gauntlets",ring1="Defending Ring",ring2="Gelatinous Ring +1",
-		back="Solemnity Cape",waist="Carrier's Sash",legs="Nyame Flanchard",feet="Nyame Sollerets"}
+		back=gear.enfeeble_jse_back,waist="Carrier's Sash",legs="Nyame Flanchard",feet="Nyame Sollerets"}
 
 	sets.Kiting = {legs="Carmine Cuisses +1"}
 	sets.latent_refresh = {waist="Fucho-no-obi"}
@@ -448,17 +448,17 @@ function init_gear_sets()
 	sets.engaged.DT = {ammo="Coiste Bodhar",
 		head="Malignance Chapeau",neck="Loricate Torque +1",ear1="Brutal Earring",ear2="Sherida Earring",
 		body="Malignance Tabard",hands="Bunzi's Gloves",ring1="Defending Ring",ring2="Gelatinous Ring +1",
-		back="Solemnity Cape",waist="Windbuffet Belt +1",legs="Hagondes Pants +1",feet="Battlecast Gaiters"}
+		back=gear.enfeeble_jse_back,waist="Windbuffet Belt +1",legs="Hagondes Pants +1",feet="Battlecast Gaiters"}
 		
 	sets.engaged.Acc.DT = {ammo="Coiste Bodhar",
 		head="Malignance Chapeau",neck="Loricate Torque +1",ear1="Brutal Earring",ear2="Sherida Earring",
 		body="Malignance Tabard",hands="Bunzi's Gloves",ring1="Defending Ring",ring2="Gelatinous Ring +1",
-		back="Solemnity Cape",waist="Flume Belt +1",legs="Hagondes Pants +1",feet="Battlecast Gaiters"}
+		back=gear.enfeeble_jse_back,waist="Flume Belt +1",legs="Hagondes Pants +1",feet="Battlecast Gaiters"}
 		
 	sets.engaged.FullAcc.DT = {ammo="Coiste Bodhar",
 		head="Malignance Chapeau",neck="Loricate Torque +1",ear1="Brutal Earring",ear2="Sherida Earring",
 		body="Malignance Tabard",hands="Bunzi's Gloves",ring1="Defending Ring",ring2="Gelatinous Ring +1",
-		back="Solemnity Cape",waist="Flume Belt +1",legs="Hagondes Pants +1",feet="Battlecast Gaiters"}
+		back=gear.enfeeble_jse_back,waist="Flume Belt +1",legs="Hagondes Pants +1",feet="Battlecast Gaiters"}
 		
 	sets.engaged.DW = {ammo="Coiste Bodhar",
 		head="Malignance Chapeau",neck="Anu Torque",ear1="Suppanomimi",ear2="Sherida Earring",
@@ -478,17 +478,17 @@ function init_gear_sets()
 	sets.engaged.DW.DT = {ammo="Coiste Bodhar",
 		head="Malignance Chapeau",neck="Loricate Torque +1",ear1="Suppanomimi",ear2="Sherida Earring",
 		body="Malignance Tabard",hands="Bunzi's Gloves",ring1="Defending Ring",ring2="Ilabrat Ring",
-		back="Solemnity Cape",waist="Reiki Yotai",legs="Malignance Tights",feet="Malignance Boots"}
+		back=gear.enfeeble_jse_back,waist="Reiki Yotai",legs="Malignance Tights",feet="Malignance Boots"}
 		
 	sets.engaged.DW.Acc.DT = {ammo="Coiste Bodhar",
 		head="Malignance Chapeau",neck="Loricate Torque +1",ear1="Suppanomimi",ear2="Sherida Earring",
 		body="Malignance Tabard",hands="Bunzi's Gloves",ring1="Defending Ring",ring2="Ilabrat Ring",
-		back="Solemnity Cape",waist="Reiki Yotai",legs="Malignance Tights",feet="Malignance Boots"}
+		back=gear.enfeeble_jse_back,waist="Reiki Yotai",legs="Malignance Tights",feet="Malignance Boots"}
 		
 	sets.engaged.DW.FullAcc.DT = {ammo="Coiste Bodhar",
 		head="Malignance Chapeau",neck="Loricate Torque +1",ear1="Suppanomimi",ear2="Telos Earring",
 		body="Malignance Tabard",hands="Bunzi's Gloves",ring1="Defending Ring",ring2="Ramuh Ring +1",
-		back="Solemnity Cape",waist="Reiki Yotai",legs="Malignance Tights",feet="Malignance Boots"}
+		back=gear.enfeeble_jse_back,waist="Reiki Yotai",legs="Malignance Tights",feet="Malignance Boots"}
 end
 
 -- Select default macro book on initial load or subjob change.
