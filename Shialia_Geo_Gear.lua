@@ -51,7 +51,7 @@ function init_gear_sets()
 	sets.precast.JA['Full Circle'] = {head="Azimuth Hood +1",hands="Bagua Mitaines +1"}
 
 	-- Indi Duration in slots that would normally have skill here to make entrust more efficient.
-	sets.buff.Entrust = {}
+	sets.buff.Entrust = {main=gear.gada_indi_club,sub="Ammurapi Shield"}
 
 	-- Relic hat for Blaze of Glory HP increase.
 	sets.buff['Blaze of Glory'] = {}
@@ -212,7 +212,7 @@ function init_gear_sets()
 		body="Geomancy Tunic +2",hands="Geo. Mitaines +3",ring1="Metamor. Ring +1",ring2="Stikini Ring",
 		back=gear.nuke_jse_back,waist="Sacro Cord",legs="Geomancy Pants +2",feet="Geo. Sandals +2"}
 
-	sets.midcast.Dispelga = set_combine(sets.midcast.Dispel, {main="Daybreak",sub="Ammurapi Shield"})
+	sets.midcast.Dispelga = set_combine(sets.midcast.Dispel, sets.TreasureHunter, {main="Daybreak",sub="Ammurapi Shield",feet=gear.merlinic_treasure_feet})
 
 	sets.midcast['Enfeebling Magic'] = {main="Daybreak",sub="Ammurapi Shield",ammo="Pemphredo Tathlum",
 		head="Geo. Galero +2",neck="Bagua Charm +1",ear1="Vor Earring",ear2="Malignance Earring",
@@ -378,27 +378,15 @@ function init_gear_sets()
 	sets.RecoverMP = {body="Seidr Cotehardie"}
 	
 	-- Gear for Magic Burst mode.
-	sets.MagicBurst = {
-		main="Bunzi's Rod",
-		sub="Ammurapi Shield",
-		head="Agwu's Cap",
-		neck="Mizu. Kubikazari",
-		body="Agwu's Robe",
-		hands="Agwu's Gages",
-		--ring1="Mujin Band",
-		legs="Ea Slops",
-		feet="Jhakri Pigaches +2"
+	sets.MagicBurst = {main="Bunzi's Rod",sub="Ammurapi Shield",
+		head="Agwu's Cap",neck="Mizu. Kubikazari",
+		body="Agwu's Robe",hands="Agwu's Gages",--ring1="Mujin Band",
+		legs="Ea Slops",feet="Jhakri Pigaches +2"
 	}
-	sets.ResistantMagicBurst = {
-		main="Bunzi's Rod",
-		sub="Ammurapi Shield",
-		head="Agwu's Cap",
-		neck="Mizu. Kubikazari",
-		body="Agwu's Robe",
-		hands="Agwu's Gages",
-		--ring1="Mujin Band",
-		legs="Ea Slops",
-		feet="Jhakri Pigaches +2"
+	sets.ResistantMagicBurst = {main="Bunzi's Rod",sub="Ammurapi Shield",
+		head="Agwu's Cap",neck="Mizu. Kubikazari",
+		body="Agwu's Robe",hands="Agwu's Gages",--ring1="Mujin Band",
+		legs="Ea Slops",feet="Jhakri Pigaches +2"
 	}
 	
 	sets.buff.Sublimation = {}
